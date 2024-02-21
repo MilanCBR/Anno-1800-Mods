@@ -2,8 +2,8 @@
 
 :: Define variables
 set githubUrl=https://github.com/MilanCBR/Anno-1800-Mods
-set destination=C:\Users\Public\mod.io\4169\mods
-set tempZipFile=C:\Users\Public\mod.io\4169\mods\Anno-1800-Mods.zip
+set destination=%USERPROFILE%\Documents\Anno  1800\mods
+set tempZipFile=%USERPROFILE%\Documents\Anno  1800\mods\Anno-1800-Mods.zip
 
 :: Create the destination folder if it doesn't exist
 if not exist "%destination%" mkdir "%destination%"
