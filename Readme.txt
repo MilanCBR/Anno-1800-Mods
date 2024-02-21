@@ -1,0 +1,1 @@
+Just download Install Script and run it :) 
