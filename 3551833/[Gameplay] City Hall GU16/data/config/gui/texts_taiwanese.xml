@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1453239050</GUID>
+      			<Text>市政廳</Text>
+		</Text>
+
+		<Text>
+     			<GUID>1453239060</GUID>
+      			<Text>擁有許多大廳和辦公室，裝滿了公務員，這座建築是管理大都市複雜性的證明。</Text>
+		</Text>
+					
+	</ModOp>
+</ModOps>

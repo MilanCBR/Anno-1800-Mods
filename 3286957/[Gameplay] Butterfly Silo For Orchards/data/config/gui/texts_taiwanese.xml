@@ -1,0 +1,39 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+    	  <Text>
+            <GUID>2025012801</GUID>
+            <Text>蝴蝶夫人·特莉絲</Text>
+        </Text>
+        <Text>
+            <GUID>2025012802</GUID>
+            <Text>農業專家，喜歡把自己打扮的花枝招展，田地裡因為她的存在總是會吸引一些蝴蝶飛舞</Text>
+        </Text>
+        <Text>
+            <GUID>2025012803</GUID>
+            <Text>蝴蝶</Text>
+        </Text>
+        <Text>
+            <GUID>2025012804</GUID>
+            <Text>這種常見的蝴蝶，而且可以幫助各種果樹更快傳粉和授粉</Text>
+        </Text>
+        <Text>
+            <GUID>2025012805</GUID>
+            <Text>蝴蝶籠</Text>
+        </Text>
+        <Text>
+            <GUID>2025012806</GUID>
+            <Text>放飛蝴蝶以加速果樹傳粉</Text>
+        </Text>
+        <Text>
+            <GUID>2025012807</GUID>
+            <Text>蝴蝶傳粉中</Text>
+        </Text>
+        <Text>
+            <GUID>2025012808</GUID>
+            <Text>蝴蝶加速了果樹的傳粉和授粉速度</Text>
+        </Text>
+       
+       
+
+    </ModOp>
+</ModOps>

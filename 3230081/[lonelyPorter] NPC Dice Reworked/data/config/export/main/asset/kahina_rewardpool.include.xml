@@ -1,0 +1,328 @@
+<ModOps>
+<!-- Madame Kahina (Emporio Exotique) - Old World --> 
+	<ModOp Type="replace" GUID='192068' Path="/Values/RewardPool">
+		<RewardPool>
+			<ItemsPool>
+				<!-- Pathway Ornaments -->
+				<item><ItemLink>114870</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>114886</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>114868</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>114880</ItemLink><Weight>10</Weight></item>
+            <item><ItemLink>114884</ItemLink><Weight>10</Weight></item>
+            <item><ItemLink>114888</ItemLink><Weight>10</Weight></item>
+            <item><ItemLink>114872</ItemLink><Weight>10</Weight></item>
+            <Item><ItemLink>114816</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114857</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114858</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114862</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114864</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114865</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114866</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114867</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114869</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114871</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114879</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114885</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114887</ItemLink><Weight>10</Weight></Item>
+            <Item><ItemLink>114863</ItemLink><Weight>10</Weight></Item>
+            <item><ItemLink>114881</ItemLink><Weight>10</Weight></item> <!-- Marigold -->
+            <item><ItemLink>114882</ItemLink><Weight>10</Weight></item> <!-- Marigold -->
+            <item><ItemLink>114883</ItemLink><Weight>10</Weight></item> <!-- Marigold -->
+            <Item><ItemLink>114859</ItemLink><Weight>10</Weight></Item> <!-- Petunia -->
+            <Item><ItemLink>114873</ItemLink><Weight>10</Weight></Item> <!-- Petunia -->
+            <item><ItemLink>114874</ItemLink><Weight>10</Weight></item> <!-- Petunia -->
+            <Item><ItemLink>114860</ItemLink><Weight>10</Weight></Item> <!-- Hibiscus -->
+            <Item><ItemLink>114875</ItemLink><Weight>10</Weight></Item> <!-- Hibiscus -->
+            <item><ItemLink>114876</ItemLink><Weight>10</Weight></item> <!-- Hibiscus -->
+            <Item><ItemLink>114861</ItemLink><Weight>10</Weight></Item> <!-- Gentian -->
+            <Item><ItemLink>114877</ItemLink><Weight>10</Weight></Item> <!-- Gentian -->
+            <item><ItemLink>114878</ItemLink><Weight>10</Weight></item> <!-- Gentian -->
+				<!-- Music Pavilion -->
+				<item><ItemLink>114152</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>112487</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>114155</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>114153</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>114154</ItemLink><Weight>10</Weight></item>
+				<!-- MUSEUM SETS -->
+				<!-- AEGEAN CULTURES -->
+				<Item><ItemLink>190513</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190508</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190484</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190485</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190543</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190509</ItemLink><Weight>10</Weight></Item>
+				<!-- ATLANTEAN -->
+				<Item><ItemLink>112824</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112478</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112484</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112485</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112821</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112483</ItemLink><Weight>10</Weight></Item>
+				<!-- BATTLE OF TRELAWNEY -->
+				<Item><ItemLink>112825</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113472</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113473</ItemLink><Weight>10</Weight></Item>
+				<!-- BRONZE AGE -->
+				<Item><ItemLink>190515</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190514</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190519</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190517</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190539</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190552</ItemLink><Weight>10</Weight></Item>
+				<!-- EMPIRE OF THE EAGLE -->
+				<Item><ItemLink>190511</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190512</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190510</ItemLink><Weight>10</Weight></Item>
+				<!-- ICEBOUND -->
+				<Item><ItemLink>114637</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114794</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115474</ItemLink><Weight>10</Weight></Item>
+				<!-- JURASSIC -->
+				<Item><ItemLink>190483</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190504</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190505</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190549</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190503</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190502</ItemLink><Weight>10</Weight></Item>
+				<!-- LOST CITIES -->
+				<Item><ItemLink>190501</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190500</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190498</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190497</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190499</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190474</ItemLink><Weight>10</Weight></Item>
+				<!-- NEW WORLD HUACA -->
+				<Item><ItemLink>190473</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190282</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190496</ItemLink><Weight>10</Weight></Item>
+				<!-- NORTHERN SAGAS -->
+				<Item><ItemLink>190516</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190518</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190540</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190493</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190480</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190470</ItemLink><Weight>10</Weight></Item>
+				<!-- ORIGIN OF MANKIND -->
+				<Item><ItemLink>190475</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190506</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190507</ItemLink><Weight>10</Weight></Item>
+				<!-- SKULL AND BONES -->
+				<Item><ItemLink>190476</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190551</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190545</ItemLink><Weight>10</Weight></Item>
+				<!-- THULE RELICS -->
+				<Item><ItemLink>115471</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114798</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114796</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114799</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115472</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115473</ItemLink><Weight>10</Weight></Item>
+				<!-- GODS OF THE DELTA -->
+				<Item><ItemLink>124878</ItemLink><Weight>10</Weight><!-- Hor Statue --></Item>
+				<Item><ItemLink>124879</ItemLink><Weight>10</Weight><!-- Statue of Anubis --></Item>
+				<Item><ItemLink>124880</ItemLink><Weight>10</Weight><!-- Temple of Nafir Diorama --></Item>
+				<!-- HEIRLOOMS OF THE GOLD REALM -->
+				<Item><ItemLink>124876</ItemLink><Weight>10</Weight><!--Masu Masu's Trinket--></Item>
+				<Item><ItemLink>124877</ItemLink><Weight>10</Weight><!--Masu's Mapamundi--></Item>
+				<Item><ItemLink>124881</ItemLink><Weight>10</Weight><!--Tambacto Diorama--></Item>
+				<!-- LOST TRIBES -->
+				<Item><ItemLink>124867</ItemLink><Weight>10</Weight><!--Bovine Ivory Ring--></Item>
+				<Item><ItemLink>124868</ItemLink><Weight>10</Weight><!--Painted Mask--></Item>
+				<Item><ItemLink>124869</ItemLink><Weight>10</Weight><!--Animal Figure--></Item>
+				<Item><ItemLink>124873</ItemLink><Weight>10</Weight><!--Mother and Child Figure--></Item>
+				<Item><ItemLink>124874</ItemLink><Weight>10</Weight><!--Striking Terracotta Figure--></Item>
+				<Item><ItemLink>124882</ItemLink><Weight>10</Weight><!--Intricate Baked Mud Tile--></Item>
+				<!-- ROOTS OF EMBESA -->
+				<Item><ItemLink>124870</ItemLink><Weight>10</Weight><!--Glory of Kings--></Item>
+				<Item><ItemLink>124871</ItemLink><Weight>10</Weight><!--Lion of Selamawi--></Item>
+				<Item><ItemLink>124875</ItemLink><Weight>10</Weight><!--Arksum Obelisk--></Item>
+				<Item><ItemLink>124883</ItemLink><Weight>10</Weight><!--The Ark of the Covenant--></Item>
+				<Item><ItemLink>124884</ItemLink><Weight>10</Weight><!--Ghebbi Diorama--></Item>
+				<Item><ItemLink>124885</ItemLink><Weight>10</Weight><!--Kidusi Church Diorama--></Item>
+				<!-- Zoo Sets -->
+				<!-- ABYSSAL DEPTHS -->
+				<Item><ItemLink>112812</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112813</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112811</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112815</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190465</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112476</ItemLink><Weight>10</Weight></Item>
+				<!-- ARCTIC TUNDRA -->
+				<Item><ItemLink>191086</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191075</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191076</ItemLink><Weight>10</Weight></Item>
+				<!-- CORDILLERA -->
+				<Item><ItemLink>191113</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191069</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191094</ItemLink><Weight>10</Weight></Item>
+				<!-- DOMESTIC ANIMALS -->
+				<Item><ItemLink>191058</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191059</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191065</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191062</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191063</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191066</ItemLink><Weight>10</Weight></Item>
+				<!-- EASTERN JUNGLE -->
+				<Item><ItemLink>191073</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191506</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191112</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>193190</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191079</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191088</ItemLink><Weight>10</Weight></Item>
+				<!-- EXTINCT SPECIES -->
+				<Item><ItemLink>191107</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191105</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191104</ItemLink><Weight>10</Weight></Item>
+				<!-- GREAT CORAL REEF -->
+				<Item><ItemLink>190464</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190449</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190466</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190462</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190463</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190458</ItemLink><Weight>10</Weight></Item>
+				<!-- LUMINARIES -->
+				<Item><ItemLink>112816</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113905</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112817</ItemLink><Weight>10</Weight></Item>
+				<!-- OCEAN PREDATORS -->
+				<Item><ItemLink>191099</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190450</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191087</ItemLink><Weight>10</Weight></Item>
+				<!-- POLAR CIRCLE -->
+				<Item><ItemLink>115469</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115470</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115273</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190448</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191084</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116040</ItemLink><Weight>10</Weight></Item>
+				<!-- RAINFOREST -->
+				<Item><ItemLink>191091</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190004</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191092</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191090</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191080</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190962</ItemLink><Weight>10</Weight></Item>
+				<!-- SNOWFLAKES -->
+				<Item><ItemLink>191507</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191106</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>193192</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191108</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>193191</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190452</ItemLink><Weight>10</Weight></Item>
+				<!-- TAIGA FOREST -->
+				<Item><ItemLink>191072</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191052</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191083</ItemLink><Weight>10</Weight></Item>
+				<!-- ENBESAN HIGHLANDS -->
+				<Item><ItemLink>124060</ItemLink><Weight>10</Weight><!-- Bearded Vulture--> </Item>
+				<Item><ItemLink>124147</ItemLink><Weight>10</Weight><!-- Enbesan Wolf--> </Item>
+				<Item><ItemLink>124148</ItemLink><Weight>10</Weight><!-- Two-Horned Chameleon--> </Item>
+				<Item><ItemLink>124152</ItemLink><Weight>10</Weight><!-- Mountain Nyala--> </Item>
+				<Item><ItemLink>124153</ItemLink><Weight>10</Weight><!-- Oryxe--> </Item>
+				<Item><ItemLink>124159</ItemLink><Weight>10</Weight><!-- Gelada--> </Item>
+				<!-- GREAT DESERT -->
+				<Item><ItemLink>124075</ItemLink><Weight>10</Weight><!-- Dromedary--> </Item>
+				<Item><ItemLink>190455</ItemLink><Weight>10</Weight><!-- Fennec--> </Item>
+				<Item><ItemLink>190457</ItemLink><Weight>10</Weight><!-- Emperor Scorpion--> </Item>
+				<!-- MIOMBO WOODLANDS -->
+				<Item><ItemLink>124150</ItemLink><Weight>10</Weight><!-- Wild Dog--> </Item>
+				<Item><ItemLink>124156</ItemLink><Weight>10</Weight><!-- Impala--> </Item>
+				<Item><ItemLink>124157</ItemLink><Weight>10</Weight><!-- Caracal--> </Item>
+				<Item><ItemLink>124161</ItemLink><Weight>10</Weight><!-- Giraffe--> </Item>
+				<Item><ItemLink>124163</ItemLink><Weight>10</Weight><!-- Elephant--> </Item>
+				<Item><ItemLink>124164</ItemLink><Weight>10</Weight><!-- Black Rhino--> </Item>
+				<!-- PROUD SAVANNAH -->
+				<Item><ItemLink>124149</ItemLink><Weight>10</Weight><!-- Imperial Zebra--> </Item>
+				<Item><ItemLink>124154</ItemLink><Weight>10</Weight><!-- Spotted Hyena--> </Item>
+				<Item><ItemLink>124155</ItemLink><Weight>10</Weight><!-- Wildebeest--> </Item>
+				<Item><ItemLink>124160</ItemLink><Weight>10</Weight><!-- Cheetah--> </Item>
+				<Item><ItemLink>124162</ItemLink><Weight>10</Weight><!-- Lion--> </Item>
+				<Item><ItemLink>191503</ItemLink><Weight>10</Weight><!-- Ostrich--> </Item>
+				<!-- TEEMING LAKES -->
+				<Item><ItemLink>124151</ItemLink><Weight>10</Weight><!-- Grey Crowned Crane--> </Item>
+				<Item><ItemLink>124158</ItemLink><Weight>10</Weight><!-- Hippopotamus--> </Item>
+				<Item><ItemLink>191505</ItemLink><Weight>10</Weight><!-- Flamingo--> </Item>
+				<!-- Botanical Garden Sets -->
+				<!-- AMAZON -->
+				<Item><ItemLink>112612</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111120</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112731</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114381</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114658</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112730</ItemLink><Weight>10</Weight></Item>
+				<!-- ADEAN -->
+				<Item><ItemLink>114383</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111119</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114385</ItemLink><Weight>10</Weight></Item>
+				<!-- ENCHANTED -->
+				<Item><ItemLink>114543</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114662</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112611</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114661</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111117</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111110</ItemLink><Weight>10</Weight></Item>
+				<!-- MARSHLAND -->
+				<Item><ItemLink>111112</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112733</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111111</ItemLink><Weight>10</Weight></Item>
+				<!-- MEDICINAL -->
+				<Item><ItemLink>114539</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114538</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114542</ItemLink><Weight>10</Weight></Item>
+				<!-- NEAR EAST -->
+				<Item><ItemLink>114657</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112735</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111109</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111123</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111106</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112736</ItemLink><Weight>10</Weight></Item>
+				<!-- SACRED -->
+				<Item><ItemLink>111108</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114388</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111115</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114387</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112728</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114389</ItemLink><Weight>10</Weight></Item>
+				<!-- SARGASSOP SEA -->
+				<Item><ItemLink>111121</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111107</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112732</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111122</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114656</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111113</ItemLink><Weight>10</Weight></Item>
+				<!-- SUBALPINE -->
+				<Item><ItemLink>111116</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112734</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>111118</ItemLink><Weight>10</Weight></Item>
+			</ItemsPool>
+			<IgnoreUnlocks>1</IgnoreUnlocks>
+		</RewardPool>
+	</ModOp>
+	
+	<!-- Mergers -->
+	<ModOp Type="merge" GUID='78' Path="/Values/Trader/Progression/EarlyGame">
+		<OfferingItems>192068</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='78' Path="/Values/Trader/Progression/EarlyMidGame">
+		<OfferingItems>192068</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='78' Path="/Values/Trader/Progression/MidGame">
+		<OfferingItems>192068</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='78' Path="/Values/Trader/Progression/LateMidGame">
+		<OfferingItems>192068</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='78' Path="/Values/Trader/Progression/LateGame">
+		<OfferingItems>192068</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='78' Path="/Values/Trader/Progression/EndGame">
+		<OfferingItems>192068</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+
+</ModOps>

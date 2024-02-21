@@ -1,0 +1,57 @@
+{
+  "Version":"1.7",
+  "ModID":"Enbesa_Perfect_Ending_At_Beginning",
+  "IncompatibleIds":null,
+  "ModDependencies":null,
+  "Category":{
+    "Chinese":null,
+    "English":"Gameplay",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  },
+  "ModName":{
+    "Chinese":null,
+    "English":"Enbesa Perfect Ending At Beginning",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  },
+  "KnownIssues":null,
+  "DLCDependencies":[
+    {
+      "DLC":"LandOfLions",
+      "Dependant":"required"
+    }
+  ],
+  "CreatorName":"Yodel Kindergarten",
+  "CreatorContact":null,
+  "Description":{
+    "Chinese":null,
+    "English":"Get all Enbesa quest related items£¬buffs£¬recipe£¬buildings£¬building permits at the beginning",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  }
+}

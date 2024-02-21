@@ -1,0 +1,49 @@
+{
+	"Version": "1.0.1",
+	"ModID": "Fam_HighContrastRangeIndicatorColors",
+	"IncompatibleIds": [],
+	"ModDependencies": null,
+	"Category": {
+		"Chinese": null,
+		"English": "UI",
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"ModName": {
+		"Chinese": null,
+		"English": "High-Contrast Range Indicator Colors",
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"Description": {
+		"Chinese": null,
+		"English": "Changes the color for the service reach indicators so they are easier to see. Uses default colours but with higher contrast between Fully Supplied and Partially Supplied ranges. (A separate colorblind-friendly version is available on Nexus Mods as a separate download in the same mod page).",
+		"French": null,
+		"German": null,
+		"Italian": null,
+		"Japanese": null,
+		"Korean": null,
+		"Polish": null,
+		"Russian": null,
+		"Spanish": null,
+		"Taiwanese": null
+	},
+	"KnownIssues": null,
+	"DLCDependencies": null,
+	"CreatorName": "Fam",
+	"CreatorContact": "https://www.nexusmods.com/anno1800/users/101551493"
+}

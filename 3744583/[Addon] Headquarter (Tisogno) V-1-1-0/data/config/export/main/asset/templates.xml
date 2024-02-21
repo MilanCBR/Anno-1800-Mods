@@ -1,0 +1,193 @@
+<ModOps>
+	<ModOp Type="add" Name="HarborWarehouse7" Path="//Template/Properties">
+              	<InfluenceSource>
+                          <InfluenceSource>Investors</InfluenceSource>		<!-- for the buff of the Ministry of Foreign Affairs -->
+              	</InfluenceSource>
+	</ModOp>
+
+	<ModOp Path="//Template[Name='Guildhouse']" Type="addNextSibling">
+		<Template>
+			<Name>HQ_Palace</Name>
+			<Properties>
+          			<Standard />
+          			<Building>
+            				<BuildingType>Factory</BuildingType>
+    					<BuildingCategoryName>11152</BuildingCategoryName>
+    					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+          			</Building>
+          			<Blocking />
+          			<Cost>
+            				<InfluenceCostType>Townhall</InfluenceCostType>
+          			</Cost>
+          			<Object>
+            				<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+          			</Object>
+  				<Mesh>
+    					<LogoMode>CorporationLogoFromPlayer</LogoMode>
+    					<SetCompanyLogo>1</SetCompanyLogo>
+  				</Mesh>
+          			<Selection>
+            				<GUIType>Guildhouse</GUIType>
+            				<OnSelection>
+              					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              					<Values>
+                					<ActionList />
+              					</Values>
+            				</OnSelection>
+    					<Colors>
+      						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+    					</Colors>
+            				<AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack;SharedTransferItem</AllowedDragType>
+          			</Selection>
+          			<Text />
+          			<Constructable>
+            				<DestructionCategory>Production</DestructionCategory>
+          			</Constructable>
+          			<Locked />
+          			<SoundEmitter>
+            				<DestroySounds>
+              					<Item>
+                					<Sound>9818756</Sound>
+              					</Item>
+            				</DestroySounds>
+          			</SoundEmitter>
+  				<AmbientMoodProvider />
+          			<FeedbackController />
+          			<Infolayer />
+          			<ItemContainer>
+                          		<SocketCount>3</SocketCount>	
+                          		<SocketAllocation>Headquarter</SocketAllocation>
+ 					<SocketScope>Area</SocketScope>
+     					<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>  
+          			</ItemContainer>
+          			<UpgradeList />
+          			<Attackable>
+            				<HasRuinState>1</HasRuinState>
+            				<ExplosionEffects>
+              					<Item />
+            				</ExplosionEffects>
+          			</Attackable>
+          			<Pausable />
+          			<Maintenance>
+            				<IncomeCategory>AdministrationBuildings</IncomeCategory>
+          			</Maintenance>
+          			<IncidentInfluencer>
+            				<Influence>
+              					<Fire>
+                					<Distance>15</Distance>
+              					</Fire>
+              					<Riot>
+                					<Distance>15</Distance>
+              					</Riot>
+              					<Illness>
+                					<Distance>15</Distance>
+              					</Illness>
+              					<Explosion>
+                					<Distance>15</Distance>
+              					</Explosion>
+            				</Influence>
+          			</IncidentInfluencer>
+  				<Culture>
+    					<CultureType>Culture</CultureType>
+       				</Culture>
+  				<InfluenceSource />
+				<PublicService />		<!-- necessary: otherwise BusActivation would not work -->
+				<StreetActivation />
+				<BusActivation />
+          			<BuildingUnique />
+			</Properties>
+      		</Template>
+	</ModOp>
+
+    	<ModOp Path="//Template[Name='OrnamentalBuilding']" Type = "addNextSibling">
+        	<Template>
+            		<Name>HQ_UnderCover_Building</Name>
+            		<Properties>
+                		<Standard/>
+                		<Text />
+                		<Blocking />
+                		<Building>
+                    			<SnapRadius>10</SnapRadius>
+                    			<AssociatedRegions>Moderate</AssociatedRegions>
+                		</Building>
+                		<Cost />
+                		<Selection>
+                    			<GUIType>GuildHouse</GUIType>
+					<OnSelection>
+              					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              					<Values>
+                					<ActionList />
+              					</Values>
+            				</OnSelection>
+            				<AllowedDragType>ItemSocket;CargoItemStack;StorageItemStack;SharedTransferItem</AllowedDragType>
+                		</Selection>
+                		<Object>
+                    			<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+                		</Object>
+                 		<Mesh />
+               			<Constructable />
+                		<SoundEmitter>
+    					<ActiveSounds>
+      						<Item>
+        						<Sound>239530</Sound>
+      						</Item>
+    					</ActiveSounds>
+                    			<DestroySounds>
+                        			<Item>
+                            				<Sound>9818756</Sound>
+                        			</Item>
+                    			</DestroySounds>
+                		</SoundEmitter>
+                		<Locked />
+                		<FeedbackController />
+                		<Ornament>
+                    			<PlazzaSize>0</PlazzaSize>
+                		</Ornament>
+  				<Attackable />
+                		<Infolayer>
+                    			<DefaultInfoLayer>0</DefaultInfoLayer>
+                		</Infolayer>
+                		<Slot>
+                    			<SnapsToSlot>1</SnapsToSlot>
+                		</Slot>
+                        	<ItemContainer />
+            		</Properties>
+        	</Template>
+    	</ModOp>
+
+	<ModOp Path="//Template[Name='HarbourOfficeBuff']" Type="addNextSibling">
+		<Template>
+			<Name>HQ_Buff</Name>
+			<Properties>
+  				<Standard />
+  				<ItemEffect />
+  				<Buff />
+  				<AttackerUpgrade />
+                        	<AttackableUpgrade />
+  				<BuildingUpgrade />
+				<CultureUpgrade />
+                            	<DivingBellUpgrade />
+  				<FactoryUpgrade />
+  				<IncidentInfluencerUpgrade />
+                            	<InfluenceSourceUpgrade />
+  				<ItemContainerUpgrade />
+                       		<KontorUpgrade />
+                        	<ModuleOwnerUpgrade />
+  				<PassiveTradeGoodGenUpgrade />
+  				<PierUpgrade />
+				<PopulationUpgrade />
+ 				<PowerplantUpgrade />
+				<ResidenceUpgrade />  
+  				<ResourceUpgrade />
+  				<ShipyardUpgrade />
+				<TradeShipUpgrade />
+				<VehicleUpgrade />
+  				<VisitorHarborUpgrade />
+  				<VisitorUpgrade />
+  				<WarehouseUpgrade />
+			</Properties>
+      		</Template>
+	</ModOp>
+
+</ModOps>

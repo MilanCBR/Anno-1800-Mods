@@ -1,0 +1,13 @@
+<ModOps>
+	
+	<!-- 为果园模板添加筒仓属性 -->
+	<ModOp Type="add" Path="//Template[Name = 'FreeAreaRecipeBuilding']/Properties">
+  	
+        <ModuleOwner />
+
+  </ModOp>
+
+  
+  
+</ModOps>
+

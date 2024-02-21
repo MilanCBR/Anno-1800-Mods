@@ -1,0 +1,81 @@
+{
+  "Version": "1.0.2",
+  "ModID": "Spice_Harborarea",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "游戏玩法",
+    "English": "Gameplay",
+    "French": null,
+    "German": "Spielablauf",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": "Rozgrywka",
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": "增加港口面积",
+    "English": "Increased Harbor Area",
+    "French": null,
+    "German": "Hafenbereich vergrößert",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": "增加港口面积。",
+    "English": "Increases the Harbor area.",
+    "French": null,
+    "German": "Erhöht den Hafenbereich.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": "当使用DirectX12时，会频繁地发生崩溃。",
+      "English": "Crashes can happen more often when using DirectX12.",
+      "French": null,
+      "German": "DirectX12 kann Abstürze verursachen.",
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    },
+    {
+      "Chinese": "很少能在港口区域生成“死”像素。",
+      "English": "Can rarely generate 'dead' pixels in the harbor area.",
+      "French": null,
+      "German": "Im Hafenbereich können vermehrt 'dead' Pixel auftreten.",
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "LoadAfterIds" : [ 
+    "World_War_Ship"
+  ],
+  "DLCDependencies": null,
+  "CreatorName": "Spice it up-Team: MystiqueBee84",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image" : null,
+  "ModioResourceId" : 3211314
+}

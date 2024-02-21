@@ -1,0 +1,443 @@
+<!-- Big Bong -->
+<ModOps>
+
+  <!-- UNHIDE -->
+  <ModOp Path="//Assets" Type="add">
+    <Asset>
+      <Template>FeatureUnlock</Template>
+      <Values>
+        <Standard>
+          <GUID>606175000</GUID>
+          <Name>Unhide</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>606175010</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- UNLOCK -->
+
+  <ModOp Path="//Assets" Type="add">
+    <Asset>
+      <Template>FeatureUnlock</Template>
+      <Values>
+        <Standard>
+          <GUID>606175001</GUID>
+          <Name>Unlock Big Bong</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000004</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>606175010</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Menu -->
+
+  <!-- Menu Location OW Pop Tier -->
+  <ModOp Type="addNextSibling" GUID='500447' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010364']">
+    <Item>
+      <Building>606175010</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Menu Location OW Building Type -->
+  <ModOp Type="addNextSibling" GUID='500094' Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010364']">
+    <Item>
+      <Building>606175010</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Spice it Up World's Fair Items Menu Contingency -->
+  <ModOp Type="add" GUID='976503' Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>606175010</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='902263' Path="/Values/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>606175010</Building>
+    </Item>
+  </ModOp>
+
+  <!-- Big Bong -->
+
+  <ModOp Type="addNextSibling" GUID='1010372'>
+    <Asset>
+      <Template>GasometerBuffableOrnamentalBuilding</Template>
+      <Values>
+        <Standard>
+          <GUID>606175010</GUID>
+          <Name>Queen's Clocktower</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_big_bong.png</IconFilename>
+          <InfoDescription>606175020</InfoDescription>
+        </Standard>
+        <Building>
+          <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+          <BuildingType>Other</BuildingType>
+          <BuildingCategoryName>100003</BuildingCategoryName>
+          <SkipUnlockMessage>1</SkipUnlockMessage>
+          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+          <AssociatedRegions>Moderate</AssociatedRegions>
+          <AllowChangeVariation>1</AllowChangeVariation>
+          <SecondPartyRelevant>0</SecondPartyRelevant>
+        </Building>
+        <Blocking>
+          <HidePropsRadius>0</HidePropsRadius>
+          <DeletePropsRadius>0</DeletePropsRadius>
+        </Blocking>
+        <Cost>
+          <Costs>
+            <Item>
+              <Ingredient>1010017</Ingredient>
+              <Amount>500000</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010196</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010205</Ingredient>
+              <Amount>200</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010218</Ingredient>
+              <Amount>150</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010241</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010207</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010224</Ingredient>
+              <Amount>15</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010204</Ingredient>
+              <Amount>100</Amount>
+            </Item>
+            <Item>
+              <Ingredient>1010249</Ingredient>
+              <Amount>50</Amount>
+            </Item>
+          </Costs>
+        </Cost>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/moddinggraphics_20/buildings/ornamental/big_bong/big_bong.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/moddinggraphics_20/buildings/ornamental/big_bong/big_bong_V2.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/moddinggraphics_20/buildings/ornamental/big_bong/big_bong_V4.cfg</Filename>
+            </Item>
+            <Item>
+              <Filename>data/moddinggraphics_20/buildings/ornamental/big_bong/big_bong_V3.cfg</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Mesh />
+        <Selection>
+          <Colors>
+            <WeakSelectionColorType>NoColor</WeakSelectionColorType>
+          </Colors>
+        </Selection>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Queen's Clocktower</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36269</LineID>
+        </Text>
+        <Constructable />
+        <BuffFactory>
+          <ProductionBuffDistance>50</ProductionBuffDistance>
+          <BaseBuffDistance>50</BaseBuffDistance>
+          <BaseBuff>606175011</BaseBuff>
+          <BaseBuffScope>Radius</BaseBuffScope>
+          <ProductionBuffScope>Radius</ProductionBuffScope>
+        </BuffFactory>
+        <Locked />
+        <Ornament>
+          <PlazzaSize>0</PlazzaSize>
+          <OrnamentUnit>1</OrnamentUnit>
+          <OrnamentDescription>606175020</OrnamentDescription>
+        </Ornament>
+        <SoundEmitter>
+          <ActiveSounds>
+            <Item>
+              <Sound>227033</Sound>
+            </Item>
+            <Item>
+              <Sound>200851</Sound>
+            </Item>
+          </ActiveSounds>
+          <ConstructionSounds>
+            <BuildSuccessful>
+              <Item>
+                <VectorElement>
+                  <InheritedIndex>0</InheritedIndex>
+                  <InheritanceMapV2>
+                    <Entry>
+                      <TemplateName>PublicServiceBuilding</TemplateName>
+                      <Index>0</Index>
+                    </Entry>
+                  </InheritanceMapV2>
+                </VectorElement>
+                <Sound>214786</Sound>
+              </Item>
+            </BuildSuccessful>
+          </ConstructionSounds>
+          <IncidentSounds>
+            <InfectedFire>
+              <Item>
+                <Sound>214659</Sound>
+              </Item>
+            </InfectedFire>
+          </IncidentSounds>
+          <BuildingRepaired>
+            <Item>
+              <Sound>203866</Sound>
+            </Item>
+          </BuildingRepaired>
+        </SoundEmitter>
+        <FeedbackController />
+        <Infolayer />
+        <UpgradeList />
+        <Factory7 />
+        <FactoryBase />
+        <LogisticNode />
+        <AmbientMoodProvider>
+          <AmbientMood>ResidenceTier1</AmbientMood>
+          <DynamicEnvironmentType>Building_Residence</DynamicEnvironmentType>
+        </AmbientMoodProvider>
+        <Pausable />
+        <Maintenance>
+          <Maintenances>
+            <Item>
+              <Product>1010017</Product>
+              <Amount>1500</Amount>
+              <InactiveAmount>750</InactiveAmount>
+            </Item>
+          </Maintenances>
+        </Maintenance>
+        <Attackable>
+          <MaximumHitPoints>3500</MaximumHitPoints>
+          <SelfHealPerHealTick>6</SelfHealPerHealTick>
+        </Attackable>
+        <Explosion>
+          <ExplosionCoreDamage>1000</ExplosionCoreDamage>
+          <DamageExplosionChance>38</DamageExplosionChance>
+          <DamageExplosionCheckMax>40</DamageExplosionCheckMax>
+          <DamageExplosionCheckMax>40</DamageExplosionCheckMax>
+        </Explosion>
+        <Culture>
+          <Attractiveness>75</Attractiveness>
+        </Culture>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Descriptions -->
+
+  <ModOp Type="addNextSibling" GUID='1010347'>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>606175020</GUID>
+          <Name>Queen's Clocktower</Name>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Though officially called the Queen's Clocktower, this monumental structure is also affectionately known as 'Big Bong', as the citizens of your cities surely know when it's time for tea when the bells starts bonging!</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36469</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID='1010347'>
+    <Asset>
+      <Template>Text</Template>
+      <Values>
+        <Standard>
+          <GUID>606175021</GUID>
+          <Name>Bong-o-Clock</Name>
+        </Standard>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>"Toyme? Wots that? Oi we jus' do what th' Big Bong tells us to do, simple as!"</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>36469</LineID>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Clocktower Forward Buff New -->
+
+  <ModOp Type="addNextSibling" GUID='500901'>
+    <Asset>
+      <Template>TownhallBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>606175011</GUID>
+          <Name>Clocktower Forward Buff - Pocketwatches</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_time.psd</IconFilename>
+          <InfoDescription>606175021</InfoDescription>
+        </Standard>
+        <ItemEffect>
+          <EffectTargets>
+            <!-- Investor Residences -->
+            <Item>
+              <GUID>194019</GUID>
+            </Item>
+            <Item>
+              <GUID>194026</GUID>
+            </Item>
+            <!-- Engineer Residences -->
+            <Item>
+              <GUID>193861</GUID>
+            </Item>
+          </EffectTargets>
+          <AllowStacking>0</AllowStacking>
+        </ItemEffect>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Bong-o-Clock</Text>
+              <Status>Exported</Status>
+              <ExportCount>2</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>45716</LineID>
+        </Text>
+        <BuildingUpgrade />
+        <Buff />
+        <PopulationUpgrade />
+        <ResidenceUpgrade>
+          <TaxModifierInPercent></TaxModifierInPercent>
+          <AdditionalHappiness></AdditionalHappiness>
+          <IncidentRiotIncreaseUpgrade>
+          </IncidentRiotIncreaseUpgrade>
+          <IncidentExplosionIncreaseUpgrade>
+            <Value>200</Value>
+          </IncidentExplosionIncreaseUpgrade>
+          <IncidentRiotIncreaseUpgrade>
+            <Value>0</Value>
+          </IncidentRiotIncreaseUpgrade>
+          <WorkforceModifierInPercent>10</WorkforceModifierInPercent>
+          <GoodConsumptionUpgrade>
+            <Item>
+              <ProvidedNeed>1010246</ProvidedNeed>
+              <AmountInPercent>-50</AmountInPercent>
+            </Item>
+          </GoodConsumptionUpgrade>
+        </ResidenceUpgrade>
+        <IncidentInfectableUpgrade />
+        <CultureUpgrade />
+        <InfluenceSourceUpgrade />
+        <WarehouseUpgrade />
+        <DistributionUpgrade />
+        <ItemContainerUpgrade />
+        <FactoryUpgrade />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Feedback Effects -->
+  <ModOp Type="add" GUID='2001090' Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>606175010</Building>
+    </Item>
+  </ModOp>
+  <ModOp Type="add" GUID='2001091' Path="/Values/FeedbackBuildingGroup/Buildings">
+    <Item>
+      <Building>606175010</Building>
+    </Item>
+  </ModOp>
+
+</ModOps>

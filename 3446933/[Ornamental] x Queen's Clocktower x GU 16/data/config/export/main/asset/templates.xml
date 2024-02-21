@@ -1,0 +1,93 @@
+<ModOps>
+	<ModOp Type="addNextSibling" Path="//Template[Name='FactoryBuilding7']">
+		<Template>
+			<Name>GasometerBuffableOrnamentalBuilding</Name>
+			<Properties>
+				<Standard>
+					<InfoDescription>163093</InfoDescription>
+				</Standard>
+				<Building>
+					<BuildingType>Other</BuildingType>
+					<BuildingCategoryName>11149</BuildingCategoryName>
+					<AllowChangeVariation>1</AllowChangeVariation>
+				</Building>
+				<Blocking />
+				<Cost />
+				<Object>
+					<IgnoreForMinimapGeneration>1</IgnoreForMinimapGeneration>
+				</Object>
+				<Mesh />
+				<Selection>
+					<GUIType>Generic</GUIType>
+					<Colors>
+						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+					</Colors>
+				</Selection>
+				<Text />
+				<Constructable />
+				<BuffFactory />
+				<Locked />
+				<Ornament>
+					<PlazzaSize>0</PlazzaSize>
+					<OrnamentUnit>1</OrnamentUnit>
+					<OrnamentDescription>11149</OrnamentDescription>
+				</Ornament>
+				<SoundEmitter>
+					<DestroySounds>
+						<Item>
+							<Sound>9818756</Sound>
+						</Item>
+					</DestroySounds>
+					<ConstructionSounds>
+						<BuildSuccessful>
+							<Item>
+								<VectorElement>
+									<InheritedIndex>0</InheritedIndex>
+								</VectorElement>
+								<Sound>214785</Sound>
+							</Item>
+						</BuildSuccessful>
+						<BuildFailed>
+							<Item>
+								<Sound>9818387</Sound>
+							</Item>
+						</BuildFailed>
+						<BuildMoveStart>
+							<Item>
+								<Sound>9818755</Sound>
+							</Item>
+						</BuildMoveStart>
+						<BuildMoveSuccess>
+							<Item>
+								<Sound>203995</Sound>
+							</Item>
+						</BuildMoveSuccess>
+						<BuildMoveEnd>
+							<Item>
+								<Sound>200141</Sound>
+							</Item>
+						</BuildMoveEnd>
+					</ConstructionSounds>
+				</SoundEmitter>
+				<FeedbackController>
+					<NightBehavior>HideAll</NightBehavior>
+				</FeedbackController>
+				<Infolayer />
+				<UpgradeList />
+				<Factory7 />
+				<FactoryBase />
+				<LogisticNode />
+				<AmbientMoodProvider />
+				<Pausable />
+				<Maintenance>
+					<IncomeCategory>CultureBuildings</IncomeCategory>
+				</Maintenance>
+				<Attackable />
+				<Explosion />
+				<Culture>
+					<CultureType>Monument</CultureType>
+				</Culture>
+			</Properties>
+		</Template>
+	</ModOp>
+</ModOps>

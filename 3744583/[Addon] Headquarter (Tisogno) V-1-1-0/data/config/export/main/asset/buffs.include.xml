@@ -1,0 +1,1114 @@
+<ModOps>
+
+	<!-- START Buffs -->
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009051</GUID>
+    					<Name>Buff Foreign Affairs</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_foreignaffairs.png</IconFilename>
+    					<InfoDescription>1957009251</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>190797</GUID>		<!-- all trading posts (OW,NW,Enbesa) -->
+      						</Item>
+      						<Item>
+        						<GUID>1957009091</GUID>		<!-- all trading posts Arctic -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+                       		<KontorUpgrade>
+                          		<BlockHostileTakeover>1</BlockHostileTakeover>
+                        	</KontorUpgrade>
+                        	<AttackableUpgrade>
+                          		<MoralePowerUpgrade>
+                            			<Value>21</Value>
+                            			<Percental>1</Percental>
+                          		</MoralePowerUpgrade>
+                        	</AttackableUpgrade>
+                            	<InfluenceSourceUpgrade>
+                              		<InfluenceAmounUpgrade>
+                                		<Value>14</Value>
+                              		</InfluenceAmounUpgrade>
+                            	</InfluenceSourceUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009052</GUID>
+    					<Name>Buff Military</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_military.png</IconFilename>
+    					<InfoDescription>1957009252</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>193986</GUID>		<!-- all military assets -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+                       		<AttackerUpgrade>
+	                          	<AccuracyUpgrade>
+                            			<Value>21</Value>
+                            			<Percental>1</Percental>
+                          		</AccuracyUpgrade>
+                          		<AttackRangeUpgrade>
+                            			<Value>14</Value>
+                            			<Percental>1</Percental>
+                          		</AttackRangeUpgrade>
+                          		<BaseDamageUpgrade>
+                            			<Value>7</Value>
+                            			<Percental>1</Percental>
+                          		</BaseDamageUpgrade>
+                        	</AttackerUpgrade>
+                        	<AttackableUpgrade>
+                          		<MaxHitpointsUpgrade>
+                            			<Value>7</Value>
+                            			<Percental>1</Percental>
+                          		</MaxHitpointsUpgrade>
+                          		<MoralePowerUpgrade>
+                            			<Value>14</Value>
+                            			<Percental>1</Percental>
+                          		</MoralePowerUpgrade>
+                          		<SelfHealUpgrade>
+                            			<Value>21</Value>
+                            			<Percental>1</Percental>
+                          		</SelfHealUpgrade>
+                        	</AttackableUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009053</GUID>
+    					<Name>Buff Interior</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_interior.png</IconFilename>
+    					<InfoDescription>1957009253</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>190775</GUID>		<!-- all fire stations -->
+      						</Item>
+      						<Item>
+        						<GUID>190776</GUID>		<!-- all police stations -->
+      						</Item>
+      						<Item>
+        						<GUID>190777</GUID>		<!-- all hospitals -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<BuildingUpgrade>
+    					<ResolverUnitMovementSpeedUpgrade>
+      						<Value>21</Value>
+      						<Percental>1</Percental>
+    					</ResolverUnitMovementSpeedUpgrade>
+                             		<ResolverUnitDecreaseUpgrade>
+                                		<Value>14</Value>
+                                		<Percental>1</Percental>
+                              		</ResolverUnitDecreaseUpgrade>
+          				<MaintenanceUpgrade>
+            					<Value>-7</Value>
+            					<Percental>1</Percental>
+          				</MaintenanceUpgrade>
+  				</BuildingUpgrade>
+  				<IncidentInfluencerUpgrade>
+    					<SpecialUnitHappinessThresholdUpgrade>
+      						<Value>-14</Value>
+    					</SpecialUnitHappinessThresholdUpgrade>
+  				</IncidentInfluencerUpgrade>
+				<PopulationUpgrade/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 3 "The Passage": add ranger station -->
+	<ModOp Type = "add" GUID = '1957009053' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='4258']">
+      		<Item>
+        		<GUID>112669</GUID>						<!-- ranger station -->
+      		</Item>
+ 	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009054</GUID>
+    					<Name>Buff Trade</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_trade.png</IconFilename>
+    					<InfoDescription>1957009254</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>193897</GUID>		<!-- all kontors and piers -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+                        	<BuildingUpgrade>
+                          		<MaintenanceUpgrade>
+                            			<Value>-14</Value>
+                            			<Percental>1</Percental>
+                          		</MaintenanceUpgrade>
+                        	</BuildingUpgrade>
+  				<!-- PassiveTradeGoodGenUpgrade>
+    					<GenProbability>21</GenProbability>
+    					<GenPool>1957009090</GenPool>			
+  				</PassiveTradeGoodGenUpgrade -->
+                            	<PierUpgrade>
+                              		<PierSpeedUpgrade>
+                                		<Value>42</Value>
+                                		<Percental>1</Percental>
+                              		</PierSpeedUpgrade>
+                            	</PierUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 11 "Empire of the Skies": add airship platforms -->
+	<ModOp Type = "add" GUID = '1957009054' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='962']">
+      		<Item>
+        		<GUID>4278</GUID>						<!-- all airship platforms -->
+      		</Item>
+ 	</ModOp>
+	<!-- In case of DLC 3 "The Passage": add arctic kontors and piers -->
+	<ModOp Type = "add" GUID = '1957009054' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='4258']">
+      		<Item>
+        		<GUID>1957009091</GUID>						<!-- all trading posts Arctic -->
+      		</Item>
+      		<Item>
+        		<GUID>4258</GUID>						<!-- arctic airship platform -->
+      		</Item>
+ 	</ModOp>
+
+	<!-- Supreme Court Buff: Justice -->
+ 	<ModOp GUID='191910' Type="addNextSibling">
+    		<Asset>
+      			<Template>TownhallBuff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009055</GUID>
+    					<Name>Assembly of Constitutional Judges</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_court_buff.png</IconFilename>
+    					<InfoDescription>1957009255</InfoDescription>
+  				</Standard>
+   				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>190762</GUID>		<!-- all residences OW,NW,Enbesa -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<ResidenceUpgrade>
+          				<GoodConsumptionUpgrade>	  
+            					<Item>
+              						<ProvidedNeed>1957009015</ProvidedNeed>
+              						<AmountInPercent>-100</AmountInPercent>
+            					</Item>
+          				</GoodConsumptionUpgrade>							  
+	    				<TaxModifierInPercent>-14</TaxModifierInPercent>
+  				</ResidenceUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- In case of DLC 3 "The Passage": add arctic residences -->
+	<ModOp Type = "add" GUID = '1957009055' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='4258']">
+      		<Item>
+        		<GUID>112091</GUID>						<!-- arctic residence explorer -->
+      		</Item>
+      		<Item>
+        		<GUID>112652</GUID>						<!-- arctic residence technician -->
+      		</Item>
+ 	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009056</GUID>
+    					<Name>Buff Finance</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_finance.png</IconFilename>
+    					<InfoDescription>1957009256</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>190762</GUID>		<!-- all residences (OW,NW,Enbesa) -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<BuildingUpgrade>
+          				<MaintenanceUpgrade>
+            					<Value>-14</Value>
+            					<Percental>1</Percental>
+          				</MaintenanceUpgrade>
+  				</BuildingUpgrade>
+  				<ResidenceUpgrade>
+	    				<TaxModifierInPercent>21</TaxModifierInPercent>
+  				</ResidenceUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 3 "The Passage": add arctic residences -->
+	<ModOp Type = "add" GUID = '1957009056' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='4258']">
+      		<Item>
+        		<GUID>112091</GUID>						<!-- arctic residence explorer -->
+      		</Item>
+      		<Item>
+        		<GUID>112652</GUID>						<!-- arctic residence technician -->
+      		</Item>
+ 	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009057</GUID>
+    					<Name>Buff Social Affairs</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_socialaffairs.png</IconFilename>
+    					<InfoDescription>1957009257</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>190762</GUID>		<!-- all residences (OW,NW,Enbesa) -->
+     						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<ResidenceUpgrade>
+    					<WorkforceModifierInPercent>14</WorkforceModifierInPercent>
+          				<AdditionalHappiness>7</AdditionalHappiness>
+  				</ResidenceUpgrade>
+				<PopulationUpgrade>
+			  		<StressUpgrade>
+						<Value>-21</Value>
+						<Percental>1</Percental>
+			  		</StressUpgrade>
+				</PopulationUpgrade>
+				<IncidentInfectableUpgrade>
+          				<IncidentRiotIncreaseUpgrade>
+            					<Value>-14</Value>
+            					<Percental>1</Percental>
+          				</IncidentRiotIncreaseUpgrade>
+        			</IncidentInfectableUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009058</GUID>
+    					<Name>Buff Industry</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_industry.png</IconFilename>
+    					<InfoDescription>1957009258</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>193771</GUID>		<!-- all heavy production -->
+      						</Item>
+      						<Item>
+        						<GUID>190786</GUID>		<!-- all mines and quarries -->
+      						</Item>
+      						<Item>
+        						<GUID>194011</GUID>		<!-- all chemical plants -->
+      						</Item>
+      						<Item>
+        						<GUID>194023</GUID>		<!-- all assembly lines -->
+      						</Item>
+    					</EffectTargets>
+					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<FactoryUpgrade>
+    					<ProductivityUpgrade>
+      						<Value>21</Value>
+      						<Percental>1</Percental>
+    					</ProductivityUpgrade>
+                              		<AdditionalOutput>
+                                		<Item>
+                                  			<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                                  			<AdditionalOutputCycle>14</AdditionalOutputCycle>
+                                  			<Amount>1</Amount>
+                                		</Item>
+                              		</AdditionalOutput>
+  				</FactoryUpgrade>
+  				<BuildingUpgrade>
+    					<MaintenanceUpgrade>
+      						<Value>-7</Value>
+      						<Percental>1</Percental>
+    					</MaintenanceUpgrade>
+    					<WorkforceAmountUpgrade>
+      						<Value>-14</Value>
+      						<Percental>1</Percental>
+    					</WorkforceAmountUpgrade>
+  				</BuildingUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009059</GUID>
+    					<Name>Buff Entertainment</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_entertainment.png</IconFilename>
+    					<InfoDescription>1957009259</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>192418</GUID>		<!-- all pubs and boxing arenas -->
+      						</Item>
+      						<Item>
+        						<GUID>193863</GUID>		<!-- all theatres -->
+      						</Item>
+      						<Item>
+        						<GUID>193869</GUID>		<!-- all clubs -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<BuildingUpgrade>
+    					<MaintenanceUpgrade>
+      						<Value>-7</Value>
+      						<Percental>1</Percental>
+    					</MaintenanceUpgrade>
+    					<PublicServiceFullSatisfactionDistance>
+      						<Value>21</Value>
+      						<Percental>1</Percental>
+    					</PublicServiceFullSatisfactionDistance>
+    					<PublicServiceNoSatisfactionDistance>
+      						<Value>14</Value>
+      						<Percental>1</Percental>
+    					</PublicServiceNoSatisfactionDistance>
+  				</BuildingUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 6 "Land of Lions": add podium -->
+	<ModOp Type = "add" GUID = '1957009059' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='114329']">
+    		<Item>
+        		<GUID>114519</GUID>						<!-- podium -->
+      		</Item>
+	</ModOp>
+	<!-- In case of DLC 12 "New World Rising": add samba school, cinema -->
+	<ModOp Type = "add" GUID = '1957009059' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='5840']">
+    		<Item>
+        		<GUID>5840</GUID>						<!-- samba school -->
+      		</Item>
+     		<Item>
+        		<GUID>6018</GUID>						<!-- cinema -->
+      		</Item>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009060</GUID>
+    					<Name>Buff Energy</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_energy.png</IconFilename>
+    					<InfoDescription>1957009260</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>193864</GUID>		<!-- all power plants -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<BuildingUpgrade>
+    					<WorkforceAmountUpgrade>
+      						<Value>-14</Value>
+      						<Percental>1</Percental>
+    					</WorkforceAmountUpgrade>
+          				<PublicServiceFullSatisfactionDistance>
+            					<Value>14</Value>
+          				</PublicServiceFullSatisfactionDistance>
+          				<PublicServiceNoSatisfactionDistance>
+            					<Value>14</Value>
+          				</PublicServiceNoSatisfactionDistance>
+  				</BuildingUpgrade>
+ 				<PowerplantUpgrade>
+    					<IndustrializationRangeUpgrade>
+      						<Value>14</Value>
+    					</IndustrializationRangeUpgrade>
+  				</PowerplantUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009061</GUID>
+    					<Name>Buff Education</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_science.png</IconFilename>
+    					<InfoDescription>1957009261</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>1957009093</GUID>		<!-- all schools -->		
+      						</Item>
+      						<Item>
+        						<GUID>193872</GUID>		<!-- all universities -->		
+      						</Item>
+     					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<BuildingUpgrade>
+    					<MaintenanceUpgrade>
+      						<Value>-7</Value>
+      						<Percental>1</Percental>
+    					</MaintenanceUpgrade>
+    					<PublicServiceFullSatisfactionDistance>
+      						<Value>21</Value>
+      						<Percental>1</Percental>
+    					</PublicServiceFullSatisfactionDistance>
+    					<PublicServiceNoSatisfactionDistance>
+      						<Value>14</Value>
+      						<Percental>1</Percental>
+    					</PublicServiceNoSatisfactionDistance>
+  				</BuildingUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 6 "Land of Lions": add scholars -->
+	<Group Condition="//Values[Standard/GUID='114329']">
+	<ModOp Type="add" GUID='1957009061' Path="/Values/ItemEffect/EffectTargets">
+     		<Item>
+        		<GUID>114445</GUID>						<!-- scholars -->
+      		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='1957009061' Path="/Values">
+  		<PopulationUpgrade>
+    			<InputBenefitModifier>
+      				<Item>
+        				<Product>1010353</Product>
+        				<AdditionalResearch>1</AdditionalResearch>	<!-- to do: further tests -->
+      				</Item>
+    			</InputBenefitModifier>
+  		</PopulationUpgrade>
+	</ModOp>
+	</Group>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009062</GUID>
+    					<Name>Buff Agriculture</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_agriculture.png</IconFilename>
+    					<InfoDescription>1957009262</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>190872</GUID>		<!-- all animal farms -->
+      						</Item>
+      						<Item>
+        						<GUID>190865</GUID>		<!-- all crops farms -->
+      						</Item>
+      						<Item>
+        						<GUID>194008</GUID>		<!-- all orchards -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<FactoryUpgrade>
+    					<ProductivityUpgrade>
+      						<Value>21</Value>
+      						<Percental>1</Percental>
+    					</ProductivityUpgrade>
+                              		<AdditionalOutput>
+                                		<Item>
+                                  			<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                                  			<AdditionalOutputCycle>14</AdditionalOutputCycle>
+                                  			<Amount>1</Amount>
+                                		</Item>
+                              		</AdditionalOutput>
+    					<NeededAreaPercentUpgrade>
+      						<Value>-7</Value>
+      						<Percental>1</Percental>
+    					</NeededAreaPercentUpgrade>
+  				</FactoryUpgrade>
+                        	<ModuleOwnerUpgrade>
+                          		<ModuleLimitPercent>-14</ModuleLimitPercent>
+                        	</ModuleOwnerUpgrade>
+  				<BuildingUpgrade>
+    					<WorkforceAmountUpgrade>
+      						<Value>-14</Value>
+      						<Percental>1</Percental>
+    					</WorkforceAmountUpgrade>
+  				</BuildingUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009063</GUID>
+    					<Name>Buff Culture</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_culture.png</IconFilename>
+    					<InfoDescription>1957009263</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>193666</GUID>		<!-- all culture buildings -->
+      						</Item>
+      						<Item>
+        						<GUID>1010492</GUID>		<!-- world's fair -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<BuildingUpgrade>
+    					<MaintenanceUpgrade>
+      						<Value>-21</Value>
+      						<Percental>1</Percental>
+    					</MaintenanceUpgrade>
+  				</BuildingUpgrade>
+  				<CultureUpgrade>
+    					<AttractivenessUpgrade>
+      						<Value>14</Value>
+      						<Percental>1</Percental>
+    					</AttractivenessUpgrade>
+  				</CultureUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 12 "New World Rising": add stadium -->
+	<ModOp Type = "add" GUID='1957009063' Path="/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='6121']">
+    		<Item>
+        		<GUID>6121</GUID>						<!-- grand stadium -->
+      		</Item>
+	</ModOp>
+	<!-- In case of DLC 1 "Sunken Treasure": add diving vessel -->
+	<Group Condition="//Values[Standard/GUID='112084']">
+	<ModOp Type = "add" GUID='1957009063' Path="/Values/ItemEffect/EffectTargets">
+    		<Item>
+        		<GUID>112084</GUID>						<!-- diving vessel -->
+      		</Item>
+	</ModOp>
+	<ModOp Type = "add" GUID='1957009063' Path="/Values">
+              	<DivingBellUpgrade>
+                      	<RarityWeightUpgrade>
+                                <Epic>
+                                 	<AdditionalWeight>7</AdditionalWeight>
+                                </Epic>
+                                <Legendary>
+                                  	<AdditionalWeight>14</AdditionalWeight>
+                                </Legendary>
+                      	</RarityWeightUpgrade>
+                      	<AllocationWeightUpgrade>
+                                <Museum>
+                                  	<AdditionalWeight>21</AdditionalWeight>
+                                </Museum>
+                       	</AllocationWeightUpgrade>
+            	</DivingBellUpgrade>
+	</ModOp>
+	</Group>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009064</GUID>
+    					<Name>Buff Nutrition</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_nutrition.png</IconFilename>
+    					<InfoDescription>1957009264</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>190762</GUID>		<!-- all residences (OW,NW,Enbesa) -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+        			<ResidenceUpgrade>
+          				<GoodConsumptionUpgrade>
+            					<Item>
+              						<ProvidedNeed>1010216</ProvidedNeed>		<!-- schnapps -->
+              						<AmountInPercent>-7</AmountInPercent>
+            					</Item>
+            					<Item>
+              						<ProvidedNeed>1010257</ProvidedNeed>		<!-- rum -->
+              						<AmountInPercent>-7</AmountInPercent>
+            					</Item>
+            					<Item>
+              						<ProvidedNeed>1010214</ProvidedNeed>		<!-- beer -->
+              						<AmountInPercent>-7</AmountInPercent>
+            					</Item>
+            					<Item>
+              						<ProvidedNeed>120016</ProvidedNeed>		<!-- champagne -->
+              						<AmountInPercent>-14</AmountInPercent>
+            					</Item>
+             					<Item>
+              						<ProvidedNeed>1010259</ProvidedNeed>		<!-- cigars -->
+              						<AmountInPercent>-21</AmountInPercent>
+            					</Item>
+            					<Item>
+              						<ProvidedNeed>1010258</ProvidedNeed>		<!-- chocolate -->
+              						<AmountInPercent>-21</AmountInPercent>
+            					</Item>
+            					<Item>
+              						<ProvidedNeed>1010238</ProvidedNeed>		<!-- sausage -->
+              						<AmountInPercent>-7</AmountInPercent>
+            					</Item>
+            					<Item>
+              						<ProvidedNeed>1010217</ProvidedNeed>		<!-- canned food -->
+              						<AmountInPercent>-14</AmountInPercent>
+            					</Item>
+           				</GoodConsumptionUpgrade>
+        			</ResidenceUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 9 "High Life": add cognac -->
+	<ModOp Type = "add" GUID = '1957009064' Path = "/Values/ResidenceUpgrade/GoodConsumptionUpgrade" Condition="//Values[Standard/GUID='135234']">
+            	<Item>
+              		<ProvidedNeed>135234</ProvidedNeed>						<!-- cognac -->
+              		<AmountInPercent>-14</AmountInPercent>
+            	</Item>
+	</ModOp>
+	<!-- In case of DLC 12 "New World Rising": add medicine, mezcal, icecream -->
+	<Group Condition="//Values[Standard/GUID='6600']">
+	<ModOp Type = "add" GUID = '1957009064' Path = "/Values">
+        	<PopulationUpgrade>
+          		<ResidentsUpgrade>
+            			<Value>7</Value>
+          		</ResidentsUpgrade>
+          		<InputBenefitModifier>
+            			<Item>
+              				<Product>5397</Product>						<!-- medicine -->
+              				<AdditionalSupply>7</AdditionalSupply>
+            			</Item>
+          		</InputBenefitModifier>
+        	</PopulationUpgrade>
+	</ModOp>
+	<ModOp Type = "add" GUID = '1957009064' Path = "/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+            	<Item>
+              		<ProvidedNeed>6600</ProvidedNeed>						<!-- mezcal -->
+              		<AmountInPercent>-14</AmountInPercent>
+            	</Item>
+            	<Item>
+              		<ProvidedNeed>5382</ProvidedNeed>						<!-- ice cream -->
+              		<AmountInPercent>-21</AmountInPercent>
+            	</Item>
+	</ModOp>
+	</Group>
+
+	<!-- Secret Service Buff -->
+ 	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009065</GUID>
+    					<Name>Secret Service Buff</Name>
+    					<IconFilename>data/modgraphics/icons/icon_secret_service.png</IconFilename>
+    					<InfoDescription>1957009265</InfoDescription>
+  				</Standard>
+   				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>191297</GUID>		<!-- all kontors OW -->
+      						</Item>
+      						<Item>
+        						<GUID>1957009094</GUID>		<!-- all HQ facilities -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+				<KontorUpgrade>
+    					<BlockBuyShare>1</BlockBuyShare>
+				</KontorUpgrade>
+  				<BuildingUpgrade>
+           				<MaintenanceUpgrade>
+            					<Value>420</Value>
+            					<Percental>1</Percental>
+          				</MaintenanceUpgrade>
+  				</BuildingUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009066</GUID>
+    					<Name>Buff Traffic</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_traffic.png</IconFilename>
+    					<InfoDescription>1957009266</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>193982</GUID>		<!-- all trade ships -->
+      						</Item>
+      						<Item>
+        						<GUID>4147</GUID>		<!-- all trade airships -->
+      						</Item>
+						<Item>
+							<GUID>190783</GUID>  		<!-- all shipyards -->
+						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+                            	<VehicleUpgrade>
+                              		<ForwardSpeedUpgrade>
+                                		<Value>14</Value>
+                                		<Percental>1</Percental>
+                              		</ForwardSpeedUpgrade>
+                          		<IgnoreWeightFactorUpgrade>
+                            			<Value>14</Value>
+                            			<Percental>1</Percental>
+                          		</IgnoreWeightFactorUpgrade>
+                              		<IgnoreDamageFactorUpgrade>
+                                		<Value>14</Value>
+                                		<Percental>1</Percental>
+                              		</IgnoreDamageFactorUpgrade>
+                            	</VehicleUpgrade>
+  				<ShipyardUpgrade>
+    					<ConstructionCostInPercent>-7</ConstructionCostInPercent>
+    					<ConstructionTimeInPercent>-21</ConstructionTimeInPercent>
+  				</ShipyardUpgrade>
+  				<BuildingUpgrade>
+    					<WorkforceAmountUpgrade>
+      						<Value>-42</Value>
+      						<Percental>1</Percental>
+    					</WorkforceAmountUpgrade>
+  				</BuildingUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 3 "The Passage": add arctic hangar -->
+	<ModOp Type = "add" GUID = '1957009066' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='112689']">
+		<Item>
+			<GUID>112689</GUID>						<!-- arctic hangar -->
+		</Item>
+	</ModOp>
+	<!-- In case of DLC 11 "Empire of the Skies": add hangars -->
+	<ModOp Type = "add" GUID = '1957009066' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='4258']">
+		<Item>
+			<GUID>4691</GUID>						<!-- all hangars OW -->
+		</Item>
+		<Item>
+			<GUID>4692</GUID>  						<!-- all hangars NW -->
+		</Item>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009067</GUID>
+    					<Name>Buff Post</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_post.png</IconFilename>
+    					<InfoDescription>1957009267</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+						<Item>
+							<GUID>1957009092</GUID>  	<!-- all post assets -->
+						</Item>
+					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+				</ItemEffect>
+  				<FactoryUpgrade>
+          				<ProductivityUpgrade>
+            					<Value>7</Value>
+            					<Percental>1</Percental>
+          				</ProductivityUpgrade>
+          				<AdditionalOutput>
+            					<Item>
+              						<Product>536</Product>  	<!-- regional mail -->
+              						<AdditionalOutputCycle>7</AdditionalOutputCycle>
+              						<Amount>1</Amount>
+            					</Item>
+            					<Item>
+              						<Product>2524</Product>  	<!-- overseas mail -->
+              						<AdditionalOutputCycle>7</AdditionalOutputCycle>
+              						<Amount>1</Amount>
+            					</Item>
+         				 </AdditionalOutput>
+        			</FactoryUpgrade>
+                            	<WarehouseUpgrade>
+                              		<StorageCapacityModifier>14</StorageCapacityModifier>
+            				<!-- Percental>1</Percental -->			<!-- does not work -->
+                            	</WarehouseUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 6 "Land of Lions": add radio tower -->
+	<Group Condition="//Values[Standard/GUID='114329']">
+	<ModOp Type = "add" GUID = '1957009067' Path = "/Values/ItemEffect/EffectTargets">
+		<Item>
+			<GUID>118736</GUID>						<!-- radio tower -->
+		</Item>
+	</ModOp>
+	<ModOp Type = "add" GUID = '1957009067' Path = "/Values">
+  		<BuildingUpgrade>
+    			<PublicServiceFullSatisfactionDistance>
+      				<Value>21</Value>
+      				<Percental>1</Percental>
+    			</PublicServiceFullSatisfactionDistance>
+    			<PublicServiceNoSatisfactionDistance>
+      				<Value>21</Value>
+      				<Percental>1</Percental>
+    			</PublicServiceNoSatisfactionDistance>
+  		</BuildingUpgrade>
+	</ModOp>
+	</Group>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009068</GUID>
+    					<Name>Buff Construction</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_construction.png</IconFilename>
+    					<InfoDescription>1957009268</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>190914</GUID>		<!-- all carpentry works -->
+      						</Item>
+      						<Item>
+        						<GUID>190918</GUID>		<!-- all bricks factories -->
+      						</Item>
+      						<Item>
+        						<GUID>1010296</GUID>		<!-- steelworks -->
+      						</Item>
+      						<Item>
+        						<GUID>1010280</GUID>		<!-- concrete factory -->
+      						</Item>
+      						<Item>
+        						<GUID>1010321</GUID>		<!-- filament factory -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+  				<FactoryUpgrade>
+    					<ProductivityUpgrade>
+      						<Value>21</Value>
+      						<Percental>1</Percental>
+    					</ProductivityUpgrade>
+                              		<AdditionalOutput>
+                                		<Item>
+                                  			<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                                  			<AdditionalOutputCycle>14</AdditionalOutputCycle>
+                                  			<Amount>1</Amount>
+                                		</Item>
+                              		</AdditionalOutput>
+  				</FactoryUpgrade>
+  				<BuildingUpgrade>
+    					<WorkforceAmountUpgrade>
+      						<Value>-7</Value>
+      						<Percental>1</Percental>
+    					</WorkforceAmountUpgrade>
+  				</BuildingUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 12 "New World Rising": add cable factory -->
+	<ModOp Type = "add" GUID = '1957009068' Path = "/Values/ItemEffect/EffectTargets" Condition="//Values[Standard/GUID='6279']">
+		<Item>
+			<GUID>6279</GUID>						<!-- cable factory -->
+		</Item>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009069</GUID>
+    					<Name>Buff Religion</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_religion.png</IconFilename>
+    					<InfoDescription>1957009269</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>193957</GUID>				<!-- all residences OW/NW without scholars -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+        			<PopulationUpgrade>
+         				<InputBenefitModifier>
+            					<Item>
+              						<Product>1010350</Product>			<!-- church need -->
+              						<AdditionalHappiness>7</AdditionalHappiness>
+            					</Item>
+            					<Item>
+              						<Product>120050</Product>			<!-- chapel need -->
+              						<AdditionalHappiness>7</AdditionalHappiness>
+            					</Item>
+          				</InputBenefitModifier>
+        			</PopulationUpgrade>
+        			<ResidenceUpgrade>
+          				<GoodConsumptionUpgrade>
+            					<Item>
+              						<ProvidedNeed>1010217</ProvidedNeed>		<!-- canned meat -->
+              						<AmountInPercent>-7</AmountInPercent>
+            					</Item>
+           				</GoodConsumptionUpgrade>
+        			</ResidenceUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 6 "Land of Lions": add residences Enbesa, monastery need -->
+	<Group Condition="//Values[Standard/GUID='114329']">
+	<ModOp Type="add" GUID='1957009069' Path="/Values/ItemEffect/EffectTargets">
+      		<Item>
+        		<GUID>125110</GUID>								<!-- all residences Enbesa -->
+      		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='1957009069' Path="/Values/PopulationUpgrade/InputBenefitModifier">
+            	<Item>
+              		<Product>114362</Product>							<!-- monastery need -->
+              		<AdditionalHappiness>7</AdditionalHappiness>
+            	</Item>
+	</ModOp>
+	</Group>
+
+	<!-- In case of DLC 12 "New World Rising": reduce consumption of medicine -->
+	<ModOp Type="add" GUID='1957009069' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade" Condition="//Values[Standard/GUID='5397']">
+            	<Item>
+              		<ProvidedNeed>5397</ProvidedNeed>						<!-- medicine -->
+              		<AmountInPercent>-21</AmountInPercent>
+            	</Item>
+	</ModOp>
+
+	<!-- In case of Mod "Mayan Treasures": reduce consumption of Mayan products -->
+	<ModOp Type="add" GUID='1957009069' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade" Condition="//Values[Standard/GUID='1957006500']">
+            	<Item>
+              		<ProvidedNeed>1957006536</ProvidedNeed>						<!-- beauty emulsion -->
+              		<AmountInPercent>-7</AmountInPercent>
+            	</Item>
+            	<Item>
+              		<ProvidedNeed>1957006528</ProvidedNeed>						<!-- love powder -->
+              		<AmountInPercent>-14</AmountInPercent>
+            	</Item>
+            	<Item>
+              		<ProvidedNeed>1957006524</ProvidedNeed>						<!-- rejuvenation essence -->
+              		<AmountInPercent>-21</AmountInPercent>
+            	</Item>
+            	<Item>
+              		<ProvidedNeed>1957006532</ProvidedNeed>						<!-- magic amulets -->
+              		<AmountInPercent>-42</AmountInPercent>
+            	</Item>
+	</ModOp>
+
+  	<ModOp GUID='191144' Type="addNextSibling">
+    		<Asset>
+      			<Template>HQ_Buff</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009070</GUID>
+    					<Name>Buff Tourism</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_tourism.png</IconFilename>
+    					<InfoDescription>1957009270</InfoDescription>
+  				</Standard>
+  				<ItemEffect>
+    					<EffectTargets>
+      						<Item>
+        						<GUID>191563</GUID>		<!-- all visitor piers -->
+      						</Item>
+    					</EffectTargets>
+     					<AllowStacking>0</AllowStacking>
+  				</ItemEffect>
+                           	<CultureUpgrade>
+                              		<AttractivenessUpgrade>
+                                		<Value>7</Value>
+                            			<Percental>1</Percental>
+                              		</AttractivenessUpgrade>
+                            	</CultureUpgrade>
+ 				<VisitorHarborUpgrade>
+                          		<SpawnProbabilityFactor>
+                            			<Value>21</Value>
+                            			<Percental>1</Percental>
+                          		</SpawnProbabilityFactor>
+                        	</VisitorHarborUpgrade>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 8 "Tourism": add gastronomy -->
+	<Group Condition="//Values[Standard/GUID='601379']">
+	<ModOp Type="add" GUID='1957009070' Path="/Values/ItemEffect/EffectTargets">
+      		<Item>
+        		<GUID>194022</GUID>						<!-- all restaurants (incl. cafe, bar) -->
+      		</Item>
+      		<Item>
+        		<GUID>194014</GUID>						<!-- all tower restaurants -->
+      		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='1957009070' Path="/Values">
+              	<FactoryUpgrade>
+   			<ProductivityUpgrade>
+      				<Value>14</Value>
+      				<Percental>1</Percental>
+    			</ProductivityUpgrade>
+     		</FactoryUpgrade>
+	</ModOp>
+	</Group>
+	<!-- END Buffs -->
+
+</ModOps>

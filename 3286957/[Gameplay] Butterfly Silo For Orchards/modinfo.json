@@ -1,0 +1,57 @@
+{
+  "Version":"1.2",
+  "ModID":"Butterfly_Silo_For_Orchards",
+  "IncompatibleIds":null,
+  "ModDependencies":null,
+  "Category":{
+    "Chinese":null,
+    "English":"Gameplay",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  },
+  "ModName":{
+    "Chinese":null,
+    "English":"Butterfly Silo For Orchards",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  },
+  "KnownIssues":null,
+  "DLCDependencies":[
+    {
+      "DLC":"BrightHarvest",
+      "Dependant":"required"
+    }
+  ],
+  "CreatorName":"Yodel Kindergarten",
+  "CreatorContact":null,
+  "Description":{
+    "Chinese":null,
+    "English":"Add a new kind of silo for all orchards called Butterfly cage ",
+    "French":null,
+    "German":null,
+    "Italian":null,
+    "Japanese":null,
+    "Korean":null,
+    "Polish":null,
+    "Russian":null,
+    "Spanish":null,
+    "Taiwanese":null,
+    "Czech":null
+  }
+}

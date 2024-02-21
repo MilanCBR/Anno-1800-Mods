@@ -1,0 +1,94 @@
+<!-- ************************************************************************************** -->
+<!-- * by: dwojt                                                                          * -->
+<!-- * Anno 1800 - GU17.21                                                                * -->
+<!-- ************************************************************************************** -->
+<ModOps>
+	<!-- Neue Einflussreichweite Restaurant -->
+	<ModOp Type="merge" GUID="132747,132750,6136,133339,133340,133341" Path="/Values/BuffFactory">
+					<ProductionBuffScope>Radius</ProductionBuffScope>
+					<ProductionBuffDistance>80</ProductionBuffDistance>		
+	</ModOp>
+	<!-- Neue Produktion Restaurant -->
+	<ModOp Type="merge" GUID="132747,132750,6136,133339,133340,133341" Path="/Values/FactoryBase">
+					<CycleTime>120</CycleTime>	
+	</ModOp>
+		<!-- Neue Maintenance Restaurant -->
+	<ModOp Type="merge" GUID="132747,132750,6136,133339,133340,133341" Path="/Values/Maintenance">
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>20</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>132723</Product>
+							<Amount>25</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+					</Maintenances>
+	</ModOp>
+	<!-- Neue Kultur Restaurant -->
+	<ModOp Type="merge" GUID="132747,132750,6136,133339,133340,133341" Path="/Values/Culture">
+					<Attractiveness>15</Attractiveness>	
+	</ModOp>
+	<!-- Neue Einflussreichweite Café -->
+	<ModOp Type="merge" GUID="6138,132753,133347,133348,133349,133350" Path="/Values/BuffFactory">
+					<ProductionBuffScope>Radius</ProductionBuffScope>
+					<ProductionBuffDistance>80</ProductionBuffDistance>
+	</ModOp>
+	<!-- Neue Produktion Café -->
+	<ModOp Type="merge" GUID="6138,132753,133347,133348,133349,133350" Path="/Values/FactoryBase">
+					<CycleTime>120</CycleTime>	
+	</ModOp>
+		<!-- Neue Maintenance Café -->
+	<ModOp Type="merge" GUID="6138,132753,133347,133348,133349,133350" Path="/Values/Maintenance">
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>20</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>132723</Product>
+							<Amount>25</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+					</Maintenances>
+	</ModOp>
+	<!-- Neue Kultur Café -->
+	<ModOp Type="merge" GUID="6138,132753,133347,133348,133349,133350" Path="/Values/Culture">
+					<Attractiveness>15</Attractiveness>	
+	</ModOp>
+	<!-- Neue Einflussreichweite Bar -->
+	<ModOp Type="merge" GUID="6137,132752,133342,133343,133345,133346" Path="/Values/BuffFactory">
+		<PublicServiceData>
+			<FullSatisfactionDistance>80</FullSatisfactionDistance>
+			<NoSatisfactionDistance>80</NoSatisfactionDistance>
+		</PublicServiceData>
+					<ProductionBuffScope>Radius</ProductionBuffScope>
+					<ProductionBuffDistance>80</ProductionBuffDistance>
+	</ModOp>
+	<!-- Neue Produktion Bar -->
+	<ModOp Type="merge" GUID="6137,132752,133342,133343,133345,133346" Path="/Values/FactoryBase">
+					<CycleTime>120</CycleTime>	
+	</ModOp>
+		<!-- Neue Maintenance Bar -->
+	<ModOp Type="merge" GUID="6137,132752,133342,133343,133345,133346" Path="/Values/Maintenance">
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>20</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>132723</Product>
+							<Amount>25</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+					</Maintenances>
+	</ModOp>
+	<!-- Neue Kultur Bar -->
+	<ModOp Type="merge" GUID="6137,132752,133342,133343,133345,133346" Path="/Values/Culture">
+					<Attractiveness>15</Attractiveness>	
+	</ModOp>
+</ModOps>

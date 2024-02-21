@@ -1,0 +1,39 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+    	  <Text>
+            <GUID>2025012801</GUID>
+            <Text>Triss Merigold, the Lady of Butterfly </Text>
+        </Text>
+        <Text>
+            <GUID>2025012802</GUID>
+            <Text>An agricultural expert, Like to dress up herself when she is working, This attracts many butterflies to come.</Text>
+        </Text>
+        <Text>
+            <GUID>2025012803</GUID>
+            <Text>Butterfly</Text>
+        </Text>
+        <Text>
+            <GUID>2025012804</GUID>
+            <Text>Butterflies can help all kind of fruit trees pollinate faster.</Text>
+        </Text>
+        <Text>
+            <GUID>2025012805</GUID>
+            <Text>Butterfly cage</Text>
+        </Text>
+        <Text>
+            <GUID>2025012806</GUID>
+            <Text>Release butterflies in the cage to speed up pollination of fruit trees.</Text>
+        </Text>
+        <Text>
+            <GUID>2025012807</GUID>
+            <Text>Butterflies are pollinating</Text>
+        </Text>
+        <Text>
+            <GUID>2025012808</GUID>
+            <Text>Butterflies accelerate pollination of fruit trees.</Text>
+        </Text>
+       
+       
+
+    </ModOp>
+</ModOps>

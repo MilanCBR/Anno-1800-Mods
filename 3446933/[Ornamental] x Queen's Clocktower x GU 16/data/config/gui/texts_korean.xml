@@ -1,0 +1,29 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>606175010</GUID>
+      			<Text>여왕의 시계탑</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>606175020</GUID>
+      			<Text>공식적으로는 여왕의 시계탑이라고 불리지만 이 기념비적인 구조물은 '빅 벨'이라는 애칭으로도 알려져 있습니다. 도시의 시민들은 시계가 울리기 시작하면 차를 마실 시간이 언제인지 확실히 알 수 있기 때문입니다!</Text>
+		</Text>			
+
+		<Text>
+     			<GUID>606175011</GUID>
+      			<Text>차를 위한 시간</Text>
+		</Text>		
+
+		<Text>
+     			<GUID>606175012</GUID>
+      			<Text>차를 위한 시간</Text>
+		</Text>			
+		
+		<Text>
+     			<GUID>606175021</GUID>
+      			<Text>"시간? 그게 뭔데? 그냥 빅 벨이 시키는 대로 하면 돼. 아주 간단해!"</Text>
+		</Text>	
+		
+	</ModOp>
+</ModOps>

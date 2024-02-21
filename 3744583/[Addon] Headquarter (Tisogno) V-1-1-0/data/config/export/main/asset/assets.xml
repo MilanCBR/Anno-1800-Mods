@@ -1,0 +1,38 @@
+<!-- 	Mod "Headquarter" 
+	Version 1.1.0 
+	created by Tisogno
+
+	Used IDs, Enums etc.:
+	GUIDs			1957009000 - 1957009499
+					9000 - 9030	Buildings
+					9031 - 9050	Sets
+					9051 - 9070	Buffs
+					9071 - 9099	Pools etc.
+					9100 - 9194	Items
+					9195 - 9199	Newspaper
+					9200 - 9299	Texts 
+					9300 - 9399	Trigger
+					9400 - 9499	Texts
+
+	Uniques			Headquarter	  Target: Pres.Palace	Scope: Game	(Unique, because BuildPermits don't work in Creative Mode)
+
+	Itemsocketallocation	Headquarter
+-->
+
+<ModOps>
+	<!-- Reduce visitor interval to 15 minutes (instead of 30) -->
+	<!-- If you want to activate this, just remove the comment tags from the following command -->
+	<!-- ModOp GUID="2001173" Path="Values/TourismFeature/IntervalDuration" Type="replace">
+    		<IntervalDuration>900000</IntervalDuration>
+	</ModOp -->
+
+    	<Include File="buildings.include.xml" />
+    	<Include File="sets.include.xml" />
+    	<Include File="buffs.include.xml" />
+    	<Include File="items.include.xml" />
+    	<Include File="pools.include.xml" />
+    	<Include File="triggers.include.xml" />
+</ModOps>
+
+
+

@@ -1,0 +1,51 @@
+<ModOps>
+	<ModOp GUID='140032' Type="addPrevSibling"><!-- Unlock coal mine at 1 Worker -->
+		<Asset>
+			<Template>FeatureUnlock</Template>
+			<Values>
+			<Standard>
+				<GUID>103699000</GUID>
+				<Name>Unlock Coal Mine at 1 Worker</Name>
+			</Standard>
+			<Trigger>
+				<TriggerCondition>
+				<Template>ConditionPlayerCounter</Template>
+				<Values>
+					<Condition />
+					<ConditionPlayerCounter>
+					<PlayerCounter>PopulationByLevel</PlayerCounter>
+					<Context>15000001</Context>
+					<CounterAmount>1</CounterAmount>
+					</ConditionPlayerCounter>
+				</Values>
+				</TriggerCondition>
+				<TriggerActions>
+				<Item>
+					<TriggerAction>
+					<Template>ActionUnlockAsset</Template>
+					<Values>
+						<Action />
+						<ActionUnlockAsset>
+						<UnlockAssets>
+							<Item>
+								<Asset>1010304</Asset>
+							</Item>
+						</UnlockAssets>
+						</ActionUnlockAsset>
+					</Values>
+					</TriggerAction>
+				</Item>
+				</TriggerActions>
+			</Trigger>
+			<TriggerSetup>
+				<UsedBySecondParties>0</UsedBySecondParties>
+			</TriggerSetup>
+			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="500005, 500145" Type="add" Path="/Values/ProductionChain/Tier1/Item/Tier2"><!--puts the mine alongside the kiln on the Steel beam production chain build submenu -->
+		<Item>
+			<Building>1010304</Building>
+		</Item>
+	</ModOp>
+</ModOps>

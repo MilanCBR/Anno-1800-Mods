@@ -1,0 +1,16 @@
+{
+  "ModID": "queens_clocktower",
+  "Version": "1.1",
+  "Category": {
+    "English": "Building"
+  },
+  "ModName": {
+    "English": "The Queen's Clocktower"
+  },
+  "Description": {
+    "English": "This mod adds a new clocktower perfect for telling your citizens when it's time for tea!"
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "jje1000"
+}

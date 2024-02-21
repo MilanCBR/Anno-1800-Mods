@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModOps>
+	
+  <!-- Stop Enbesa Main Quest Line -->
+  <ModOp Type="replace" GUID="119876,119877,119879,119887,119884,119886,119888,119880,119889,119878,119893,119895,119898,119899,119914,119924,119925,119915,120298,120296,119931,119946,119955,119957,119963,119981,119998,119985,120246,119988,120307,119993,127792,119997,119999" Path="/Values">
+  	
+  	<Values />
+  
+  </ModOp>
+  
+  <!-- Stop Enbesa Side Quest Line（Three Hearts As One） -->
+  <ModOp Type="replace" GUID="131218,120372,127732,120350" Path="/Values">
+  	
+  	<Values />
+  
+  </ModOp>
+  
+  <!-- Stop Enbesa Side Quest Line（Chronicles） -->
+  <ModOp Type="replace" GUID="128635,128001,128007,128012,128633,132204,132359,132229,132253,132265,132254,132270,132212,132221,132266,132256,132267,132328,132329,132330,132331,132332,132333,132314,132334,132335,132336,132244,132315,132325,132326,132327,132337,130926,130940,130941,130946,132340,132341,132342,132343" Path="/Values">
+  	
+  	<Values />
+  
+  </ModOp>
+  
+  <!-- Angereb do not attack you at beginning -->
+  <ModOp Type="merge" GUID="120283" Path="/Values/Diplomacy/InitialRelation/DefaultTreaties">
+
+        <DefaultTreaties>Peace</DefaultTreaties>
+
+  </ModOp>
+  
+  <!-- Angereb do not attack you at beginning -->
+  <ModOp Type="add" GUID="120283" Path="/Values/Diplomacy/InitialRelation/Exceptions">
+
+        <Item>
+          <Participant>Human0</Participant>
+          <Treaties>Peace;TradeRights</Treaties>
+        </Item>
+        <Item>
+          <Participant>Human1</Participant>
+          <Treaties>Peace;TradeRights</Treaties>
+        </Item>
+        <Item>
+          <Participant>Human2</Participant>
+          <Treaties>Peace;TradeRights</Treaties>
+        </Item>
+        <Item>
+          <Participant>Human3</Participant>
+          <Treaties>Peace;TradeRights</Treaties>
+        </Item>
+
+  </ModOp>
+  
+  <!-- Let Creative Mode Enbesa Init Trigger Same effect for Sandbox Mode -->
+  <ModOp Type="replace" GUID="13764,13750,13758,13761,13762,13763,13883" Path="/Values/Trigger/TriggerCondition">
+  	
+  	<TriggerCondition>
+	    <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+	    <Values>
+	      <Condition />
+	      <ConditionAlwaysTrue />
+	     </Values>
+	  </TriggerCondition>
+
+  </ModOp>
+  
+  <!-- After you takeover the Tradingpost get 20 influence for purchasing the first Great Eastern-->
+	<ModOp Type="replace" GUID='119871' Path="/Values/Reward">
+		
+		<Reward>
+      <RewardAssets>
+        <Item>
+          <Reward>1010190</Reward>
+          <Amount>20</Amount>
+        </Item>
+      </RewardAssets>
+    </Reward>
+		
+	</ModOp>
+
+  <!-- Enbesa First initialization（Actived when you first come to Enbesa and takeover the trading post from the Emperor Ketema）-->
+	<ModOp Type="add" GUID='119871' Path="/Values/Quest/OnQuestSucceeded/Values/ActionList/Actions">
+
+		   <!-- get 【Land of the Thousand-And-One Streams】 buff -->
+        <Item>
+              <Action>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>127865</BuffAsset><!-- buff GUID-->
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </Action>
+	      </Item>
+				
+				<!-- get 【Keepers of the Words of Old】 buff -->
+		    <Item>
+              <Action>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>127866</BuffAsset><!-- buff GUID-->
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </Action>
+
+				</Item>
+		    
+		    <!-- get 【Legacy of the Sands】buff -->
+		    <Item>
+              <Action>
+                <Template>ActionBuff</Template>
+                <Values>
+                  <Action />
+                  <ActionBuff>
+                    <BuffAsset>127867</BuffAsset><!-- buff GUID-->
+                    <AddBuff>1</AddBuff>
+                    <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                  </ActionBuff>
+                </Values>
+              </Action>
+		    </Item>	
+		    
+		    <!-- Unlock 【Research Institute】-->
+		    <Item>
+          <Action>
+            <Template>ActionUnlockAsset</Template>
+            <Values>
+              <Action />
+              <ActionUnlockAsset>
+                <UnlockAssets>
+                  <Item>
+                    <Asset>118938</Asset>
+                  </Item>
+                  <Item>
+                    <Asset>118939</Asset>
+                  </Item>
+                  <Item>
+                    <Asset>118940</Asset>
+                  </Item>
+                  <Item>
+                    <Asset>114445</Asset>
+                  </Item>
+                </UnlockAssets>
+                <UnhideAssets>
+                  <Item>
+                    <Asset>114445</Asset>
+                  </Item>
+                  <Item>
+                    <Asset>118740</Asset>
+                  </Item>
+                  <Item>
+                    <Asset>127050</Asset>
+                  </Item>
+                </UnhideAssets>
+              </ActionUnlockAsset>
+            </Values>
+          </Action>
+        </Item>
+        
+		    <!-- Add【Research Institute Permits】-->
+		    <Item>
+          <Action>
+            <Template>ActionAddResource</Template>
+            <Values>
+            <Action />
+              <ActionAddResource>
+              <Resource>114445</Resource><!-- 【Scholar Residences Permits】-->
+              <ResourceAmount>10</ResourceAmount><!-- Permits Amount-->
+            </ActionAddResource>
+            </Values>
+           </Action>
+      </Item>
+      <Item>
+          <Action>
+            <Template>ActionAddResource</Template>
+            <Values>
+            <Action />
+              <ActionAddResource>
+              <Resource>124737</Resource><!-- 【Advanced rum distilleries Permits】-->
+              <ResourceAmount>10</ResourceAmount><!-- Permits Amount-->
+            </ActionAddResource>
+            </Values>
+           </Action>
+      </Item>
+      <Item>
+          <Action>
+            <Template>ActionAddResource</Template>
+            <Values>
+            <Action />
+              <ActionAddResource>
+              <Resource>124738</Resource><!-- 【Advanced Coffee Roaster Permits】-->
+              <ResourceAmount>10</ResourceAmount><!-- Permits Amount-->
+            </ActionAddResource>
+            </Values>
+           </Action>
+      </Item>
+      <Item>
+          <Action>
+            <Template>ActionAddResource</Template>
+            <Values>
+            <Action />
+              <ActionAddResource>
+              <Resource>124739</Resource><!-- 【Advanced Cotton Mill Permits】-->
+              <ResourceAmount>10</ResourceAmount><!-- Permits Amount-->
+            </ActionAddResource>
+            </Values>
+           </Action>
+      </Item>
+      <Item>
+          <Action>
+            <Template>ActionAddResource</Template>
+            <Values>
+            <Action />
+              <ActionAddResource>
+              <Resource>118718</Resource><!-- 【Great Eastern Permit】-->
+              <ResourceAmount>5</ResourceAmount><!-- Permits Amount-->
+            </ActionAddResource>
+            </Values>
+           </Action>
+      </Item>
+      
+      <!-- Unlock Great Eastern -->
+		    <Item>
+          <Action>
+            <Template>ActionUnlockAsset</Template>
+            <Values>
+              <Action />
+              <ActionUnlockAsset>
+                <UnlockAssets>
+                  <Item>
+                    <Asset>118718</Asset>
+                  </Item>
+                </UnlockAssets>
+                <UnhideAssets>
+                  <Item>
+                    <Asset>118718</Asset>
+                  </Item>
+                </UnhideAssets>
+              </ActionUnlockAsset>
+            </Values>
+          </Action>
+        </Item>
+        
+      <!-- Unlock 【Enbesa Related Recipe】-->
+	    <Item>
+        <Action>
+          <Template>ActionUnlockAsset</Template>
+          <Values>
+            <Action />
+            <ActionUnlockAsset>
+              <UnlockAssets>
+                <Item>
+                  <Asset>133375</Asset><!-- Restaurant Recipe:【Lobster Cheminée】-->
+                </Item>
+                <Item>
+                  <Asset>133368</Asset><!-- CoffeeHouse Recipe:【Banana Surprise】-->
+                </Item>
+                <Item>
+                  <Asset>133372</Asset><!-- Bar Recipe:【Enbesa Sunrise】-->
+                </Item>
+                <Item>
+                  <Asset>133381</Asset><!-- Iron Tower Recipe:【Homard Lit de Terroir】-->
+                </Item>
+                <Item>
+                  <Asset>135206</Asset><!--Department Store Recipe：【Briefcase】-->
+                </Item>
+                <Item>
+                  <Asset>135127</Asset><!--Furniture Store Recipe：【Lounge Seating】-->
+                </Item>
+                <Item>
+                  <Asset>135210</Asset><!--Drug Store Recipe：【Pomade】-->
+                </Item>
+              </UnlockAssets>
+              <UnhideAssets>
+                <Item>
+                  <Asset>133375</Asset><!-- Restaurant Recipe:【Lobster Cheminée】-->
+                </Item>
+                <Item>
+                  <Asset>133368</Asset><!-- CoffeeHouse Recipe:【Banana Surprise】-->
+                </Item>
+                <Item>
+                  <Asset>133372</Asset><!-- Bar Recipe:【Enbesa Sunrise】-->
+                </Item>
+                <Item>
+                  <Asset>133381</Asset><!-- Iron Tower Recipe:【Homard Lit de Terroir】-->
+                </Item>
+                <Item>
+                  <Asset>135206</Asset><!--Department Store Recipe：【Briefcase】-->
+                </Item>
+                <Item>
+                  <Asset>135127</Asset><!--Furniture Store Recipe：【Lounge Seating】-->
+                </Item>
+                <Item>
+                  <Asset>135210</Asset><!--Drug Store Recipe：【Pomade】-->
+                </Item>
+              </UnhideAssets>
+            </ActionUnlockAsset>
+          </Values>
+        </Action>
+      </Item>
+      
+      <!-- Thanks Message From Emperor Ketema-->
+		  <Item>
+        <Action>
+          <Template>ActionNotification</Template>
+          <Values>
+            <Action />
+            <ActionNotification>
+              <Notification>
+                <Template>CharacterNotification</Template>
+                <Values>
+                  <CharacterNotification>
+                    <Profile>119051</Profile>
+                  </CharacterNotification>
+                  <BaseNotification>
+                    <NotificationText>127889</NotificationText>
+                    <RestrictToSessionOrRegion>1</RestrictToSessionOrRegion>
+                    <RestrictedToSessionOrRegions>
+                      <Item>
+                        <SessionOrRegion>112132</SessionOrRegion>
+                      </Item>
+                    </RestrictedToSessionOrRegions>
+                  </BaseNotification>
+                  <NotificationSubtitle>
+                    <Subtitle>127874</Subtitle>
+                  </NotificationSubtitle>
+                </Values>
+              </Notification>
+            </ActionNotification>
+          </Values>
+        </Action>
+      </Item>
+           
+      <!-- Get all the quest related items into your first trading post in Enbesa From Emperor Ketema-->
+      <Item>
+        <Action>
+          <Template>ActionAddGoodsToItemContainer</Template>
+          <Values>
+          <Action />
+          <ActionAddGoodsToItemContainer>
+           <Goods>
+           	
+           	<!-- Get Resources-->
+             <Item>
+                <Good>114356</Good>
+                <Amount>50</Amount><!-- Wanza Timber Wood --> 
+             </Item>
+           	
+           	<!-- Get Items-->
+             <Item>
+                <Good>121004</Good>
+                <Amount>1</Amount><!-- Amadi Ilga, Ketema's Chief Civil Engineer --> 
+             </Item>
+             <Item>
+                <Good>121020</Good>
+                <Amount>1</Amount><!-- Khadija Tsegaye, Angereb's Market Master --> 
+             </Item>
+             <Item>
+                <Good>121023</Good>
+                <Amount>1</Amount><!-- Ocean Plotting Sheet of the Southern Hemisphere --> 
+             </Item>
+             <Item>
+                <Good>118103</Good>
+                <Amount>1</Amount><!-- Polyglot Scholar Rahim --> 
+             </Item>
+             <Item>
+                <Good>125114</Good>
+                <Amount>1</Amount><!--Kaldi, Infuser Of Teas --> 
+             </Item>
+             <Item>
+                <Good>125143</Good>
+                <Amount>1</Amount><!-- Dean, the Dean of Deansville University --> 
+             </Item>
+             <Item>
+                <Good>125134</Good>
+                <Amount>1</Amount><!--Mulatu, the Musical Maestro --> 
+             </Item>
+             <Item>
+                <Good>125139</Good>
+                <Amount>1</Amount><!--Bumm Brimmell, the Original Dandy --> 
+             </Item>
+             <Item>
+                <Good>131014</Good>
+                <Amount>1</Amount><!-- Ketema's Cousin --> 
+             </Item>
+             <Item>
+                <Good>124162</Good>
+                <Amount>1</Amount><!--Lion --> 
+             </Item>
+             <Item>
+                <Good>124163</Good>
+                <Amount>1</Amount><!--Elephant --> 
+             </Item>
+             <Item>
+                <Good>124164</Good>
+                <Amount>1</Amount><!--Black Rhino --> > 
+             </Item>   
+             <Item>
+                <Good>130945</Good>
+                <Amount>1</Amount><!-- Chronicles of Enbesa1 --> 
+             </Item>
+              <Item>
+                <Good>130937</Good>
+                <Amount>1</Amount><!-- Chronicles of Enbesa2 --> 
+             </Item>    
+             <Item>
+                <Good>130938</Good>
+                <Amount>1</Amount><!-- Chronicles of Enbesa3 --> 
+             </Item> 
+             <Item>
+                <Good>130939</Good>
+                <Amount>1</Amount><!-- Chronicles of Enbesa4 --> 
+             </Item>          
+             <Item>
+                <Good>128985</Good>
+                <Amount>1</Amount><!-- Transcript of Oracle's Etchings --> 
+             </Item>  
+             <Item>
+                <Good>124883</Good>
+                <Amount>1</Amount><!-- The Ark of the Covenant --> 
+             </Item>
+             <Item>
+                <Good>130777</Good>
+                <Amount>1</Amount><!-- Ancient Tabot of Waha Desher --> 
+             </Item>   
+             <Item>
+                <Good>124694</Good>
+                <Amount>1</Amount><!-- Spear of Selamawi --> 
+             </Item> 
+             <Item>
+                <Good>129442</Good>
+                <Amount>1</Amount><!-- Vase of Sile'Amidos --> 
+             </Item>
+             <Item>
+                <Good>119215</Good>
+                <Amount>1</Amount><!-- CV and Cover Letter from 'Noble' Tutor --> 
+             </Item>
+             <Item>
+                <Good>119217</Good>
+                <Amount>1</Amount><!-- CV and Cover Letter from 'Decorated General' Tutor --> 
+             </Item>
+             <Item>
+                <Good>119216</Good>
+                <Amount>1</Amount><!-- CV and Cover Letter from 'Master Craftsman' Tutor --> 
+             </Item>
+             <Item>
+                <Good>128852</Good>
+                <Amount>1</Amount><!-- Encyclopaedia Universalis Vol. IV --> 
+             </Item>             
+             <Item>
+                <Good>124374</Good>
+                <Amount>1</Amount><!-- Akdamot Port Registry --> 
+             </Item>  
+             <Item>
+                <Good>129663</Good>
+                <Amount>1</Amount><!-- Cartographic Sketchbook --> 
+             </Item> 
+             <Item>
+                <Good>119989</Good>
+                <Amount>1</Amount><!-- Register of the IXth Regiment --> 
+             </Item>
+             <Item>
+                <Good>119987</Good>
+                <Amount>1</Amount><!-- Kyria's Old Diary --> 
+             </Item>
+             <Item>
+                <Good>124464</Good>
+                <Amount>1</Amount><!-- Diary of Mekdem's Guard --> 
+             </Item> 
+             <Item>
+                <Good>131223</Good>
+                <Amount>1</Amount><!-- Authentic Ark of the Covenant --> 
+             </Item>
+             <Item>
+                <Good>124372</Good>
+                <Amount>1</Amount><!-- Kidusi Anitoni Port Registry --> 
+             </Item> 
+             <Item>
+                <Good>124124</Good>
+                <Amount>1</Amount><!-- Spear of Selamawi --> 
+             </Item>
+             <Item>
+                <Good>124624</Good>
+                <Amount>1</Amount><!-- King Wag's Last Testament --> 
+             </Item>
+             <Item>
+                <Good>132348</Good>
+                <Amount>1</Amount><!-- The Epic of the Land of Lions1 --> 
+             </Item> 
+             <Item>
+                <Good>132350</Good>
+                <Amount>1</Amount><!-- The Epic of the Land of Lions2 --> 
+             </Item> 
+             <Item>
+                <Good>132351</Good>
+                <Amount>1</Amount><!-- The Epic of the Land of Lions3 --> 
+             </Item> 
+             <Item>
+                <Good>132352</Good>
+                <Amount>1</Amount><!-- The Epic of the Land of Lions4 --> 
+             </Item>
+             <Item>
+                <Good>132219</Good>
+                <Amount>1</Amount><!-- Enbesa's Silver Age (Notes) --> 
+             </Item> 
+             <Item>
+                <Good>132310</Good>
+                <Amount>1</Amount><!-- Enbesa's Bronze Age (Notes) --> 
+             </Item>
+             <Item>
+                <Good>191991</Good>
+                <Amount>1</Amount><!-- Great White Flag --> 
+             </Item>                                                            
+           </Goods>           
+           <ItemContainerObjects>
+           <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+             <Values>
+              <ObjectFilter>
+               <ObjectLabel>africa_player_kontor</ObjectLabel>
+               <ObjectGUID>114626</ObjectGUID><!-- into your first trading post in Enbesa From Emperor Ketema-->
+              </ObjectFilter>
+             </Values>
+           </ItemContainerObjects>
+          </ActionAddGoodsToItemContainer>
+           </Values>
+       </Action>
+      </Item>
+      
+      <!-- Delete Nomads Harbor and Init the Empty Nomads Island -->
+      <Item>
+        <Action>
+          <Template>ActionDelayedActions</Template>
+          <Values>
+            <Action />
+            <ActionDelayedActions>
+              <ExecutionDelay>500</ExecutionDelay>
+              <DelayedActions>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ActionList>
+                    <Actions>
+                      <Item>
+                        <Action>
+                          <Template>ActionDeleteObjects</Template>
+                          <Values>
+                            <Action />
+                            <ActionDeleteObjects />
+                            <ObjectFilter>
+                              <ObjectGUID>131065</ObjectGUID><!-- Delete Nomads Harbor -->
+                              <ObjectSession>112132</ObjectSession>
+                            </ObjectFilter>
+                          </Values>
+                        </Action>
+                      </Item>
+                      <Item>
+                        <Action>
+                          <Template>ActionSetObjectVisibility</Template>
+                          <Values>
+                            <Action />
+                            <ActionSetObjectVisibility>
+                              <ShowEffect>0</ShowEffect>
+                            </ActionSetObjectVisibility>
+                            <ObjectFilter>
+                              <ObjectLabel>state_01_mansion</ObjectLabel><!-- Init the Empty Nomads Island-->
+                              <ObjectSession>112132</ObjectSession>
+                            </ObjectFilter>
+                          </Values>
+                        </Action>
+                      </Item>
+                    </Actions>
+                  </ActionList>
+                </Values>
+              </DelayedActions>
+            </ActionDelayedActions>
+          </Values>
+        </Action>
+      </Item>
+      
+	    <!-- Init_Angereb_NoAttack and Have TradeRights-->
+	    <Item>
+		    <Action>
+		      <Values>
+		        <Action />
+		        <ActionRegisterTrigger>
+		          <TriggerAsset>13750</TriggerAsset><!-- Init_Angereb_NoAttack and Have TradeRights-->
+		        </ActionRegisterTrigger>
+		      </Values>
+		      <Template>ActionRegisterTrigger</Template>
+		    </Action>
+		  </Item>	  
+		  
+		  <!-- Init_Enbesa_FinalBeautyState-->
+		  <Item>
+		    <Action>
+		      <Values>
+		        <Action />
+		        <ActionRegisterTrigger>
+		          <TriggerAsset>13764</TriggerAsset><!-- Init_Enbesa_FinalBeautyState-->
+		        </ActionRegisterTrigger>
+		      </Values>
+		      <Template>ActionRegisterTrigger</Template>
+		    </Action>
+		  </Item>
+		  
+		  <!--Get your first Great Eastern（near the blake lighthouse） --> 
+	    <Item>
+		      <Action>
+		        <Template>ActionSpawnObjects</Template>
+		        <Values>
+		          <Action />
+		          <ActionSpawnObjects>
+		            <SpawnGUID>118718</SpawnGUID>
+		            <Amount>1</Amount>
+		          </ActionSpawnObjects>
+		          <SpawnArea>
+		            <SpawnContext>Object</SpawnContext>
+		            <ContextGUID>100551</ContextGUID><!-- near blake lighthouse  -->
+		            <DistanceToContext>15</DistanceToContext>
+		            <MinObjectDistance>5</MinObjectDistance>
+		            <MaxObjectDistance>10</MaxObjectDistance>
+		          </SpawnArea>
+		          <SessionFilter>
+		            <Sessions>
+		              <Item>
+		                <Session>180023</Session>
+		              </Item>
+		            </Sessions>
+		          </SessionFilter>
+		        </Values>
+		      </Action>
+		  </Item>
+		  
+		  <!--only your first Great Eastern near the blake lighthouse get item --> 
+		  <Item>
+        <Action>
+          <Template>ActionChangeParticipant</Template>
+          <Values>
+            <Action />
+            <ActionChangeParticipant>
+              <ChangeToProcessingParticipant>1</ChangeToProcessingParticipant>
+            </ActionChangeParticipant>
+            <ObjectFilter>
+              <ObjectGUID>118718</ObjectGUID>
+              <CheckParticipantID>1</CheckParticipantID>
+              <ObjectParticipantID>Third_party_02_Blake</ObjectParticipantID>
+              <ObjectRestrictToQuestObjects>1</ObjectRestrictToQuestObjects>
+            </ObjectFilter>
+          </Values>
+        </Action>
+      </Item>
+      
+      <!--get item into your first Great Eastern near the blake lighthouse  --> 
+      <Item>
+        <Action>
+          <Template>ActionAddGoodsToItemContainer</Template>
+          <Values>
+            <Action />
+            <ActionAddGoodsToItemContainer>
+              <Goods>
+                <Item>
+                  <Good>190698</Good>  <!--get Rohit Bhargava, the Naval Architect  --> 
+                  <Amount>1</Amount>
+                </Item>
+              </Goods>
+              <ItemContainerObjects>
+                <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                <Values>
+                  <ObjectFilter>
+                    <ObjectGUID>118718</ObjectGUID>
+                    <CheckParticipantID>1</CheckParticipantID>
+                    <CheckProcessingParticipantID>1</CheckProcessingParticipantID>
+                    <ObjectSession>180023</ObjectSession>
+                  </ObjectFilter>
+                </Values>
+              </ItemContainerObjects>
+            </ActionAddGoodsToItemContainer>
+          </Values>
+        </Action>
+      </Item>
+      
+      <!--suprise from blake --> 
+		  <Item>
+		      <Action>
+		        <Template>ActionNotification</Template>
+		        <Values>
+		          <Action />
+		          <ActionNotification>
+		            <Notification>
+		              <Template>CharacterNotification</Template>
+		              <Values>
+		                <CharacterNotification>
+		                  <Profile>45</Profile>
+		                </CharacterNotification>
+		                <BaseNotification>
+		                  <NotificationText>269940</NotificationText>
+		                  <RestrictToSessionOrRegion>1</RestrictToSessionOrRegion>
+		                  <RestrictedToSessionOrRegions>
+		                    <Item>
+		                      <SessionOrRegion>112132</SessionOrRegion>
+		                    </Item>
+		                  </RestrictedToSessionOrRegions>
+		                </BaseNotification>
+		                <NotificationSubtitle>
+		                  <Subtitle>250547</Subtitle>
+		                </NotificationSubtitle>
+		              </Values>
+		            </Notification>
+		          </ActionNotification>
+		        </Values>
+		      </Action>
+		  </Item>
+	    
+
+  </ModOp>
+  
+   
+ </ModOps>
+  	
+  
+  
+    
+  
+  
+	
+	
+	
+  
+ 

@@ -1,0 +1,16 @@
+{
+  "ModID": "city_hall",
+  "Version": "1.1",
+  "Category": {
+    "English": "Building"
+  },
+  "ModName": {
+    "English": "City Hall"
+  },
+  "Description": {
+    "English": "This mod adds a new city hall to your cities, allowing for more specialists and city items to be slotted."
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [],
+  "CreatorName": "jje1000"
+}

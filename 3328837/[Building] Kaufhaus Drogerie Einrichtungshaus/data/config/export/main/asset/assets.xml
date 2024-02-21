@@ -1,0 +1,122 @@
+<!-- ************************************************************************************** -->
+<!-- * by: MilanBruur                                                                         * -->
+<!-- * Anno 1800 - GU18.1                                                                * -->
+<!-- ************************************************************************************** -->
+<ModOps>
+	<!-- Nieuw bereik Warenhuis -->
+	<ModOp Type="merge" GUID="135103,135187,135188,135189,135190" Path="/Values/BuffFactory">
+		<PublicServiceData>
+			<FullSatisfactionDistance>120</FullSatisfactionDistance>
+			<NoSatisfactionDistance>120</NoSatisfactionDistance>
+		</PublicServiceData>
+					<ProductionBuffScope>Radius</ProductionBuffScope>
+					<ProductionBuffDistance>120</ProductionBuffDistance>		
+	</ModOp>
+	<!-- Nieuwe cyclus tijd Warenhuis -->
+	<ModOp Type="merge" GUID="135103,135187,135188,135189,135190" Path="/Values/FactoryBase">
+					<CycleTime>240</CycleTime>	
+	</ModOp>
+		<!-- Nieuwe onderhoudskosten Warenhuis -->
+	<ModOp Type="merge" GUID="135103,135187,135188,135189,135190" Path="/Values/Maintenance">
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>100</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1010116</Product>
+							<Amount>100</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+					</Maintenances>	
+	</ModOp>
+	<!-- Bonus Attractiveness Warenhuizen -->
+	<ModOp Type="merge" GUID="135103,135187,135188,135189,135190" Path="/Values/Culture">
+					<Attractiveness>5</Attractiveness>	
+	</ModOp>
+	<!-- Nieuw bereik drogisterijen -->
+	<ModOp Type="merge" GUID="134631,135191,135192,135193,135194" Path="/Values/BuffFactory">
+		<PublicServiceData>
+			<FullSatisfactionDistance>120</FullSatisfactionDistance>
+			<NoSatisfactionDistance>120</NoSatisfactionDistance>
+		</PublicServiceData>
+					<ProductionBuffScope>Radius</ProductionBuffScope>
+					<ProductionBuffDistance>120</ProductionBuffDistance>
+	</ModOp>
+	<!-- Nieuwe cyclus tijd drogisterijen -->
+	<ModOp Type="merge" GUID="134631,135191,135192,135193,135194" Path="/Values/FactoryBase">
+					<CycleTime>240</CycleTime>	
+	</ModOp>
+		<!-- Nieuwe Maintenance Drogerien -->
+	<ModOp Type="merge" GUID="134631,135191,135192,135193,135194" Path="/Values/Maintenance">
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>100</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1010116</Product>
+							<Amount>100</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+					</Maintenances>	
+	</ModOp>
+	<!-- Neue Kultur Drogerien -->
+	<ModOp Type="merge" GUID="134631,135191,135192,135193,135194" Path="/Values/Culture">
+					<Attractiveness>5</Attractiveness>	
+	</ModOp>
+	<!-- Neue Einflussreichweite Einrichtungshäuser -->
+	<ModOp Type="merge" GUID="135105,135121,135120,135122,135123" Path="/Values/BuffFactory">
+		<PublicServiceData>
+			<FullSatisfactionDistance>120</FullSatisfactionDistance>
+			<NoSatisfactionDistance>120</NoSatisfactionDistance>
+		</PublicServiceData>
+					<ProductionBuffScope>Radius</ProductionBuffScope>
+					<ProductionBuffDistance>120</ProductionBuffDistance>
+	</ModOp>
+	<!-- Neue Produktion Einrichtungshäuser -->
+	<ModOp Type="merge" GUID="135105,135121,135120,135122,135123" Path="/Values/FactoryBase">
+					<CycleTime>240</CycleTime>	
+	</ModOp>
+		<!-- Neue Maintenance Einrichtungshäuser -->
+	<ModOp Type="merge" GUID="135105,135121,135120,135122,135123" Path="/Values/Maintenance">
+					<Maintenances>
+						<Item>
+							<Product>1010017</Product>
+							<Amount>100</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+						<Item>
+							<Product>1010116</Product>
+							<Amount>100</Amount>
+							<InactiveAmount>0</InactiveAmount>
+						</Item>
+					</Maintenances>	
+	</ModOp>
+	<!-- Neue Kultur Einrichtungshäuser -->
+	<ModOp Type="merge" GUID="135105,135121,135120,135122,135123" Path="/Values/Culture">
+					<Attractiveness>5</Attractiveness>	
+	</ModOp>
+	<!-- Holz statt Wanza Sofa -->
+	<ModOp Type="merge" GUID="135123" Path="/Values/FactoryBase">
+					<FactoryInputs>
+						<Item>
+							<Product>1010197</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+						<Item>
+							<Product>114357</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+						<Item>
+							<Product>120008</Product>
+							<Amount>1</Amount>
+							<StorageAmount>4</StorageAmount>
+						</Item>
+					</FactoryInputs>	
+	</ModOp>
+</ModOps>

@@ -1,0 +1,1428 @@
+<ModOps>
+  	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>1957009000</GUID>
+			<Text>Regierungsgebäude Menü</Text>
+		</Text>
+		<Text>
+			<GUID>1957009200</GUID>
+			<Text>Beinhaltet alle Gebäude, die zum Regierungsviertel gehören.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009001</GUID>
+			<Text>Präsidentenpalast</Text>
+		</Text>
+		<Text>
+			<GUID>1957009201</GUID>
+			<Text>Was wie eine Kopie des Königspalastes anmutet, beherbergt den Regierungssitz inklusive Präsidentensuite.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009002</GUID>
+			<Text>Präsidentenpalast</Text>
+		</Text>
+		<Text>
+			<GUID>1957009202</GUID>
+			<Text>Busanschluss zum Präsidentenpalast</Text>
+		</Text>
+		<Text>
+			<GUID>1957009203</GUID>
+			<Text>Tarngebäude (Zutritt auf eigene Gefahr)</Text>
+		</Text>
+		<Text>
+			<GUID>1957009204</GUID>
+			<Text>Ist das ernst gemeint? Einen Politiker an Bord eines Schiffes zu holen, das zu einer gefährlichen Mission aufbricht?</Text>
+		</Text>
+		<Text>
+			<GUID>1957009205</GUID>
+			<Text>Im Ernst? Ein Lobbyist auf einer gefährlichen Mission? Wer weiß, in welchen Wind er sein Fähnchen hängt ...?</Text>
+		</Text>
+		<Text>
+			<GUID>1957009206</GUID>
+			<Text>Agenten an Bord? Und wenn sie für den Feind arbeiten...?</Text>
+		</Text>
+		<Text>
+			<GUID>1957009207</GUID>
+			<Text>Gebäudeflügel im Bau</Text>
+		</Text>
+		<Text>
+			<GUID>1957009208</GUID>
+			<Text>Willkommen im Foyer!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009209</GUID>
+			<Text>Ministerien</Text>
+		</Text>
+		<Text>
+			<GUID>1957009010</GUID>
+			<Text>Ministerialbüro Variation</Text>
+		</Text>
+		<Text>
+			<GUID>1957009210</GUID>
+			<Text>Ministerialbüro</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009011</GUID>
+			<Text>Ministerium (Zentrale)</Text>
+		</Text>
+		<Text>
+			<GUID>1957009211</GUID>
+			<Text>Das zentrale Gebäude zur Unterbringung der Ministerialbürokratie</Text>
+		</Text>
+		<Text>
+			<GUID>1957009012</GUID>
+			<Text>Personalbüro</Text>
+		</Text>
+		<Text>
+			<GUID>1957009212</GUID>
+			<Text>Hier werden alle Personalfragen geregelt: Einstellung und Entlassung von Mitarbeitern, Diäten, Betriebsrat, Kantine, ...</Text>
+		</Text>
+		<Text>
+			<GUID>1957009013</GUID>
+			<Text>Pressebüro</Text>
+		</Text>
+		<Text>
+			<GUID>1957009213</GUID>
+			<Text>Hier wird die Regierungsarbeit schöngefärbt.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009014</GUID>
+			<Text>Oberster Gerichtshof</Text>
+		</Text>
+		<Text>
+			<GUID>1957009214</GUID>
+			<!-- Text>Hier gilt: Vor Gericht und auf hoher See...</Text -->
+			<Text>Höchste Instanz der Rechtsprechung, Korrektiv für legislativen Pfusch, Barriere gegen Staatsfeinde und allzuoft letzte Hoffnung der Bürger auf Gerechtigkeit</Text>
+		</Text>
+		<Text>
+			<GUID>1957009015</GUID>
+			<Text>Gerechtigkeit</Text>
+		</Text>
+		<Text>
+			<GUID>1957009215</GUID>
+			<Text>Das Gerechtigkeitsbedürfnis der Menschen wird leider viel zu oft unterschätzt.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009016</GUID>
+			<Text>Geheimdienstzentrale</Text>
+		</Text>
+		<Text>
+			<GUID>1957009216</GUID>
+			<Text>Alles top secret: Aufgaben, Aktivitäten, Personal, ... und vor allem das Budget!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009017</GUID>
+			<Text>Konsulat für die Neue Welt</Text>
+		</Text>
+		<Text>
+			<GUID>1957009217</GUID>
+			<Text>Eine Art Headquarter-Filiale für die entfernten Ecken des Imperiums</Text>
+		</Text>
+		<Text>
+			<GUID>1957009018</GUID>
+			<Text>Konsulat für Enbesa</Text>
+		</Text>
+		<Text>
+			<GUID>1957009218</GUID>
+			<Text>Eine Art Headquarter-Filiale für die entfernten Ecken des Imperiums</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009020</GUID>
+			<Text>Staatliche Konzerthalle</Text>
+		</Text>
+		<Text>
+			<GUID>1957009220</GUID>
+			<Text>Trotz des hochtrabenden Titels werden hier vorrangig nur Hymnen und Fanfaren gespielt.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009021</GUID>
+			<Text>Gebäudeflügel</Text>
+		</Text>
+		<Text>
+			<GUID>1957009221</GUID>
+			<Text>Gerader Anbau zur Unterbringung von Ministerialbüros</Text>
+		</Text>
+		<Text>
+			<GUID>1957009019</GUID>
+			<Text>Gebäudeflügel Längsbau</Text>
+		</Text>
+		<Text>
+			<GUID>1957009022</GUID>
+			<Text>Gebäudeflügel Ecke</Text>
+		</Text>
+		<Text>
+			<GUID>1957009222</GUID>
+			<Text>Rechtwinkliger Anbau zur Unterbringung von Ministerialbüros</Text>
+		</Text>
+		<Text>
+			<GUID>1957009023</GUID>
+			<Text>Gebäudeflügel Endstück</Text>
+		</Text>
+		<Text>
+			<GUID>1957009223</GUID>
+			<Text>Anbauabschluss zur Unterbringung von Ministerialbüros</Text>
+		</Text>
+		<Text>
+			<GUID>1957009024</GUID>
+			<Text>Gebäudeflügel Kreuzung</Text>
+		</Text>
+		<Text>
+			<GUID>1957009224</GUID>
+			<Text>Gekreuzter Anbau zur Unterbringung von Ministerialbüros</Text>
+		</Text>
+		<Text>
+			<GUID>1957009025</GUID>
+			<Text>Gebäudeflügel T-Stück</Text>
+		</Text>
+		<Text>
+			<GUID>1957009225</GUID>
+			<Text>T-förmiger Anbau zur Unterbringung von Ministerialbüros</Text>
+		</Text>
+		<Text>
+			<GUID>1957009026</GUID>
+			<Text>Gebäudeflügel Durchgang</Text>
+		</Text>
+		<Text>
+			<GUID>1957009226</GUID>
+			<Text>Elegante Konstruktion zur Unterbringung von Ministerialbüros und als Verbindung von Gebäudetrakten (mit Durchgang)</Text>
+		</Text>
+		<Text>
+			<GUID>1957009027</GUID>
+			<Text>Mosaikpflaster</Text>
+		</Text>
+		<Text>
+			<GUID>1957009227</GUID>
+			<Text>Vermutlich nur ein billiges Marmorimitat</Text>
+		</Text>
+		<Text>
+			<GUID>1957009028</GUID>
+			<Text>Brücke</Text>
+		</Text>
+		<Text>
+			<GUID>1957009228</GUID>
+			<Text>Hier braucht man einen sicheren Gang - nichts für Politiker mit schlechter Haltung.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009029</GUID>
+			<Text>Piazza Bank</Text>
+		</Text>
+		<Text>
+			<GUID>1957009229</GUID>
+			<Text>Böse Zungen behaupten: der Lieblingsaufenthaltsort vieler Ministerialbeamter</Text>
+		</Text>
+		<Text>
+			<GUID>1957009030</GUID>
+			<Text>Telefonzelle</Text>
+		</Text>
+		<Text>
+			<GUID>1957009230</GUID>
+			<Text>Alternative, wenn die Büros wieder mal verwanzt sind.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009031</GUID>
+			<Text>Außenministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009231</GUID>
+			<Text>Das Außenministerium beschäftigt den Außenminister, dessen Stellvertreter und einen Staatssekretär.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009032</GUID>
+			<Text>Militärministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009232</GUID>
+			<Text>Das Miltärministerium beschäftigt den Militärminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009033</GUID>
+			<Text>Innenministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009233</GUID>
+			<Text>Das Innenministerium beschäftigt den Innenminister, dessen Stellvertreter und einen Staatssekretär.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009034</GUID>
+			<Text>Handelsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009234</GUID>
+			<Text>Das Handelsministerium beschäftigt den Handelsminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009036</GUID>
+			<Text>Finanzministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009236</GUID>
+			<Text>Das Finanzministerium beschäftigt den Finanzminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009037</GUID>
+			<Text>Sozialministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009237</GUID>
+			<Text>Das Arbeits- und Sozialministerium beschäftigt den Arbeits- und Sozialminister, dessen Stellvertreter und einen Staatssekretär.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009038</GUID>
+			<Text>Industrieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009238</GUID>
+			<Text>Das Industrieministerium beschäftigt den Industrieminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009039</GUID>
+			<Text>Unterhaltungsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009239</GUID>
+			<Text>Das Ministerium für gute Laune beschäftigt den Entertainmentminister, dessen Stellvertreter und einen Staatssekretär.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009040</GUID>
+			<Text>Energieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009240</GUID>
+			<Text>Das Energieministerium beschäftigt den Energieminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009041</GUID>
+			<Text>Bildungsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009241</GUID>
+			<Text>Das Bildungs- und Forschungsministerium beschäftigt den Bildungsminister, dessen Stellvertreter und einen Staatssekretär.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009042</GUID>
+			<Text>Agrarministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009242</GUID>
+			<Text>Das Landwirtschaftsministerium beschäftigt den landwirtschaftsminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009043</GUID>
+			<Text>Kulturministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009243</GUID>
+			<Text>Das Kulturministerium beschäftigt den Kulturminister, dessen Stellvertreter und einen Staatssekretär.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009044</GUID>
+			<Text>Gesundheitsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009244</GUID>
+			<Text>Das Gesundheits- und Ernährungsministerium beschäftigt den Gesundheitsminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009046</GUID>
+			<Text>Verkehrsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009246</GUID>
+			<Text>Das Verkehrsministerium beschäftigt den Verkehrsminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009047</GUID>
+			<Text>Kommunikationsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009247</GUID>
+			<Text>Das Kommunikationsministerium beschäftigt den Kommunikationsminister, dessen Stellvertreter und einen Staatssekretär.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009048</GUID>
+			<Text>Bauministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009248</GUID>
+			<Text>Das Bauministerium beschäftigt den Bauminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009049</GUID>
+			<Text>Religionsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009249</GUID>
+			<Text>Das Religionsministerium beschäftigt den Religionsminister, dessen Stellvertreter und einen Staatssekretär.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009050</GUID>
+			<Text>Tourismusministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009250</GUID>
+			<Text>Das Tourismusministerium beschäftigt den Tourismusminister, dessen Stellvertreter, einen Staatssekretär, eine Chefsekretärin, einen Praktikanten und einen externen Berater.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009055</GUID>
+			<Text>Supreme Court Buff</Text>
+		</Text>
+		<Text>
+			<GUID>1957009255</GUID>
+			<Text>Gibt der Bevölkerung den Glauben an die Gerechtigkeit zurück.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009045</GUID>
+			<Text>Secret Service</Text>
+		</Text>
+		<Text>
+			<GUID>1957009245</GUID>
+			<Text>Für den Secret Service arbeiten legendäre Spione, zwielichtige V-Leute und mysteriöse Doppelagenten.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009065</GUID>
+			<Text>Secret Service Buff</Text>
+		</Text>
+		<Text>
+			<GUID>1957009265</GUID>
+			<Text>Sehr viel Aufwand für ein wenig Sicherheit (nur nötig für Diplomatie nach der Devise "Viel Feind, viel Ehr").</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009051</GUID>
+			<Text>Buff: Ministerium für äußere Angelegenheiten</Text>
+		</Text>
+		<Text>
+			<GUID>1957009251</GUID>
+			<Text>Sichert und vergrößert die geostrategische Macht und den globalen Einfluss.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009052</GUID>
+			<Text>Buff: Ministerium für militärische Angelegenheiten</Text>
+		</Text>
+		<Text>
+			<GUID>1957009252</GUID>
+			<Text>Dient natürlich ausschließlich der Verteidigung. Und militärischen Sonderoperationen!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009053</GUID>
+			<Text>Buff: Ministerium für innere Angelegenheiten</Text>
+		</Text>
+		<Text>
+			<GUID>1957009253</GUID>
+			<Text>Im Volksmund "Der Krake" genannt.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009054</GUID>
+			<Text>Buff: Ministerium für Handel</Text>
+		</Text>
+		<Text>
+			<GUID>1957009254</GUID>
+			<Text>Folgt dem Grundsatz "Freiheit = Freiheit der Märkte".</Text>
+		</Text>
+		<Text>
+			<GUID>1957009056</GUID>
+			<Text>Buff: Ministerium für Finanzen</Text>
+		</Text>
+		<Text>
+			<GUID>1957009256</GUID>
+			<Text>Der Staat hat's gegeben, der Staat hat's genommen.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009057</GUID>
+			<Text>Buff: Ministerium für Arbeit und Soziales</Text>
+		</Text>
+		<Text>
+			<GUID>1957009257</GUID>
+			<Text>Bekämpft den Fachkräftemangel - manchmal mit zweifelhaften Methoden - und soll für sozialen Ausgleich sorgen.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009058</GUID>
+			<Text>Buff: Ministerium für Industrie</Text>
+		</Text>
+		<Text>
+			<GUID>1957009258</GUID>
+			<Text>Jetzt wird wieder in die Hände gespuckt...</Text>
+		</Text>
+		<Text>
+			<GUID>1957009059</GUID>
+			<Text>Buff: Ministerium für Unterhaltung</Text>
+		</Text>
+		<Text>
+			<GUID>1957009259</GUID>
+			<Text>Soll stets für gute Laune sorgen.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009060</GUID>
+			<Text>Buff: Ministerium für Energie</Text>
+		</Text>
+		<Text>
+			<GUID>1957009260</GUID>
+			<Text>Damit keiner im Winter frieren muss...</Text>
+		</Text>
+		<Text>
+			<GUID>1957009061</GUID>
+			<Text>Buff: Ministerium für Bildung und Wissenschaft</Text>
+		</Text>
+		<Text>
+			<GUID>1957009261</GUID>
+			<Text>Soll Bildungsgerechtigkeit, den wissenschaftlichen Nachwuchs und Zukunftsforschung fördern.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009062</GUID>
+			<Text>Buff: Ministerium für Landwirtschaft</Text>
+		</Text>
+		<Text>
+			<GUID>1957009262</GUID>
+			<Text>Hier putzt die mächtige Agrarlobby alle Klinken.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009063</GUID>
+			<Text>Buff: Ministerium für Kultur</Text>
+		</Text>
+		<Text>
+			<GUID>1957009263</GUID>
+			<Text>Dient der Pflege von und der Suche nach Kulturschätzen.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009064</GUID>
+			<Text>Buff: Ministerium für Gesundheit und Ernährung</Text>
+		</Text>
+		<Text>
+			<GUID>1957009264</GUID>
+			<Text>Damit das kein Widerspruch wird...</Text>
+		</Text>
+		<Text>
+			<GUID>1957009066</GUID>
+			<Text>Buff: Ministerium für Verkehr</Text>
+		</Text>
+		<Text>
+			<GUID>1957009266</GUID>
+			<Text>Kritiker behaupten, hier seien stets die größten Pfeifen beschäftigt.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009067</GUID>
+			<Text>Buff: Ministerium für Kommunikation</Text>
+		</Text>
+		<Text>
+			<GUID>1957009267</GUID>
+			<Text>Von wegen Schneckenpost und Funkloch!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009068</GUID>
+			<Text>Buff: Ministerium für Wohnungsbau und Stadtentwicklung</Text>
+		</Text>
+		<Text>
+			<GUID>1957009268</GUID>
+			<Text>Subventioniert vor allem die Bauwirtschaft.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009069</GUID>
+			<Text>Buff: Ministerium für Religion</Text>
+		</Text>
+		<Text>
+			<GUID>1957009269</GUID>
+			<Text>Man muss nur fest dran glauben...</Text>
+		</Text>
+		<Text>
+			<GUID>1957009070</GUID>
+			<Text>Buff: Ministerium für Tourismus</Text>
+		</Text>
+		<Text>
+			<GUID>1957009270</GUID>
+			<Text>Auch wenn, oder gerade weil sie in Massen kommen: Besucher bringen Kohle!</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009071</GUID>
+			<Text>Assetpool Minister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009072</GUID>
+			<Text>Assetpool Vizeminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009073</GUID>
+			<Text>Assetpool Staatssekretäre</Text>
+		</Text>
+		<Text>
+			<GUID>1957009074</GUID>
+			<Text>Assetpool Chefsekretärinnen</Text>
+		</Text>
+		<Text>
+			<GUID>1957009075</GUID>
+			<Text>Assetpool Praktikanten</Text>
+		</Text>
+		<Text>
+			<GUID>1957009076</GUID>
+			<Text>Assetpool Lobbyisten</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009077</GUID>
+			<Text>Assetpool Items</Text>
+		</Text>
+		<Text>
+			<GUID>1957009078</GUID>
+			<Text>Assetpool HQ Gebäude</Text>
+		</Text>
+		<Text>
+			<GUID>1957009079</GUID>
+			<Text>Assetpool Ministerialmodule</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009081</GUID>
+			<Text>Rewardpool Minister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009082</GUID>
+			<Text>Rewardpool Vizeminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009083</GUID>
+			<Text>Rewardpool Staatssekretäre</Text>
+		</Text>
+		<Text>
+			<GUID>1957009084</GUID>
+			<Text>Rewardpool Chefsekretärinnen</Text>
+		</Text>
+		<Text>
+			<GUID>1957009085</GUID>
+			<Text>Rewardpool Praktikanten</Text>
+		</Text>
+		<Text>
+			<GUID>1957009086</GUID>
+			<Text>Rewardpool Lobbyisten</Text>
+		</Text>
+		<Text>
+			<GUID>1957009087</GUID>
+			<Text>Visitorpool President</Text>
+		</Text>
+		<Text>
+			<GUID>1957009287</GUID>
+			<Text>Die Liga der außergewöhnlichen Ladys und Gentlemen</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009090</GUID>
+			<Text>Reward Pool passiver Handel (Buff: Handelsministerium)</Text>
+		</Text>
+		<Text>
+			<GUID>1957009091</GUID>
+			<Text>alle arktischen Kontore</Text>
+		</Text>
+		<Text>
+			<GUID>1957009092</GUID>
+			<Text>alle Post Einrichtungen</Text>
+		</Text>
+		<Text>
+			<GUID>1957009093</GUID>
+			<Text>alle Schulen</Text>
+		</Text>
+		<Text>
+			<GUID>1957009094</GUID>
+			<Text>alle Headquarter Gebäude</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009299</GUID>
+			<Text>Headquarter</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009101</GUID>
+			<Text>Der Außenminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009401</GUID>
+			<Text>Immer auf Reisen.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009102</GUID>
+			<Text>Vize Außenminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009402</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009103</GUID>
+			<Text>Staatssekretär im Außenministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009403</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009104</GUID>
+			<Text>Der Militärminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009404</GUID>
+			<Text>Immer on top of the hill.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009105</GUID>
+			<Text>Vize Militärminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009405</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009106</GUID>
+			<Text>Staatssekretär im Militärministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009406</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009107</GUID>
+			<Text>Chefsekretärin im Militärministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009407</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009108</GUID>
+			<Text>Praktikant im Militärministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009408</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009109</GUID>
+			<Text>Lobbyist im Militärministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009409</GUID>
+			<Text>Brückenkopf der Rüstungsindustrie.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009110</GUID>
+			<Text>Der Innenminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009410</GUID>
+			<Text>Immer auf zack.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009111</GUID>
+			<Text>Vize Innenminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009411</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009112</GUID>
+			<Text>Staatssekretär im Innenministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009412</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009113</GUID>
+			<Text>Der Handelsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009413</GUID>
+			<Text>Immer am Schachern.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009114</GUID>
+			<Text>Vize Handelsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009414</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009115</GUID>
+			<Text>Staatssekretär im Handelsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009415</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009116</GUID>
+			<Text>Chefsekretärin im Handelsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009416</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009117</GUID>
+			<Text>Praktikant im Handelsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009417</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009118</GUID>
+			<Text>Lobbyist im Handelsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009418</GUID>
+			<Text>An jedem Handel mit fetten Provisionen beteiligt.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009119</GUID>
+			<Text>Der Finanzminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009419</GUID>
+			<Text>Immer knapp bei Kasse.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009120</GUID>
+			<Text>Vize Finanzminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009420</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009121</GUID>
+			<Text>Staatssekretär im Finanzministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009421</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009122</GUID>
+			<Text>Chefsekretärin im Finanzministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009422</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009123</GUID>
+			<Text>Praktikant im Finanzministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009423</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009124</GUID>
+			<Text>Lobbyist im Finanzministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009424</GUID>
+			<Text>Kennt alle Steuerschlupflöcher.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009125</GUID>
+			<Text>Der Arbeits- und Sozialminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009425</GUID>
+			<Text>Immer viel versprechend ...</Text>
+		</Text>
+		<Text>
+			<GUID>1957009126</GUID>
+			<Text>Vize Arbeits- und Sozialminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009426</GUID>
+			<Text>Wartet nur auf ihre Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009127</GUID>
+			<Text>Staatssekretär im Arbeits- und Sozialministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009427</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009128</GUID>
+			<Text>Der Industrieminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009428</GUID>
+			<Text>Immer in den Chefetagen unterwegs.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009129</GUID>
+			<Text>Vize Industrieminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009429</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009130</GUID>
+			<Text>Staatssekretär im Industrieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009430</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009131</GUID>
+			<Text>Chefsekretärin im Industrieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009431</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009132</GUID>
+			<Text>Praktikant im Industrieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009432</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009133</GUID>
+			<Text>Lobbyist im Industrieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009433</GUID>
+			<Text>Drecksarbeit der speziellen Art!</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009134</GUID>
+			<Text>Der Unterhaltungsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009434</GUID>
+			<Text>Immer gut gelaunt.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009135</GUID>
+			<Text>Vize Unterhaltungsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009435</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009136</GUID>
+			<Text>Staatssekretär im Unterhaltungsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009436</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009137</GUID>
+			<Text>Der Energieminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009437</GUID>
+			<Text>Immer unter Strom.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009138</GUID>
+			<Text>Vize Energieminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009438</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009139</GUID>
+			<Text>Staatssekretär im Energieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009439</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009140</GUID>
+			<Text>Chefsekretärin im Energieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009440</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009141</GUID>
+			<Text>Praktikant im Energieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009441</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009142</GUID>
+			<Text>Lobbyist im Energieministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009442</GUID>
+			<Text>Der kommt allen irgendwie bekannt vor ...</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009143</GUID>
+			<Text>Der Bildungsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009443</GUID>
+			<Text>Immer etwas eingebildet.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009144</GUID>
+			<Text>Vize Bildungsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009444</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009145</GUID>
+			<Text>Staatssekretär im Bildungsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009445</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009146</GUID>
+			<Text>Der Landwirtschaftsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009446</GUID>
+			<Text>Immer etwas rustikal.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009147</GUID>
+			<Text>Vize Landwirtschaftsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009447</GUID>
+			<Text>Wartet nur auf ihre Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009148</GUID>
+			<Text>Staatssekretär im Landwirtschaftsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009448</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009149</GUID>
+			<Text>Chefsekretärin im Landwirtschaftsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009449</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009150</GUID>
+			<Text>Praktikant im Landwirtschaftsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009450</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009151</GUID>
+			<Text>Lobbyist im Landwirtschaftsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009451</GUID>
+			<Text>Das Schafsgesicht täuscht!</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009152</GUID>
+			<Text>Der Kulturminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009452</GUID>
+			<Text>Immer leicht avantgardistisch.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009153</GUID>
+			<Text>Vize Kulturminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009453</GUID>
+			<Text>Wartet nur auf ihre Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009154</GUID>
+			<Text>Staatssekretär im Kulturministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009454</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009155</GUID>
+			<Text>Der Ernährungs- und Gesundheitsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009455</GUID>
+			<Text>Immer ein paar Pfund zu viel.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009156</GUID>
+			<Text>Vize Ernährungs- und Gesundheitsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009456</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009157</GUID>
+			<Text>Staatssekretär im Ernährungs- und Gesundheitsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009457</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009158</GUID>
+			<Text>Chefsekretärin im Ernährungs- und Gesundheitsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009458</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009159</GUID>
+			<Text>Praktikant im Ernährungs- und Gesundheitsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009459</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009160</GUID>
+			<Text>Lobbyist im Ernährungs- und Gesundheitsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009460</GUID>
+			<Text>Gibt überall seinen Senf dazu.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009161</GUID>
+			<Text>Der Verkehrsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009461</GUID>
+			<Text>Immer unterwegs.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009162</GUID>
+			<Text>Vize Verkehrsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009462</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009163</GUID>
+			<Text>Staatssekretär im Verkehrsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009463</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009164</GUID>
+			<Text>Chefsekretärin im Verkehrsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009464</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009165</GUID>
+			<Text>Praktikant im Verkehrsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009465</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009166</GUID>
+			<Text>Lobbyist im Verkehrsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009466</GUID>
+			<Text>Der Amigo des Ministers!</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009167</GUID>
+			<Text>Der Postminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009467</GUID>
+			<Text>Immer wie frisch gestempelt.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009168</GUID>
+			<Text>Vize Postminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009468</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009169</GUID>
+			<Text>Staatssekretär im Postministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009469</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009170</GUID>
+			<Text>Der Bauminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009470</GUID>
+			<Text>Immer under construction.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009171</GUID>
+			<Text>Vize Bauminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009471</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009172</GUID>
+			<Text>Staatssekretär im Bauministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009472</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009173</GUID>
+			<Text>Chefsekretärin im Bauministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009473</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009174</GUID>
+			<Text>Praktikant im Bauministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009474</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009175</GUID>
+			<Text>Lobbyist im Bauministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009475</GUID>
+			<Text>Warum wohl stets die Baukosten explodieren?</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009176</GUID>
+			<Text>Der Religionsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009476</GUID>
+			<Text>Immer in höherer Mission.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009177</GUID>
+			<Text>Vize Religionsminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009477</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009178</GUID>
+			<Text>Staatssekretär im Religionsministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009478</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009179</GUID>
+			<Text>Der Tourismusminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009479</GUID>
+			<Text>Immer mit viel Tommelwirbel.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009180</GUID>
+			<Text>Vize Tourismusminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009480</GUID>
+			<Text>Wartet nur auf seine Chance.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009181</GUID>
+			<Text>Staatssekretär im Tourismusministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009481</GUID>
+			<Text>Kostet nur Steuergelder.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009182</GUID>
+			<Text>Chefsekretärin im Tourismusministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009482</GUID>
+			<Text>Ohne sie läuft hier gar nichts, nicht mal die Kaffeemaschine.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009183</GUID>
+			<Text>Praktikant im Tourismusministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009483</GUID>
+			<Text>Billige Arbeitskraft!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009184</GUID>
+			<Text>Lobbyist im Tourismusministerium</Text>
+		</Text>
+		<Text>
+			<GUID>1957009484</GUID>
+			<Text>Bakschisch!</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009185</GUID>
+			<Text>Bodyguard (Präsidentenpalast)</Text>
+		</Text>
+		<Text>
+			<GUID>1957009485</GUID>
+			<Text>Zum Schutz der VIPs</Text>
+		</Text>
+		<Text>
+			<GUID>1957009186</GUID>
+			<Text>Hausmeister (Präsidentenpalast)</Text>
+		</Text>
+		<Text>
+			<GUID>1957009486</GUID>
+			<Text>Mädchen für alles im Regierungskomplex.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009187</GUID>
+			<Text>Personalchef</Text>
+		</Text>
+		<Text>
+			<GUID>1957009487</GUID>
+			<Text>Das wahre Machtzentrum: Hier wird geheuert und gefeuert!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009188</GUID>
+			<Text>Regierungssprecher</Text>
+		</Text>
+		<Text>
+			<GUID>1957009488</GUID>
+			<Text>Inoffizieller Titel: Propagandaminister</Text>
+		</Text>
+		<Text>
+			<GUID>1957009189</GUID>
+			<Text>Agent X-007</Text>
+		</Text>
+		<Text>
+			<GUID>1957009489</GUID>
+			<Text>Eine Legende der Schattenwelt: Gehasst von seinen Feinden, gefürchtet von seinen Vorgesetzten, umschwärmt von schönen Frauen.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009190</GUID>
+			<Text>Agent undercover</Text>
+		</Text>
+		<Text>
+			<GUID>1957009490</GUID>
+			<Text>Ein Dutzend falscher Pässe, über 100 Decknamen, doch niemand kennt seine wahre Identität.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009191</GUID>
+			<Text>Doppelagent ???</Text>
+		</Text>
+		<Text>
+			<GUID>1957009491</GUID>
+			<Text>Er lebt in einer Welt, in der er gar nicht existiert, und das gleich zwei Mal.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009192</GUID>
+			<Text>Konsul</Text>
+		</Text>
+		<Text>
+			<GUID>1957009492</GUID>
+			<Text>Neider sprechen von einem Traumjob: üppige Spesenabrechnungen, überschaubares Arbeitspensum, exotische Kulissen, ...</Text>
+		</Text>
+		<Text>
+			<GUID>1957009193</GUID>
+			<Text>Nationaler Soundtrack</Text>
+		</Text>
+		<Text>
+			<GUID>1957009493</GUID>
+			<Text>Das Repertoire der Staatskapelle erschöpft sich im Wesentlichen in Hymnen, Fanfaren und Tuschs.</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009100</GUID>
+			<Text>Präsident</Text>
+		</Text>
+		<Text>
+			<GUID>1957009400</GUID>
+			<Text>Mehr als nur der Frühstücksdirektor?</Text>
+		</Text>
+
+		<Text>
+			<GUID>1957009195</GUID>
+			<Text>Zeitungssonderartikel (Text)</Text>
+		</Text>
+		<Text>
+			<GUID>1957009196</GUID>
+			<Text>Neuer Präsidentenpalast fertiggestellt!</Text>
+		</Text>
+		<Text>
+			<GUID>1957009197</GUID>
+      			<Text>Nach einer Bauzeit von mehr als 10 Jahren wurde heute Mittag in [Area Current CityName] der neue Präsidentenpalast offiziell fertiggestellt.&lt;br /&gt;Ein halbes Dutzend schwerer Unfälle, zahlreiche Korruptionsskandale und ein Reihe von Rücktritten verantwortlicher Funktionsträger prägten die Bauphase. Insider munkeln, dass das ursprüngliche Budget von 10.000.000 $ um ein Vielfaches überschritten wurde.&lt;br /&gt;Mit Spannung wird auch der Ausgang eines Gerichtsverfahrens erwartet, in dem über eine Plagiatsklage der für den Königspalast verantwortlichen Architektengemeinschaft verhandelt wird.&lt;br /&gt;Doch ungeachtet aller Widrigkeiten ist für das kommende Wochenende eine zweitägige spektakuläre Eröffnungsfeier geplant, zu der alle hochrangigen Persönlichkeiten des Imperiums sowie zahlreiche Gäste aus dem Ausland erwartet werden.</Text>
+		</Text>
+		<Text>
+			<GUID>1957009198</GUID>
+			<Text>Zeitungssonderartikel (Bild)</Text>
+		</Text>
+
+	</ModOp>
+</ModOps>
+
+
+

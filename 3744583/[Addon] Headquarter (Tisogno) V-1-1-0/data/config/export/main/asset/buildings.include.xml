@@ -1,0 +1,1749 @@
+<ModOps>
+
+	<!-- Headquarter Menu -->
+ 	<ModOp Type="addNextSibling" GUID='132779'>
+        	<Asset>
+            		<Template>ConstructionCategory</Template>
+            		<Values>
+                		<Standard>
+                    			<GUID>1957009000</GUID>
+                    			<Name>Headquarter Menu</Name>
+                    			<IconFilename>data/modgraphics/icons/icon_hq_menu.png</IconFilename>
+                		</Standard>
+                		<ConstructionCategory>
+                    			<BuildingList>
+                        			<Item>
+                            				<Building>1957009001</Building>		<!-- President Palace -->
+                        			</Item>
+                        			<Item>
+                            				<Building>1957009011</Building>		<!-- Ministry main -->
+                        			</Item>
+                        			<Item>
+                            				<Building>1957009012</Building>		<!-- Personal Office -->
+                        			</Item>
+                        			<Item>
+                            				<Building>1957009013</Building>		<!-- Press Office -->
+                        			</Item>
+                        			<Item>
+                            				<Building>1957009014</Building>		<!-- Supreme Court -->
+                        			</Item>
+                        			<Item>
+                            				<Building>1957009016</Building>		<!-- Secret Service -->
+                        			</Item>
+                    			</BuildingList>
+                    			<CategoryDescription>1957009200</CategoryDescription>
+                		</ConstructionCategory>
+  				<Locked>
+    					<DLCDependency>410059</DLCDependency>			<!-- Seat of Power -->
+  				</Locked>
+            		</Values>
+        	</Asset>
+  	</ModOp>
+	<!-- Menus Investors, Culture after Palace --> 
+  	<ModOp Type="addNextSibling" GUID='500447,500116' Path="/Values/ConstructionCategory/BuildingList/Item[Building='7431' or (not(../Item/Building='7431'))][last()]">
+    		<Item>
+      			<Building>1957009000</Building>
+    		</Item>
+  	</ModOp>
+
+  	<ModOp GUID='2351' Type="addNextSibling">
+		<Asset>
+                      	<Template>Text</Template>
+                        <Values>
+                            	<Standard>
+                              		<GUID>1957009299</GUID>
+                              		<Name>President Palace</Name>
+					<IconFilename>data/modgraphics/icons/icon_hq_palace.png</IconFilename>
+                            	</Standard>
+                        </Values>
+              	</Asset>
+	</ModOp>
+	<ModOp GUID="6000017" Path="Values/ItemConfig/AllocationText/Headquarter/Text" Type="replace">
+		<Text>1957009299</Text>
+	</ModOp>
+
+	<!-- START Buildings -->
+	<!-- Presidential Palace -->
+  	<ModOp GUID='249947' Type="addNextSibling">
+    		<Asset>
+                     	<Template>HQ_Palace</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009001</GUID>
+    					<Name>HQ Palace</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_palace.png</IconFilename>
+    					<InfoDescription>1957009201</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<DestructionConfirmation>1</DestructionConfirmation>
+    					<!-- DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera -->
+    					<SecondPartyRelevant>0</SecondPartyRelevant>
+  				</Building>
+  				<Blocking/>
+  				<Locked>
+    					<DLCDependency>410059</DLCDependency>			<!-- Seat of Power -->
+  				</Locked>
+  				<Cost>
+    					<Costs>
+     						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>1000000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010196</Ingredient>
+        						<Amount>100</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010205</Ingredient>
+        						<Amount>200</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+        						<Amount>200</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+        						<Amount>100</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+        						<Amount>200</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010242</Ingredient>
+        						<Amount>60</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010204</Ingredient>
+        						<Amount>20</Amount>
+      						</Item>
+    					</Costs>
+                              		<InfluenceCostPoints>0</InfluenceCostPoints>
+  				</Cost>
+  				<Object>
+    					<Variations>
+      						<Item>
+        						<Filename>data/dlc04/graphics/buildings/special/palace/palace_main_building/palace_main_building.cfg</Filename>
+      						</Item>
+    					</Variations>
+  				</Object>
+  				<Maintenance>
+    					<Maintenances>
+      						<Item>
+        						<Product>1010017</Product>
+        						<Amount>21000</Amount>
+      						</Item>
+    					</Maintenances>
+    					<IncomeCategory>AdministrationBuildings</IncomeCategory>
+  				</Maintenance>
+  				<SoundEmitter>
+    					<ActiveSounds>
+      						<Item>
+        						<Sound>269540</Sound>
+      						</Item>
+      						<Item>
+        						<Sound>269542</Sound>
+      						</Item>
+    					</ActiveSounds>
+  				</SoundEmitter>
+  				<AmbientMoodProvider>
+    					<Murmur>Palace</Murmur>
+  				</AmbientMoodProvider>
+  				<Attackable>
+    					<MaximumHitPoints>8000</MaximumHitPoints>
+    					<SelfHealPerHealTick>6</SelfHealPerHealTick>
+  				</Attackable>
+                        	<ItemContainer>
+                              		<InitSocketItems>
+                                		<Item>
+                                  			<Item>1957009100</Item>		<!-- President -->	
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                                		<Item>
+                                  			<Item>1957009185</Item>		<!-- Bodyguard -->	
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                                		<Item>
+                                  			<Item>1957009186</Item>		<!-- Housekeeper -->		
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                              		</InitSocketItems>
+                       		</ItemContainer>
+                        	<InfluenceSource>
+                          		<InfluenceSource>Investors</InfluenceSource>
+                          		<InfluenceAmount>42</InfluenceAmount>
+                        	</InfluenceSource>
+  				<Culture>
+    					<Attractiveness>100</Attractiveness>
+       				</Culture>
+				<StreetActivation />
+  				<BusActivation>
+    					<BusNeed>0</BusNeed>
+    					<ShowInfolayerOnlyIfRelevant>1</ShowInfolayerOnlyIfRelevant>
+  				</BusActivation>
+  				<BuildingUnique>
+    					<Uniques>
+      						<Item>
+        						<UniqueType>Headquarter</UniqueType>		<!-- necessary, because BuildPermits don't work in Creative Mode -->
+        						<UniqueScope>Game</UniqueScope>
+      						</Item>
+    					</Uniques>
+  				</BuildingUnique>
+                		<!-- BuildPermit>
+                  			<VisibleWithoutPermits>1</VisibleWithoutPermits>
+                		</BuildPermit -->
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 6 "Land of Lions": additional building costs -->
+	<ModOp Type = "add" GUID = '1957009001' Path = "/Values/Cost/Costs" Condition="//Values[Standard/GUID='114329']">
+      		<Item>
+        		<Ingredient>118724</Ingredient>		<!-- ceramics -->
+        		<Amount>40</Amount>
+      		</Item>
+      		<Item>
+        		<Ingredient>114404</Ingredient>		<!-- tapestries -->
+        		<Amount>10</Amount>
+      		</Item>
+      		<Item>
+        		<Ingredient>117702</Ingredient>		<!-- paper -->
+        		<Amount>50</Amount>
+      		</Item>
+	</ModOp>
+
+	<!-- In case of DLC 8 "Tourist Season": President Palace bus connection as a luxury need for tourists -->
+	<Group Condition="//Values[Standard/GUID='601379']">
+	<ModOp GUID='1957009001' Path="/Values/BusActivation" Type="replace">
+  		<BusActivation>
+    			<BusNeed>1957009002</BusNeed>
+    			<ShowInfolayerOnlyIfRelevant>1</ShowInfolayerOnlyIfRelevant>
+  		</BusActivation>
+	</ModOp>
+  	<ModOp Type="addNextSibling" GUID="133573">
+            	<Asset>
+                     	<Template>Product</Template>
+                        <Values>
+                                <Standard>
+                                  	<GUID>1957009002</GUID>
+                                  	<Name>HQ Palace Busstop</Name>
+                                  	<IconFilename>data/modgraphics/icons/icon_hq_palace.png</IconFilename>
+    					<InfoDescription>1957009202</InfoDescription>
+                                </Standard>
+        			<Locked>
+          				<DefaultLockedState>0</DefaultLockedState>
+        			</Locked>
+                                <Product>
+                                  	<ProductColor>-11415604</ProductColor>
+                                  	<StorageLevel>Building</StorageLevel>
+                                  	<ProductCategory>134777</ProductCategory>
+                                  	<IsAbstract>1</IsAbstract>
+                                  	<IsBusNeed>1</IsBusNeed>
+                                  	<AssociatedRegion>Moderate</AssociatedRegion>
+                              		<MaxBusDistance>300</MaxBusDistance>
+                              		<MinBusDistance>30</MinBusDistance>
+                              		<BusDistancePenalty>1</BusDistancePenalty>
+    					<HappinessCategory>Hotspots</HappinessCategory>
+                               	</Product>
+                                <ExpeditionAttribute />
+                    	</Values>
+            	</Asset>
+  	</ModOp>
+    	<ModOp Type = "add" GUID = '601326' Path = "/Values/BusStop/ShowNeeds">
+        	<Item>
+            		<Need>1957009002</Need>
+        	</Item>
+    	</ModOp>
+	<!-- HQ Palace bus connection for tourists -->
+  	<ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs">
+      		<Item>
+        		<Product>1957009002</Product>
+        		<HappinessValue>5</HappinessValue>
+       			<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
+        		<MoneyValue>50</MoneyValue>
+        		<FullWeightPopulationCount>1000</FullWeightPopulationCount>
+        		<NoWeightPopulationCount>999</NoWeightPopulationCount>
+        		<OptionalInputPopulationUnlock>999</OptionalInputPopulationUnlock>
+                  	<AdditionalGlobalUnlockRequirement>
+                        	<Population>15000004</Population>
+                        	<MinPopulationAmount>10000</MinPopulationAmount>
+                      	</AdditionalGlobalUnlockRequirement>
+         		<RequiredToBeBuilding>601445</RequiredToBeBuilding>
+      			<RequiredBuildings>	
+        			<Item>
+          				<RequiredBuilding>601445</RequiredBuilding>		<!-- Vanilla Hotel -->
+      					<Region>Moderate</Region>
+        			</Item>
+      			</RequiredBuildings>
+      		</Item>
+  	</ModOp>
+	</Group>
+
+	<!-- Ministry main building -->
+  	<ModOp GUID='1010471' Type="addNextSibling">
+    		<Asset>
+      			<Template>CultureBuilding</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009011</GUID>
+    					<Name>HQ Ministry</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_ministry.png</IconFilename>
+    					<InfoDescription>1957009211</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11152</BuildingCategoryName>
+    					<BuildModeRandomRotation>90</BuildModeRandomRotation>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+    					<SecondPartyRelevant>0</SecondPartyRelevant>
+  				</Building>
+  				<Blocking/>
+  				<Cost>
+    					<Costs>
+     						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>750000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010196</Ingredient>
+        						<Amount>100</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010205</Ingredient>
+        						<Amount>120</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+        						<Amount>120</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+        						<Amount>80</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+        						<Amount>80</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010242</Ingredient>
+        						<Amount>40</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010204</Ingredient>
+        						<Amount>10</Amount>
+      						</Item>
+    					</Costs>
+                              		<InfluenceCostPoints>0</InfluenceCostPoints>
+  				</Cost>
+   				<Object>
+    					<Variations>
+      						<Item>
+        						<Filename>data/dlc04/graphics/buildings/special/localdpt/local_department.cfg</Filename>
+      						</Item>
+    					</Variations>
+  				</Object>
+  				<Selection>
+    					<OnSelection>
+      						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+      						<Values>
+        						<ActionList/>
+      						</Values>
+    					</OnSelection>
+  				</Selection>
+  				<SoundEmitter/>
+  				<Culture>
+                       			<CultureSpawnGroup>1</CultureSpawnGroup>
+    					<Sets>
+      						<Item>
+        						<Set>1957009031</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009032</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009033</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009034</Set>
+      						</Item>
+						<Item/>
+      						<Item>
+        						<Set>1957009036</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009037</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009038</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009039</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009040</Set>
+      						</Item>
+						<Item/>
+						<Item/>
+      						<Item>
+        						<Set>1957009041</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009042</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009043</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009044</Set>
+      						</Item>
+						<Item/>
+      						<Item>
+        						<Set>1957009046</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009047</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009048</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009049</Set>
+      						</Item>
+      						<Item>
+        						<Set>1957009050</Set>
+      						</Item>
+					</Sets>
+    					<UndiscoveredSet>1957009207</UndiscoveredSet>
+    					<ModuleListHeader>1957009208</ModuleListHeader>
+    					<OpenSetPages>1957009209</OpenSetPages>
+    					<CultureMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_main_museum.png</CultureMoodImage>
+  				</Culture>
+  				<ModuleOwner>
+    					<ModuleLimits>
+      						<Main>
+        						<Limit>84</Limit>
+      						</Main>
+      						<Connector>
+        						<Limit>500</Limit>
+      						</Connector>
+    					</ModuleLimits>
+    					<ConstructionOptions>
+      						<Item>
+        						<ModuleGUID>1957009021</ModuleGUID>	<!-- empty office -->
+      						</Item>
+      						<Item>
+        						<ModuleGUID>1957009020</ModuleGUID>	<!-- music hall -->
+      						</Item>
+      						<Item>
+        						<ModuleGUID>114435</ModuleGUID>		<!-- plaza -->
+      						</Item>
+      						<Item>
+        						<ModuleGUID>103119</ModuleGUID>		<!-- hedge gate -->
+      						</Item>
+      						<Item>
+        						<ModuleGUID>101510</ModuleGUID>		<!-- fence entrance -->
+      						</Item>
+      						<Item>
+        						<ModuleGUID>1957009027</ModuleGUID>	<!-- mosaic pavement -->
+      						</Item>
+      						<Item>
+        						<ModuleGUID>1957009028</ModuleGUID>	<!-- canal bridge -->		
+      						</Item>
+      						<Item>
+        						<ModuleGUID>1957009029</ModuleGUID>	<!-- piazza bench -->
+      						</Item>
+    					</ConstructionOptions>
+  				</ModuleOwner>
+  				<Maintenance>
+    					<Maintenances>
+      						<Item>
+        						<Product>1010017</Product>
+        						<Amount>21000</Amount>
+      						</Item>
+    					</Maintenances>
+    					<IncomeCategory>AdministrationBuildings</IncomeCategory>
+  				</Maintenance>
+  				<Attackable>
+    					<MaximumHitPoints>5000</MaximumHitPoints>
+    					<SelfHealPerHealTick>6</SelfHealPerHealTick>
+  				</Attackable>
+  				<IncidentInfectable>
+    					<Infectable>
+      						<Illness>
+        						<Escalated>0</Escalated>
+      						</Illness>
+    					</Infectable>
+    					<IncidentInfectionChanceFactors>
+      						<Fire>
+        						<BaseChance>2</BaseChance>
+        						<DensityDistance>20</DensityDistance>
+      						</Fire>
+      						<Riot>
+        						<BaseChance>4</BaseChance>
+        						<HappinessThreshold>20</HappinessThreshold>
+      						</Riot>
+      						<Explosion>
+        						<BaseChance>2</BaseChance>
+      						</Explosion>
+    					</IncidentInfectionChanceFactors>
+  				</IncidentInfectable>
+                        	<InfluenceSource>
+                          		<InfluenceSource>Investors</InfluenceSource>
+                          		<InfluenceAmount>21</InfluenceAmount>
+                        	</InfluenceSource>
+  				<BusActivation>
+    					<BusNeed>0</BusNeed>
+                 			<ShowInfolayerOnlyIfRelevant>1</ShowInfolayerOnlyIfRelevant>
+   				</BusActivation>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 6 "Land of Lions": additional building costs -->
+	<ModOp Type = "add" GUID = '1957009011' Path = "/Values/Cost/Costs" Condition="//Values[Standard/GUID='114329']">
+      		<Item>
+        		<Ingredient>118724</Ingredient>		<!-- ceramics -->
+        		<Amount>20</Amount>
+      		</Item>
+      		<Item>
+        		<Ingredient>114404</Ingredient>		<!-- tapestries -->
+        		<Amount>5</Amount>
+      		</Item>
+      		<Item>
+        		<Ingredient>117702</Ingredient>		<!-- paper -->
+        		<Amount>30</Amount>
+      		</Item>
+ 	</ModOp>
+
+	<!-- Staff Office -->
+  	<ModOp GUID='100415' Type="addNextSibling">
+    		<Asset>
+			<!-- Template>Guildhouse</Template -->
+			<BaseAssetGUID>1010516</BaseAssetGUID>
+			<Values>
+  				<Standard>
+    					<GUID>1957009012</GUID>
+    					<Name>Staff Office</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_staffoffice.png</IconFilename>
+    					<InfoDescription>1957009212</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11152</BuildingCategoryName>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+          				<AllowChangeVariation>1</AllowChangeVariation>
+                                  	<BuildModeStartVariation>0</BuildModeStartVariation>
+    					<SecondPartyRelevant>0</SecondPartyRelevant>
+  				</Building>
+  				<Blocking>
+					<IsAllowedWithinRestrictedAABBBuildability>0</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+  				<Cost>
+    					<Costs>
+      						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>50000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010196</Ingredient>
+        						<Amount>40</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010205</Ingredient>
+        						<Amount>50</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+        						<Amount>25</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+        						<Amount>20</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+        						<Amount>5</Amount>
+      						</Item>
+    					</Costs>
+                              		<InfluenceCostPoints>0</InfluenceCostPoints>
+  				</Cost>
+  				<Object>
+    					<Variations>
+      						<Item>
+                                      			<Filename>data/modgraphics/hq_buildings/3rd_party_02_admin_center.cfg</Filename>
+       						</Item>
+    					</Variations>
+					<Skins>
+						<SkinList></SkinList>				<!-- to avoid skin display -->
+					</Skins>
+  				</Object>
+  				<Maintenance>
+    					<Maintenances>
+      						<Item>
+        						<Product>1010017</Product>
+        						<Amount>7000</Amount>
+      						</Item>
+    					</Maintenances>
+    					<IncomeCategory>AdministrationBuildings</IncomeCategory>
+  				</Maintenance>
+                        	<ItemContainer>
+                          		<SocketCount>1</SocketCount>	
+                          		<SocketAllocation>Headquarter</SocketAllocation>
+                          		<SocketScope>Area</SocketScope>
+					<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>  
+                              		<InitSocketItems>
+                                		<Item>
+                                  			<Item>1957009187</Item>			<!-- Personal Director -->
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                              		</InitSocketItems>
+                       		</ItemContainer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 9 "HighLife": skyline tower as object variation -->
+	<Group Condition="//Values[Standard/GUID='406']">
+	<ModOp Type="addPrevSibling" GUID='1957009012' Path="/Values/Object/Variations/Item[position()=1]">
+      		<Item>
+        		<Filename>data/dlc09/graphics/buildings/public/monument_05/monument_05_04.cfg</Filename>
+      		</Item>
+	</ModOp>
+	<!-- In case of DLC 11 "Empire of the Skies": press skyscraper as object variation -->
+	<ModOp Type="addPrevSibling" GUID='1957009012' Path="/Values/Object/Variations/Item[position()=1]" Condition="//Values[Standard/GUID='963']">
+      		<Item>
+        		<Filename>data/dlc11/scenario03/graphics/buildings/storytelling/newspaperhq/dlc11_scenario03_newspaperhq.cfg</Filename>
+      		</Item>
+	</ModOp>
+	<ModOp Type="add" GUID='1957009012' Path="/Values/Building">
+    		<DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+	</ModOp>
+	</Group>
+
+	<!-- Press Office -->
+  	<ModOp GUID='100415' Type="addNextSibling">
+    		<Asset>
+			<BaseAssetGUID>1010516</BaseAssetGUID>
+			<Values>
+  				<Standard>
+    					<GUID>1957009013</GUID>
+    					<Name>Press Office</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_pressoffice.png</IconFilename>
+    					<InfoDescription>1957009213</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11152</BuildingCategoryName>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+          				<AllowChangeVariation>1</AllowChangeVariation>
+                                  	<BuildModeStartVariation>0</BuildModeStartVariation>
+    					<SecondPartyRelevant>0</SecondPartyRelevant>
+  				</Building>
+  				<Blocking />
+  				<Cost>
+    					<Costs>
+      						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>100000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010196</Ingredient>
+        						<Amount>50</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010205</Ingredient>
+        						<Amount>80</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+        						<Amount>20</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+        						<Amount>30</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+        						<Amount>5</Amount>
+      						</Item>
+    					</Costs>
+                              		<InfluenceCostPoints>0</InfluenceCostPoints>
+  				</Cost>
+  				<Object>
+    					<Variations>
+                                   		<Item>
+                                      			<Filename>data/graphics/buildings/public/cultural_02/cultural_02_module_01/cultural_02_module_01.cfg</Filename>		
+                                    		</Item>
+    					</Variations>
+					<Skins>
+						<SkinList></SkinList>	<!-- to avoid skin display -->
+					</Skins>
+  				</Object>
+  				<Maintenance>
+    					<Maintenances>
+      						<Item>
+        						<Product>1010017</Product>
+        						<Amount>7000</Amount>
+      						</Item>
+    					</Maintenances>
+    					<IncomeCategory>AdministrationBuildings</IncomeCategory>
+  				</Maintenance>
+                        	<ItemContainer>
+                          		<SocketCount>1</SocketCount>	
+                          		<SocketAllocation>Headquarter</SocketAllocation>
+                          		<SocketScope>Area</SocketScope>
+					<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>  
+                              		<InitSocketItems>
+                                		<Item>
+                                  			<Item>1957009188</Item>			<!-- Government Speaker -->
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                              		</InitSocketItems>
+                       		</ItemContainer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 2 "Botanica": botanical garden module as object variation -->
+	<ModOp Type="add" GUID='1957009013' Path="/Values/Object/Variations" Condition="//Values[Standard/GUID='110935']">
+		<Item>
+			<Filename>data/dlc02/graphics/buildings/cultural/cultural_03/cultural_03_module_01/cultural_03_module_01.cfg</Filename>
+		</Item>
+	</ModOp>
+	<!-- In case of DLC 6 "Land of Lions": radio tower as object variation -->
+	<ModOp Type="addPrevSibling" GUID='1957009013' Path="/Values/Object/Variations/Item[position()=1]" Condition="//Values[Standard/GUID='118736']">
+      		<Item>
+        		<Filename>data/dlc06/graphics/buildings/public/service_colony02_04/service_colony02_04.cfg</Filename>
+      		</Item>
+	</ModOp>
+
+	<!-- Supreme Court -->
+   	<ModOp Type="addNextSibling" GUID="1010362">  
+            	<Asset>
+                       	<Template>PublicServiceBuilding</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009014</GUID>
+    					<Name>Supreme Court</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_court.png</IconFilename>
+    					<InfoDescription>1957009214</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11152</BuildingCategoryName>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+    					<SecondPartyRelevant>0</SecondPartyRelevant>
+  				</Building>
+                                <Blocking>
+					<IsAllowedWithinRestrictedAABBBuildability>0</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+  				<Cost>
+    					<Costs>
+      						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>100000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010196</Ingredient>
+        						<Amount>50</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010205</Ingredient>
+        						<Amount>80</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+        						<Amount>20</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+        						<Amount>30</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+        						<Amount>5</Amount>
+      						</Item>
+    					</Costs>
+  				</Cost>
+  				<Object>
+    					<Variations>
+                                    		<Item>
+                                      			<Filename>data/graphics/campaign/buildings/courthouse/courthouse_04.cfg</Filename>
+                                    		</Item>
+    					</Variations>
+					<Skins>
+						<SkinList></SkinList>	
+					</Skins>
+  				</Object>
+  				<Maintenance>
+    					<Maintenances>
+      						<Item>
+        						<Product>1010017</Product>
+        						<Amount>14000</Amount>
+      						</Item>
+    					</Maintenances>
+    					<IncomeCategory>PublicServiceBuildings</IncomeCategory>
+  				</Maintenance>
+                                <Selection>
+                                	<GUIType>PublicService</GUIType>
+                                  	<Colors>
+                                    		<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+                                  	</Colors>
+                                </Selection>
+  				<SoundEmitter>
+    					<ActiveSounds>
+      						<Item>
+        						<Sound>200849</Sound>
+      						</Item>
+    					</ActiveSounds>
+  				</SoundEmitter>
+  				<AmbientMoodProvider>
+    					<AmbientMood>ResidenceTier5</AmbientMood>
+  				</AmbientMoodProvider>
+  				<FeedbackController>
+    					<NightBehavior>HideAll</NightBehavior>
+  				</FeedbackController>
+                            	<PublicService>
+                                	<FullSatisfactionDistance>1</FullSatisfactionDistance>		<!-- don't need more, because service is provided by buff -->
+                                	<NoSatisfactionDistance>1</NoSatisfactionDistance>
+                                	<PublicServiceOutputs>
+                                    		<Item>
+                                      			<Product>1957009015</Product>
+                                    		</Item>
+                                	</PublicServiceOutputs>
+                            	</PublicService>
+  				<Attackable>
+    					<MaximumHitPoints>5000</MaximumHitPoints>
+    					<SelfHealPerHealTick>4</SelfHealPerHealTick>
+  				</Attackable>
+  				<IncidentInfectable />
+  				<Pausable/>
+  				<Culture/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Justice as abstract product -->
+  	<ModOp Type="addNextSibling" GUID="1010353">
+            	<Asset>
+                     	<Template>Product</Template>
+                        <Values>
+                                <Standard>
+                                  	<GUID>1957009015</GUID>
+                                  	<Name>Justice</Name>
+                                  	<IconFilename>data/modgraphics/icons/icon_justice.png</IconFilename>
+    					<InfoDescription>1957009215</InfoDescription>
+                                 </Standard>
+                    		<Locked>
+                      			<DefaultLockedState>0</DefaultLockedState>
+                    		</Locked>
+                                <Product>
+                                  	<ProductColor>-11415604</ProductColor>
+                                  	<StorageLevel>Building</StorageLevel>
+                                  	<ProductCategory>11709</ProductCategory>
+                                  	<IsAbstract>1</IsAbstract>
+                                  	<IsBusNeed>0</IsBusNeed>
+                                  	<AssociatedRegion>Moderate;Colony01;Africa;Arctic</AssociatedRegion>
+                                </Product>
+                                <ExpeditionAttribute />
+                    	</Values>
+            	</Asset>
+  	</ModOp>
+	<!-- Justice as public happiness need for
+		- all residents OW,NW,Enbesa
+		- Pescetarians (Jakob's Mod) 		- GUID 601382
+		- Immigrants   (Muggenstuermer's Mod)	- GUID 601381
+	-->
+  	<ModOp Type="add" GUID="15000000,15000001,15000002,15000003,15000004,15000005,15000006,5403,118745,114329,114330,601381,601382,1337502801" Path="/Values/PopulationLevel7/PopulationInputs" AllowNoMatch="1">
+    		<Item>
+        		<Product>1957009015</Product>
+        		<HappinessValue>7</HappinessValue>
+       			<IsOptionalHappinessValue>1</IsOptionalHappinessValue>
+        		<MoneyValue>42</MoneyValue>
+        		<FullWeightPopulationCount>100</FullWeightPopulationCount>
+        		<NoWeightPopulationCount>99</NoWeightPopulationCount>
+                  	<AdditionalGlobalUnlockRequirement>
+                        	<Population>15000004</Population>
+                        	<MinPopulationAmount>10000</MinPopulationAmount>
+                      	</AdditionalGlobalUnlockRequirement>
+        		<IsConsideredByAI>0</IsConsideredByAI>
+    		</Item>
+  	</ModOp>
+	<!-- In case of DLC 3 "The Passage": add arctic residencts for justice as a heat need -->
+  	<ModOp Type="add" GUID="112642,112643" Path="/Values/PopulationLevel7/PopulationInputs" Condition="//Values[Standard/GUID='112642']">
+    		<Item>
+        		<Product>1957009015</Product>
+        		<HeatValue>7</HeatValue>
+        		<FullWeightPopulationCount>100</FullWeightPopulationCount>
+        		<NoWeightPopulationCount>99</NoWeightPopulationCount>
+                  	<AdditionalGlobalUnlockRequirement>
+                        	<Population>15000004</Population>
+                        	<MinPopulationAmount>10000</MinPopulationAmount>
+                      	</AdditionalGlobalUnlockRequirement>
+        		<IsConsideredByAI>0</IsConsideredByAI>
+    		</Item>
+ 	</ModOp>
+
+	<!-- Secret Service -->
+   	<ModOp Type="addNextSibling" GUID="100415">  
+            	<Asset>
+                       	<Template>HQ_UnderCover_Building</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009016</GUID>
+    					<Name>Secret Service</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_secret_service.png</IconFilename>
+    					<InfoDescription>1957009216</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<BuildingCategoryName>1957009203</BuildingCategoryName>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+    					<SecondPartyRelevant>0</SecondPartyRelevant>
+  				</Building>
+                                <Blocking/>
+  				<Cost>
+    					<Costs>
+      						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>200000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010196</Ingredient>
+        						<Amount>10</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010205</Ingredient>
+        						<Amount>20</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+        						<Amount>15</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+        						<Amount>5</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+        						<Amount>25</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010222</Ingredient>
+        						<Amount>10</Amount>
+      						</Item>
+    					</Costs>
+  				</Cost>
+  				<Object>
+    					<Variations>
+                        			<Item>
+                            				<Filename>data/graphics/buildings/public/logistic_05/logistic_05.cfg</Filename>
+                        			</Item>
+    					</Variations>
+  				</Object>
+  				<Maintenance>
+    					<Maintenances>
+      						<Item>
+        						<Product>1010017</Product>
+        						<Amount>42000</Amount>
+      						</Item>
+    					</Maintenances>
+    					<IncomeCategory>CityInstitutionBuildings</IncomeCategory>
+  				</Maintenance>
+                                <Selection />
+  				<FeedbackController>
+    					<NightBehavior>HideAll</NightBehavior>
+  				</FeedbackController>
+                        	<ItemContainer>
+                          		<SocketCount>3</SocketCount>	
+                          		<SocketAllocation>Headquarter</SocketAllocation>
+                          		<SocketScope>Session</SocketScope>
+					<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>  
+                              		<InitSocketItems>
+                                		<Item>
+                                  			<Item>1957009189</Item>			<!-- agent 007 -->
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                                		<Item>
+                                  			<Item>1957009190</Item>			<!-- agent undercover -->
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                                		<Item>
+                                  			<Item>1957009191</Item>			<!-- double agent -->
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                              		</InitSocketItems>
+                       		</ItemContainer>
+               			<Slot>
+                    			<SlotType>Clay</SlotType>
+                		</Slot>
+  				<Attackable>
+    					<MaximumHitPoints>10000</MaximumHitPoints>
+    					<SelfHealPerHealTick>8</SelfHealPerHealTick>
+  				</Attackable>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Consulate NW -->
+  	<ModOp GUID='100415' Type="addNextSibling">
+    		<Asset>
+			<BaseAssetGUID>1010516</BaseAssetGUID>
+			<Values>
+  				<Standard>
+    					<GUID>1957009017</GUID>
+    					<Name>Consulate NW</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_consulate.png</IconFilename>
+    					<InfoDescription>1957009217</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11152</BuildingCategoryName>
+    					<AssociatedRegions>Colony01</AssociatedRegions>
+          				<AllowChangeVariation>1</AllowChangeVariation>
+                                  	<BuildModeStartVariation>0</BuildModeStartVariation>
+    					<SecondPartyRelevant>0</SecondPartyRelevant>
+  				</Building>
+                                <Blocking>
+					<IsAllowedWithinRestrictedAABBBuildability>0</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+   				<Cost>
+    					<Costs>
+      						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>30000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010196</Ingredient>
+        						<Amount>20</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010205</Ingredient>
+        						<Amount>30</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+        						<Amount>5</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+        						<Amount>10</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+      						</Item>
+    					</Costs>
+                              		<InfluenceCostPoints>1</InfluenceCostPoints>
+  				</Cost>
+  				<Object>
+    					<Variations>
+                                   		<Item>
+                                      			<Filename>data/eoy21/graphics/buildings/storytelling/village/library/library_01.cfg</Filename>
+                                    		</Item>
+    					</Variations>
+					<Skins>
+						<SkinList></SkinList>	<!-- to avoid skin display -->
+					</Skins>
+  				</Object>
+  				<Maintenance>
+    					<Maintenances>
+      						<Item>
+        						<Product>1010017</Product>
+        						<Amount>7000</Amount>
+      						</Item>
+    					</Maintenances>
+    					<IncomeCategory>AdministrationBuildings</IncomeCategory>
+  				</Maintenance>
+                        	<ItemContainer>
+                          		<SocketCount>1</SocketCount>	
+                          		<SocketAllocation>RadiusBuilding;Lodge</SocketAllocation>	<!-- trick to allow only consuls entering -->
+                          		<SocketScope>Radius</SocketScope>
+                      			<SocketScopeRadius>10</SocketScopeRadius>			
+					<SocketScopeRadiusOverlapCategory>Lodge</SocketScopeRadiusOverlapCategory>  
+                              		<InitSocketItems>
+                                		<Item>
+                                  			<Item>1957009192</Item>				<!-- consul -->
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                              		</InitSocketItems>
+                       		</ItemContainer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Menus Obreras, City after townhall --> 
+  	<ModOp Type="addNextSibling" GUID='25000194,500137' Path="/Values/ConstructionCategory/BuildingList/Item[Building='101285' or (not(../Item/Building='101285'))][last()]">
+    		<Item>
+      			<Building>1957009017</Building>
+    		</Item>
+  	</ModOp>
+
+	<!-- In case of Mod "Enbesa Tourism" (Lion053): include Enbesa -->
+	<!-- Consulate Enbesa -->
+	<Group Condition="//Values[Standard/GUID='2100119926']">
+  	<ModOp GUID='100415' Type="addNextSibling">
+    		<Asset>
+			<BaseAssetGUID>1010516</BaseAssetGUID>
+			<Values>
+  				<Standard>
+    					<GUID>1957009018</GUID>
+    					<Name>Consulate Enbesa</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_consulate.png</IconFilename>
+    					<InfoDescription>1957009218</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11152</BuildingCategoryName>
+    					<AssociatedRegions>Africa</AssociatedRegions>
+    					<SecondPartyRelevant>0</SecondPartyRelevant>
+  				</Building>
+                                <Blocking>
+					<IsAllowedWithinRestrictedAABBBuildability>0</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+   				<Cost>
+    					<Costs>
+      						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>35000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>114356</Ingredient>
+        						<Amount>25</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>114402</Ingredient>
+        						<Amount>35</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+        						<Amount>15</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+      						</Item>
+    					</Costs>
+                              		<InfluenceCostPoints>1</InfluenceCostPoints>
+  				</Cost>
+  				<Object>
+    					<Variations>
+      						<Item>
+                      					<Filename>data/modgraphics/hq_buildings/3rd_party_colony_02_side_cross.cfg</Filename>
+      						</Item>
+    					</Variations>
+					<Skins>
+						<SkinList></SkinList>	<!-- to avoid skin display -->
+					</Skins>
+  				</Object>
+  				<Maintenance>
+    					<Maintenances>
+      						<Item>
+        						<Product>1010017</Product>
+        						<Amount>7000</Amount>
+      						</Item>
+    					</Maintenances>
+    					<IncomeCategory>AdministrationBuildings</IncomeCategory>
+  				</Maintenance>
+                        	<ItemContainer>
+                          		<SocketCount>1</SocketCount>	
+                          		<SocketAllocation>RadiusBuilding;Lodge</SocketAllocation>	<!-- trick to allow only consuls entering -->
+                          		<SocketScope>Radius</SocketScope>
+                      			<SocketScopeRadius>10</SocketScopeRadius>			
+					<SocketScopeRadiusOverlapCategory>Lodge</SocketScopeRadiusOverlapCategory>  
+                              		<InitSocketItems>
+                                		<Item>
+                                  			<Item>1957009192</Item>				<!-- consul -->
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                              		</InitSocketItems>
+                       		</ItemContainer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- Menus Elders, City after townhall --> 
+  	<ModOp Type="addNextSibling" GUID='114554,119012' Path="/Values/ConstructionCategory/BuildingList/Item[Building='117859' or (not(../Item/Building='117859'))][last()]">
+    		<Item>
+      			<Building>1957009018</Building>
+    		</Item>
+  	</ModOp>
+  	<ModOp Type="add" GUID="368,190136" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    		<Item>
+      			<GUID>1957009018</GUID>
+    		</Item>
+  	</ModOp>
+	</Group>
+
+	<!-- Music Hall -->
+  	<ModOp GUID='113452' Type="addNextSibling">
+    		<Asset>
+      			<Template>CultureModule</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009020</GUID>
+    					<Name>HQ Music Hall</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_music_hall.png</IconFilename>
+    					<InfoDescription>1957009220</InfoDescription>
+  				</Standard>
+  				<Building>
+    					<PickingAsset>1957009020</PickingAsset>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+          				<AllowChangeVariation>1</AllowChangeVariation>
+                                  	<BuildModeStartVariation>0</BuildModeStartVariation>
+  				</Building>
+  				<Blocking />
+  				<Locked />
+  				<Cost>
+    					<Costs>
+      						<Item>
+        						<Ingredient>1010017</Ingredient>
+        						<Amount>75000</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010196</Ingredient>
+        						<Amount>30</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010205</Ingredient>
+        						<Amount>30</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010218</Ingredient>
+        						<Amount>20</Amount>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010207</Ingredient>
+      						</Item>
+      						<Item>
+        						<Ingredient>1010202</Ingredient>
+        						<Amount>5</Amount>
+      						</Item>
+    					</Costs>
+  				</Cost>
+  				<Object>
+    					<Variations>
+      						<Item>
+        						<Filename>data/graphics/buildings/ornamental/monument_01_system/monument_01_module_01.cfg</Filename>
+      						</Item>
+    					</Variations>
+  				</Object>
+  				<Mesh>
+    					<ChangeGUIDEffectDuration>0</ChangeGUIDEffectDuration>
+  				</Mesh>
+  				<Selection>
+    					<OnSelection>
+      						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+      						<Values>
+        						<ActionList/>
+      						</Values>
+    					</OnSelection>
+    					<Colors>
+      						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+    					</Colors>
+  				</Selection>
+  				<FeedbackController>
+    					<NightBehavior>HideNone</NightBehavior>
+  				</FeedbackController>
+  				<BuildingModule>
+    					<ModuleType>Pavilion</ModuleType>
+    					<ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_empty_music_pavilion.png</ModuleMoodImage>
+  				</BuildingModule>
+  				<ItemContainer>
+    					<SocketAllocation>Pavilion</SocketAllocation>
+    					<SocketScope>Area</SocketScope>
+                              		<InitSocketItems>
+                                		<Item>
+                                  			<Item>1957009193</Item>			<!-- national soundtrack -->
+                                  			<StackSize>1</StackSize>
+                                		</Item>
+                              		</InitSocketItems>
+    					<!-- SocketSound>203866</SocketSound>
+    					<UnsocketSound>9818755</UnsocketSound -->
+  				</ItemContainer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of DLC 1 "Sunken Treasures": special museum modules as object variation -->
+	<ModOp Type="addPrevSibling" GUID='1957009020' Path="/Values/Object/Variations/Item[position()=1]" Condition="//Values[Standard/GUID='410040']">
+      		<Item>
+        		<Filename>data/dlc01/graphics/buildings/public/cultural/cultural_02/cultural_02_module_10/cultural_02_module_10.cfg</Filename>
+      		</Item>
+      		<Item>
+        		<Filename>data/dlc01/graphics/buildings/public/cultural/cultural_02/cultural_02_module_10/cultural_02_module_10_no_fireworks.cfg</Filename>
+      		</Item>
+	</ModOp>
+
+	<!-- Empty Office -->
+  	<ModOp GUID='100454' Type="addNextSibling">
+    		<Asset>
+      			<Template>CultureModule</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009021</GUID>
+    					<Name>Empty Office</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_empty.png</IconFilename>
+    					<InfoDescription>1957009221</InfoDescription>
+  				</Standard>
+  				<Building>
+					<BuildingCategoryName>1957009210</BuildingCategoryName>
+					<PickingAsset>1957009021</PickingAsset>
+					<BuildModeRandomRotation>180</BuildModeRandomRotation>
+					<AssociatedRegions>Moderate</AssociatedRegions>
+          				<AllowChangeVariation>1</AllowChangeVariation>
+                                  	<BuildModeStartVariation>0</BuildModeStartVariation>
+				</Building>
+  				<Blocking>
+					<IsAllowedWithinRestrictedAABBBuildability>1</IsAllowedWithinRestrictedAABBBuildability>
+					<BlocksBuilding>0</BlocksBuilding>
+				</Blocking>
+  				<Cost>
+    					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50000</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>10</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010205</Ingredient>
+							<Amount>20</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010218</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010207</Ingredient>
+							<Amount>15</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010202</Ingredient>
+							<Amount>5</Amount>
+						</Item>
+    					</Costs>
+    					<InfluenceCostType>MuseumModule</InfluenceCostType>
+                              		<InfluenceCostPoints>0</InfluenceCostPoints>
+  				</Cost>
+  				<Object>
+    					<Variations>
+      						<Item>
+        						<Filename>data/dlc04/graphics/buildings/special/palace/palace_hall_01/palace_hall_01.cfg</Filename>
+      						</Item>
+      						<Item>
+        						<Filename>data/dlc04/graphics/buildings/special/palace/palace_hall_01/palace_hall_01_v2.cfg</Filename>
+      						</Item>
+      						<Item>
+        						<Filename>data/dlc04/graphics/buildings/special/palace/palace_hall_01/palace_hall_01_rotated.cfg</Filename>
+      						</Item>
+      						<Item>
+        						<Filename>data/dlc04/graphics/buildings/special/palace/palace_hall_01/palace_hall_01_v2_rotated.cfg</Filename>
+      						</Item>
+    					</Variations>
+    					<Skins>
+      						<DefaultSkinName>1957009019</DefaultSkinName>
+      						<DefaultSkinDescription>1957009221</DefaultSkinDescription>
+      						<DefaultSkinCategoryName>1957009010</DefaultSkinCategoryName>
+                           			<OverrideDefaultIcon>data/ui/2kimages/main/3dicons/ornaments/palace_module/icon_ornament_palace_hall_01.png</OverrideDefaultIcon>
+      						<SkinList>
+        						<Item>
+          							<SkinAssetGuid>1957009022</SkinAssetGuid>
+        						</Item>
+        						<Item>
+          							<SkinAssetGuid>1957009023</SkinAssetGuid>
+        						</Item>
+        						<Item>
+          							<SkinAssetGuid>1957009024</SkinAssetGuid>
+        						</Item>
+        						<Item>
+          							<SkinAssetGuid>1957009025</SkinAssetGuid>
+        						</Item>
+        						<Item>
+          							<SkinAssetGuid>1957009026</SkinAssetGuid>
+        						</Item>
+      						</SkinList>
+    					</Skins>
+  				</Object>
+  				<Mesh/>
+           			<Selection>
+   					<OnSelection>
+      						<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+      						<Values>
+        						<ActionList/>
+      						</Values>
+    					</OnSelection>
+    					<Colors>
+      						<WeakSelectionColorType>NoColor</WeakSelectionColorType>
+    					</Colors>
+           			</Selection>
+  				<Locked>
+    					<DefaultLockedState>0</DefaultLockedState>
+  				</Locked>
+  				<Constructable/>
+  				<BuildingModule>
+    					<PlazaSize>20</PlazaSize>
+    					<ModuleMoodImage>data/ui/2kimages/main/assets/cultural_building_mood_bg/bg_empty_museum.png</ModuleMoodImage>
+  				</BuildingModule>
+  				<ItemContainer>
+					<SocketCount>1</SocketCount>			
+    					<SocketAllocation>Headquarter</SocketAllocation>
+					<SocketScope>ModuleOwner</SocketScope>
+  				</ItemContainer>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp Type="addNextSibling" GUID="7338">
+    		<Asset>
+      			<Template>Skin</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009022</GUID>
+          				<Name>Ministry Module Skin Corner</Name>
+    					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_module/icon_ornament_palace_hall_02.png</IconFilename>
+        			</Standard>
+        			<Skin>
+          				<SkinName>1957009022</SkinName>
+          				<SkinDescription>1957009222</SkinDescription>
+          				<SkinCategoryDescription>1957009010</SkinCategoryDescription>
+          				<SkinVariations>
+            					<Item>
+        						<FileName>data/dlc04/graphics/buildings/special/palace/palace_hall_02/palace_hall_02.cfg</FileName>
+            					</Item>
+          				</SkinVariations>
+        			</Skin>
+        			<Text />
+        			<Locked>
+          				<DefaultLockedState>0</DefaultLockedState>
+        			</Locked>
+      			</Values>
+    		</Asset>
+    		<Asset>
+      			<Template>Skin</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009023</GUID>
+          				<Name>Ministry Module Skin End</Name>
+    					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_module/icon_ornament_palace_end_building.png</IconFilename>
+        			</Standard>
+        			<Skin>
+          				<SkinName>1957009023</SkinName>
+          				<SkinDescription>1957009223</SkinDescription>
+          				<SkinCategoryDescription>1957009010</SkinCategoryDescription>
+          				<SkinVariations>
+            					<Item>
+        						<FileName>data/dlc04/graphics/buildings/special/palace/palace_end_building/palace_end_building.cfg</FileName>
+            					</Item>
+          				</SkinVariations>
+        			</Skin>
+        			<Text />
+        			<Locked>
+          				<DefaultLockedState>0</DefaultLockedState>
+        			</Locked>
+      			</Values>
+    		</Asset>
+    		<Asset>
+      			<Template>Skin</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009024</GUID>
+          				<Name>Ministry Module Skin Cross</Name>
+    					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_module/icon_ornament_palace_corner.png</IconFilename>
+        			</Standard>
+        			<Skin>
+          				<SkinName>1957009024</SkinName>
+          				<SkinDescription>1957009224</SkinDescription>
+          				<SkinCategoryDescription>1957009010</SkinCategoryDescription>
+          				<SkinVariations>
+            					<Item>
+        						<FileName>data/dlc04/graphics/buildings/special/palace/palace_corner/palace_corner.cfg</FileName>
+            					</Item>
+          				</SkinVariations>
+        			</Skin>
+        			<Text />
+        			<Locked>
+          				<DefaultLockedState>0</DefaultLockedState>
+        			</Locked>
+      			</Values>
+    		</Asset>
+    		<Asset>
+      			<Template>Skin</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009025</GUID>
+          				<Name>Ministry Module Skin T-Piece</Name>
+    					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_module/icon_ornament_palace_tcrossing.png</IconFilename>
+        			</Standard>
+        			<Skin>
+          				<SkinName>1957009025</SkinName>
+          				<SkinDescription>1957009225</SkinDescription>
+          				<SkinCategoryDescription>1957009010</SkinCategoryDescription>
+          				<SkinVariations>
+            					<Item>
+        						<FileName>data/dlc04/graphics/buildings/special/palace/palace_t_crossing/palace_tcrossing.cfg</FileName>
+            					</Item>
+          				</SkinVariations>
+        			</Skin>
+        			<Text />
+        			<Locked>
+          				<DefaultLockedState>0</DefaultLockedState>
+        			</Locked>
+      			</Values>
+    		</Asset>
+		<Asset>
+      			<Template>Skin</Template>
+			<Values>
+				<Standard>
+					<GUID>1957009026</GUID>
+					<Name>Ministry Module Skin Gateway</Name>
+    					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/palace_module/icon_ornament_palace_arch_gate.png</IconFilename>
+				</Standard>
+				<Blocking>
+					<HasBuildableTilesBelowArch>1</HasBuildableTilesBelowArch>
+					<ArchHeight>2.15</ArchHeight>
+				</Blocking>
+        			<Skin>
+          				<SkinName>1957009026</SkinName>
+          				<SkinDescription>1957009226</SkinDescription>
+          				<SkinCategoryDescription>1957009010</SkinCategoryDescription>
+          				<SkinVariations>
+            					<Item>
+        						<FileName>data/dlc04/graphics/buildings/special/palace/palace_arch_gate/palace_arch_gate.cfg</FileName>
+            					</Item>
+          				</SkinVariations>
+        			</Skin>
+        			<Text />
+        			<Locked>
+          				<DefaultLockedState>0</DefaultLockedState>
+        			</Locked>
+			</Values>
+		</Asset>
+  	</ModOp>
+
+	<ModOp GUID="114435" Type="addNextSibling">
+		<Asset>
+			<Template>OrnamentalModule</Template>
+			<Values>
+				<Standard>
+					<GUID>1957009027</GUID>
+					<Name>HQ Module Mosaic</Name>
+    					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/monument_01_1x1_05.png</IconFilename>
+    					<InfoDescription>1957009227</InfoDescription>
+				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11149</BuildingCategoryName>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+  				</Building>
+				<Blocking/>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+      						<Item>
+        						<Filename>data/graphics/buildings/ornamental/monument_01_system/monument_01_1x1_05.cfg</Filename>
+      						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter/>
+				<FeedbackController/>
+  				<Ornament>
+    					<OrnamentUnit>1</OrnamentUnit>
+    					<OrnamentDescription>1957009227</OrnamentDescription>
+  				</Ornament>
+  				<BuildingModule/>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>OrnamentalModule</Template>
+			<Values>
+				<Standard>
+					<GUID>1957009028</GUID>
+					<Name>HQ Module Bridge</Name>
+    					<IconFilename>data/ui/2kimages/main/3dicons/ornaments/monument_01_1x1_08.png</IconFilename>
+    					<InfoDescription>1957009228</InfoDescription>
+				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11149</BuildingCategoryName>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+  				</Building>
+				<Blocking/>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>150</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+      						<Item>
+        						<Filename>data/graphics/buildings/ornamental/monument_01_system/monument_01_1x1_08.cfg</Filename>
+      						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter/>
+				<FeedbackController/>
+  				<Ornament>
+    					<OrnamentUnit>1</OrnamentUnit>
+    					<OrnamentDescription>1957009228</OrnamentDescription>
+  				</Ornament>
+  				<BuildingModule/>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>OrnamentalModule</Template>
+			<Values>
+				<Standard>
+					<GUID>1957009029</GUID>
+					<Name>HQ Module Piazza Bench</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_piazza_bench.png</IconFilename>
+    					<InfoDescription>1957009229</InfoDescription>
+				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11149</BuildingCategoryName>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+  				</Building>
+				<Blocking/>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>50</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+      						<Item>
+							<Filename>data/graphics/buildings/ornamental/cultural_props_system/cultural_props_system_1x1_system/cultural_props_1x1_02.cfg</Filename>
+      						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter/>
+				<FeedbackController/>
+  				<Ornament>
+    					<OrnamentUnit>1</OrnamentUnit>
+    					<OrnamentDescription>1957009229</OrnamentDescription>
+  				</Ornament>
+  				<BuildingModule/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+	<!-- In case of CDLC 3 "City Lights": telephone cell -->
+	<Group Condition="//Values[Standard/GUID='80063']">
+	<ModOp Type = "add" GUID = '1957009011' Path = "/Values/ModuleOwner/ConstructionOptions">
+      		<Item>
+        		<ModuleGUID>1957009030</ModuleGUID>	<!-- telephone cell -->
+      		</Item>
+ 	</ModOp>
+	<ModOp GUID="114435" Type="addNextSibling">
+		<Asset>
+			<Template>OrnamentalModule</Template>
+			<Values>
+				<Standard>
+					<GUID>1957009030</GUID>
+					<Name>HQ Module Telephone Cell</Name>
+    					<IconFilename>data/modgraphics/icons/icon_hq_telephone.png</IconFilename>
+    					<InfoDescription>1957009230</InfoDescription>
+				</Standard>
+  				<Building>
+    					<BuildingCategoryName>11149</BuildingCategoryName>
+    					<AssociatedRegions>Moderate</AssociatedRegions>
+  				</Building>
+				<Blocking/>
+				<Cost>
+					<Costs>
+						<Item>
+							<Ingredient>1010017</Ingredient>
+							<Amount>250</Amount>
+						</Item>
+						<Item>
+							<Ingredient>1010196</Ingredient>
+							<Amount>2</Amount>
+						</Item>
+					</Costs>
+				</Cost>
+				<Object>
+					<Variations>
+      						<Item>
+        						<Filename>data/graphics/buildings/ornamental/cdlc03/phone_booth/phone_booth.cfg</Filename>
+      						</Item>
+					</Variations>
+				</Object>
+				<Mesh/>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<SoundEmitter/>
+				<FeedbackController/>
+  				<Ornament>
+    					<OrnamentUnit>1</OrnamentUnit>
+    					<OrnamentDescription>1957009230</OrnamentDescription>
+  				</Ornament>
+  				<BuildingModule/>
+			</Values>
+		</Asset>
+	</ModOp>
+	</Group>
+
+       	<!-- Feedback Effects -->   
+	<ModOp Type="add" GUID='142881,134346' Path="/Values/FeedbackBuildingGroup/Buildings">
+        	<Item>
+			<Building>1957009001</Building>
+		</Item>
+        	<Item>
+			<Building>1957009011</Building>
+		</Item>
+        	<Item>
+			<Building>1957009020</Building>
+		</Item>
+    	</ModOp>
+
+ 	<!-- Itemtargetpools -->
+  	<ModOp Type="add" GUID="368,190136" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+    		<Item>
+      			<GUID>1957009001</GUID>
+    		</Item>
+    		<Item>
+      			<GUID>1957009011</GUID>
+    		</Item>
+    		<Item>
+      			<GUID>1957009012</GUID>
+    		</Item>
+    		<Item>
+      			<GUID>1957009013</GUID>
+    		</Item>
+    		<Item>
+      			<GUID>1957009014</GUID>
+    		</Item>
+    		<Item>
+      			<GUID>1957009016</GUID>
+    		</Item>
+    		<Item>
+      			<GUID>1957009017</GUID>
+    		</Item>
+  	</ModOp>
+	<!-- END Buildings -->
+
+</ModOps>

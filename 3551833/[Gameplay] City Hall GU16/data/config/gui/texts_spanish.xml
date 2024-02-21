@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1453239050</GUID>
+      			<Text>Ayuntamiento</Text>
+		</Text>
+
+		<Text>
+     			<GUID>1453239060</GUID>
+      			<Text>Con sus numerosas salas y oficinas llenas de funcionarios, este edificio sirve como testimonio de la complejidad de dirigir una metrópoli.</Text>
+		</Text>
+					
+	</ModOp>
+</ModOps>

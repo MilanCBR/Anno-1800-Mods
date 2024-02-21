@@ -1,0 +1,82 @@
+<!--
+
+Mod to change the Street overlay colors to higher-contrast versions (same colour but higher-intensity)
+Author: Fam#2910
+There is a colorpicker.html file as part of this mod that you can use the convert colours
+to the Anno format (its integer-packed RGBA) if you want to change any of them yourself.
+
+Anno colors:
+		Old World	New World	Enbesa
+Road	#b59d81		#b59370		#ebb881
+Street	#908d7a		#908d7a		#deb581
+Grass	#777c3c		#5e692f		#757029
+								#dca75b
+-->
+<ModOps>
+	<ModOp GUID="140057" Path="/Values/StreetOverlayFeature/CostColorGradient" Type="Replace">
+		<CostColorGradient>
+			<!-- These are the colours displayed as street overlays when clicking on a Public Service building -->
+			<Regular>
+				<FullColor>-648347822</FullColor><!--#5aff52d9-->
+				<StartColor>2142106982</StartColor><!--##adf5667f-->
+				<MidColor>1303246182</MidColor><!--#adf5664d-->
+				<EndColor>867038566</EndColor><!--#adf56633-->
+			</Regular>
+			<!-- These are not used in-game. Changing RenderOverlay to 1 will mean that when building a 
+			new public service it will show ONLY that building's radius, and will not show the overlay of existing buildings.
+			With this set to 0, it will not show the reach of the current building where it overlaps
+			an existing building's range EVEN IF that range is only partially supplied. This is a vanilla game bug.
+			-->
+			<Selection>
+				<FullColor>-871084811</FullColor><!--#144cf5cc-->
+				<StartColor>2133742271</StartColor><!--#2e52bf7f-->
+				<MidColor>-1931624864</MidColor><!--#2241a073-->
+				<EndColor>1712204411</EndColor><!--#0e2a7b66-->
+				<RenderOverlay>0</RenderOverlay>
+			</Selection>
+			<!-- These are the colours displayed as street overlays when the street tile is covered by a blueprinted Public Service building -->
+			<Blueprint>
+				<FullColor>-650929665</FullColor><!--#3399ffd9-->
+				<StartColor>2138765567</StartColor><!--#7af8ff7f-->
+				<MidColor>1719335167</MidColor><!--#7af8ff66-->
+				<EndColor>1299904767</EndColor><!--#7af8ff4d-->
+			</Blueprint>
+		</CostColorGradient>
+	</ModOp>
+
+	<ModOp GUID="140057" Path="/Values/StreetOverlayFeature/FactorySelection/RangeHighlight" Type="Replace">
+		<RangeHighlight>
+			<!-- These are the colors used for factory range indicators -->
+			<PathColors>
+				<Blueprint>
+					<PathColor>-869033473</PathColor><!--#3399ffcc-->
+				</Blueprint>
+				<Regular>
+					<PathColor>-648347822</PathColor><!--#5aff52d9-->
+				</Regular>
+				<Selection>
+					<PathColor>-871084811</PathColor><!--#144cf5cc-->
+				</Selection>
+			</PathColors>
+		</RangeHighlight>
+	</ModOp>
+
+	<ModOp GUID="140057" Path="/Values/StreetOverlayFeature/FactorySelection/RangeHighlightWhileBuilding" Type="Replace">
+		<RangeHighlightWhileBuilding>
+			<Enabled>1</Enabled>
+			<FullColor>-648347822</FullColor><!--#5aff52d9-->
+		</RangeHighlightWhileBuilding>
+	</ModOp>
+
+	<!-- FreeAreaBuilding range (e.g. lumberjack's hut, charcoal kiln) -->
+	<ModOp GUID="140577" Path="/Values/ColorConfig/BuildColors/GridDiplayModes/FreeAreaProductivity" Type="Add">
+        <BuildingRadiusLinesColor>-648347822</BuildingRadiusLinesColor><!--#5aff52d9-->
+    </ModOp>
+    <ModOp GUID="140577" Path="/Values/ColorConfig/BuildColors/GridTileDescription/FreeAreaUsed/LineColor" Type="Replace">
+        <LineColor>-648347822</LineColor><!--#5aff52d9-->
+    </ModOp>
+    <ModOp GUID="140577" Path="/Values/ColorConfig/BuildColors/GridTileDescription/FreeAreaUsed/FillColor" Type="Replace">
+        <FillColor>2142106982</FillColor><!--##adf5667f-->
+    </ModOp>
+
+</ModOps>

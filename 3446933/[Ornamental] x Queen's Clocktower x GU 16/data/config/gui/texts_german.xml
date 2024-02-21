@@ -1,0 +1,29 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>606175010</GUID>
+      			<Text>Königlicher Uhrenturm</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>606175020</GUID>
+      			<Text>Obwohl dieser Turm offiziell "Königlicher Uhrenturm" heißt, wird er vom Volk liebevoll als "Big Bong" bezeichnet, da er pünktlich zur Teezeit leutet.</Text>
+		</Text>			
+
+		<Text>
+     			<GUID>606175011</GUID>
+      			<Text>Bong-o-Clock</Text>
+		</Text>		
+
+		<Text>
+     			<GUID>606175012</GUID>
+      			<Text>Bong-o-Clock</Text>
+		</Text>			
+		
+		<Text>
+     			<GUID>606175021</GUID>
+      			<Text>„Zeit? Was ist das? Oi, wir tun einfach, was die Big Bong uns sagt, ganz einfach!“</Text>
+		</Text>	
+		
+	</ModOp>
+</ModOps>

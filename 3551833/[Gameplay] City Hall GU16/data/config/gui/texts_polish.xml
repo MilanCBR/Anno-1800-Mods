@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1453239050</GUID>
+      			<Text>Ratusz</Text>
+		</Text>
+
+		<Text>
+     			<GUID>1453239060</GUID>
+      			<Text>Z wieloma salami i biurami pełnymi urzędników, to dzieło jest świadectwem złożoności zarządzania metropolią.</Text>
+		</Text>
+					
+	</ModOp>
+</ModOps>

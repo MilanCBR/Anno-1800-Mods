@@ -1,0 +1,192 @@
+<ModOps>
+<!-- Isabel Sarmento - New World  --> 
+	<ModOp Type="replace" GUID='192073' Path="/Values/RewardPool">
+		<RewardPool>
+			<ItemsPool>
+				<!-- New World Treasure Maps -->
+				<Item><ItemLink>113192</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113198</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112936</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113189</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113201</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112938</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113204</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112940</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113195</ItemLink><Weight>10</Weight></Item>
+				<!-- Museum -->
+				<Item><ItemLink>112272</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113535</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114795</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>118122</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>118594</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>118634</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>124694</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129442</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>130777</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>130937</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>131223</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190468</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190469</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190471</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190472</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190478</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190481</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190482</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190487</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190489</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190492</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190494</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190520</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190521</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190522</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190523</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190524</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190525</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190526</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190527</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190528</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190529</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190530</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190532</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190533</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190534</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190535</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190536</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190537</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190538</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190541</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190542</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190544</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190546</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190547</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190548</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190550</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190553</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192312</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192336</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192355</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192356</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192359</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192360</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192361</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192364</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192404</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192405</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192415</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192947</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192948</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192949</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>118137</ItemLink><Weight>10</Weight></Item> <!-- Arabesque Trinkets -->
+				<Item><ItemLink>118148</ItemLink><Weight>10</Weight></Item> <!-- The Holy Book -->
+            <Item><ItemLink>6055</ItemLink><Weight>10</Weight></Item>   <!-- Quipu (Malching Harbour Item) -->
+            <!-- Museum Quest or Scenario Items -->
+            <Item><ItemLink>130945</ItemLink><Weight>0</Weight></Item>  <!-- Chronicles of Enbesa Uncommon (Quest-Item) -->
+            <Item><ItemLink>130939</ItemLink><Weight>0</Weight></Item>  <!-- Chronicles of Enbesa Rare (Quest-Item) -->
+            <Item><ItemLink>130938</ItemLink><Weight>0</Weight></Item>  <!-- Chronicles of Enbesa Epic (Quest-Item) -->
+            <Item><ItemLink>104827</ItemLink><Weight>0</Weight></Item>  <!-- Simon Samrentos Sword (Harbour Item Vincente) -->
+            <Item><ItemLink>104828</ItemLink><Weight>0</Weight></Item>  <!-- Idol of Hueyaca (Harbour Item Lady Hunt) -->
+            <Item><ItemLink>13642</ItemLink><Weight>0</Weight></Item>   <!-- Silver Dragon (Scenario: Silver Strongbox) -->
+            <Item><ItemLink>11693</ItemLink><Weight>0</Weight></Item>   <!-- Herbalist's Field Journal (Scenario: Echoes of Eden) -->
+            <Item><ItemLink>13896</ItemLink><Weight>0</Weight></Item>   <!-- Widdershins Stamp (Scenario: Paloma's Precious Parcel) -->
+            <Item><ItemLink>13898</ItemLink><Weight>0</Weight></Item>   <!-- Socialite Stamp (Scenario: Paloma's Precious Parcel) -->
+            <Item><ItemLink>13300</ItemLink><Weight>0</Weight></Item>   <!-- Simon Samrentos Sword (Scenario: Memoirs of Markets) -->
+            <Item><ItemLink>13301</ItemLink><Weight>0</Weight></Item>   <!-- Idol of Hueyaca (Scenario: Memoirs of Markets) -->
+            <!-- Zoo -->
+            <Item><ItemLink>124041</ItemLink><Weight>10</Weight></Item> <!-- Pygym Hedgehog (Common) -->
+            <Item><ItemLink>124074</ItemLink><Weight>10</Weight></Item> <!-- Eastern Giant Snail (Common) -->
+				<Item><ItemLink>112818</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113469</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113907</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190006</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190007</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190446</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190447</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190451</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190453</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190454</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190456</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190459</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>190467</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191053</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191054</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191055</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191056</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191057</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191060</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191061</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191064</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191067</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191068</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191070</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191071</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191077</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191078</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191081</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191082</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191089</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191093</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191095</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191096</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191097</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191098</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191100</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191101</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191102</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191103</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191109</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191110</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191111</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>192331</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>191085</ItemLink><Weight>10</Weight></Item> <!-- Bat Eared Fennec (Rare) -->
+				<Item><ItemLink>190460</ItemLink><Weight>10</Weight></Item> <!-- Spitting Cobra (Rare) -->
+				<Item><ItemLink>190461</ItemLink><Weight>10</Weight></Item> <!-- Curly Hair Tarantula (Uncommon) -->
+				<!-- Botanical Garden -->
+				<Item><ItemLink>114540</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114541</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114665</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114666</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114667</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114668</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114669</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114670</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114671</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114672</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114673</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114674</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114675</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114676</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114677</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114678</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>114679</ItemLink><Weight>10</Weight></Item>
+			</ItemsPool>
+			<IgnoreUnlocks>1</IgnoreUnlocks>
+		</RewardPool>
+	</ModOp>
+	
+	<!-- Mergers -->
+	<ModOp Type="merge" GUID='29' Path="/Values/Trader/Progression/EarlyGame">
+		<OfferingItems>192073</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='29' Path="/Values/Trader/Progression/EarlyMidGame">
+		<OfferingItems>192073</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='29' Path="/Values/Trader/Progression/MidGame">
+		<OfferingItems>192073</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='29' Path="/Values/Trader/Progression/LateMidGame">
+		<OfferingItems>192073</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='29' Path="/Values/Trader/Progression/LateGame">
+		<OfferingItems>192073</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='29' Path="/Values/Trader/Progression/EndGame">
+		<OfferingItems>192073</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+
+</ModOps>

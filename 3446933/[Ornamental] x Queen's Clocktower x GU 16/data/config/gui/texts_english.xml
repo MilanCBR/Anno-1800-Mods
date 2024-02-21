@@ -1,0 +1,29 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>606175010</GUID>
+      			<Text>Queen's Clocktower</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>606175020</GUID>
+      			<Text>Though officially called the Queen's Clocktower, this monumental structure is also affectionately known as 'Big Bong', as the citizens of your cities surely know when it's time for tea when the clock starts bonging!</Text>
+		</Text>			
+
+		<Text>
+     			<GUID>606175011</GUID>
+      			<Text>Bong-o-Clock</Text>
+		</Text>		
+
+		<Text>
+     			<GUID>606175012</GUID>
+      			<Text>Bong-o-Clock</Text>
+		</Text>			
+		
+		<Text>
+     			<GUID>606175021</GUID>
+      			<Text>"Toyme? Wots that? Oi we jus' do what th' Big Bong tells us to do, simple as!"</Text>
+		</Text>	
+		
+	</ModOp>
+</ModOps>

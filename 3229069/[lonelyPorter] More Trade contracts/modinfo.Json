@@ -1,0 +1,55 @@
+{
+  "Version": "1.0.1",
+  "ModID": "lonelyPorter_TradeContracts_Upgrade",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": null,
+    "English": "Gameplay",
+    "French": null,
+    "German": "Spielablauf",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": "Rozgrywka",
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": null,
+    "English": "Improved Dockland Goods",
+    "French": null,
+    "German": "Verbesserte Dockland-Handelswaren",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Based on the Spice it Up Version. Adds multiple new goods to docklands, including a new Weapon exporter called RAUG.",
+    "French": null,
+    "German": "Fügt weitere Güter zu den Dockland-Handelswaren. Enthält einen Neuen Händler namens RAUG, welcher Waffen verkauft",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": [
+    {
+      "DLC": "Docklands",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "lonelyPorter",
+  "CreatorContact": "lonelyPorterCH#8997",
+  "Image" : null
+}

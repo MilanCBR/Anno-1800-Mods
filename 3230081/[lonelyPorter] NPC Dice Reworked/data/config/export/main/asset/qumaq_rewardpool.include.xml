@@ -1,0 +1,104 @@
+<ModOps>
+	<!-- Qumaq - Arctic  -->
+	<ModOp Type="replace" GUID='193835' Path="/Values/RewardPool">
+		<RewardPool>
+			<ItemsPool>
+				<!-- Airships -->
+				<Item><ItemLink>117303</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116173</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116174</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116175</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>117302</ItemLink><Weight>10</Weight></Item>
+				<!-- Arctic Treasure Maps -->
+				<Item><ItemLink>115482</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115476</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115478</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115475</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115479</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115481</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115483</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115480</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115477</ItemLink><Weight>10</Weight></Item>
+				<!-- Arctic Lodge -->
+				<Item><ItemLink>116097</ItemLink><Weight>10</Weight></Item> 
+				<Item><ItemLink>116133</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116149</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116159</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116143</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116101</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116080</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116079</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116081</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116142</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116041</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116096</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116162</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116164</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116167</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116166</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116087</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116089</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116146</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116130</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116098</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116083</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116088</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116160</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116153</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116169</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116069</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116148</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116161</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116078</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116132</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116042</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116158</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116151</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116071</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116154</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116150</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116147</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116082</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116144</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116165</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116152</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116099</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116043</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116070</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116100</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>116163</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>4272</ItemLink><Weight>10</Weight></Item> <!-- Arctic Science Reporter -->
+				<Item><ItemLink>7225</ItemLink><Weight>10</Weight></Item> <!-- Bait Specialist -->
+				<Item><ItemLink>1772</ItemLink><Weight>10</Weight></Item> <!-- Artic Gas Expert -->
+			</ItemsPool>
+			<IgnoreUnlocks>1</IgnoreUnlocks>
+		</RewardPool>
+	</ModOp>
+	
+	<!-- Mergers -->
+	<ModOp Type="merge" GUID='237' Path="/Values/Trader/Progression/EarlyGame">
+		<OfferingItems>193835</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='237' Path="/Values/Trader/Progression/EarlyMidGame">
+		<OfferingItems>193835</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='237' Path="/Values/Trader/Progression/MidGame">
+		<OfferingItems>193835</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='237' Path="/Values/Trader/Progression/LateMidGame">
+		<OfferingItems>193835</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='237' Path="/Values/Trader/Progression/LateGame">
+		<OfferingItems>193835</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='237' Path="/Values/Trader/Progression/EndGame">
+		<OfferingItems>193835</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+
+</ModOps>

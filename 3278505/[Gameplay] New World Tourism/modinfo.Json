@@ -1,0 +1,74 @@
+{
+  "Version": "2.1",
+  "ModID": "FamTaubeLexy_NewWorldHotels",
+  "IncompatibleIds": [
+    "NewHorizons"
+  ],
+  "DeprecateIds": [
+    "jakob_nw_monument_small"
+  ],
+  "ModDependencies": [
+    "shared-pools-and-definitions"
+  ],
+  "LoadAfterIds": [
+    "shared-pools-and-definitions"
+  ],
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Spielablauf",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Rozgrywka",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "New World Tourism",
+    "English": "New World Tourism",
+    "French": "New World Tourism",
+    "German": "Touristen in der neuen Welt",
+    "Italian": "New World Tourism",
+    "Japanese": "New World Tourism",
+    "Korean": "New World Tourism",
+    "Polish": "New World Tourism",
+    "Russian": "New World Tourism",
+    "Spanish": "New World Tourism",
+    "Taiwanese": "New World Tourism"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Adds Tourists and Hotels to the new World with a set of 9 newly designed recipes in Cafe, Bar and Restaurant",
+    "French": null,
+    "German": "Fügt Touristen und Hotels für die neue Welt hinzu, sowie ein Set mit 9 neu designten Rezepten für Cafe, Bar und Restaurant.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [],
+  "DLCDependencies": [
+    {
+      "DLC": "Tourism",
+      "Dependant": "required"
+    },
+    {
+      "DLC": "SeedsOfChange",
+      "Dependant": "partly"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Fam, DaLexy, Taubenangriff, Lordys and Jakob",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null,
+  "ModioResourceId" : 3278505
+}

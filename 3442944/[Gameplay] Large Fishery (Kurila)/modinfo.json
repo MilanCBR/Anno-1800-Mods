@@ -1,0 +1,50 @@
+{
+  "Version": "1.7",
+  "ModID": "IndustrializedLowTierProductionFishery",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Spielablauf",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Rozgrywka",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Large Fishery (Kurila)",
+    "English": "Large Fishery (Kurila)",
+    "French": "Large Fishery (Kurila)",
+    "German": "Large Fishery (Kurila)",
+    "Italian": "Large Fishery (Kurila)",
+    "Japanese": "Large Fishery (Kurila)",
+    "Korean": "Large Fishery (Kurila)",
+    "Polish": "Large Fishery (Kurila)",
+    "Russian": "Large Fishery (Kurila)",
+    "Spanish": "Large Fishery (Kurila)",
+    "Taiwanese": "Large Fishery (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.ENG.md",
+    "German": "file::README.GER.md",
+    "Chinese": null,
+    "French": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Lordys and Kurila",
+  "CreatorContact": "https://github.com/xormenter/AnnoMods or over at https://discord.gg/YTQGDFK ",
+  "Image": null
+}

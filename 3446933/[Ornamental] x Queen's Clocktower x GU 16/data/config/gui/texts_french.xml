@@ -1,0 +1,29 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>606175010</GUID>
+      			<Text>Tour de l'Horloge de la Reine</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>606175020</GUID>
+      			<Text>Bien qu'officiellement appelée Queen's Clocktower, cette structure monumentale est aussi affectueusement connue sous le nom de "Big Bong", car les citoyens de vos villes savent sûrement quand il est temps de prendre le thé lorsque l'horloge commence à sonner !</Text>
+		</Text>			
+
+		<Text>
+     			<GUID>606175011</GUID>
+      			<Text>Bong-o-Clock</Text>
+		</Text>		
+
+		<Text>
+     			<GUID>606175012</GUID>
+      			<Text>Bong-o-Clock</Text>
+		</Text>			
+		
+		<Text>
+     			<GUID>606175021</GUID>
+      			<Text>"Le temps ? Qu'est-ce que c'est ? Oh, nous faisons juste ce que le Big Bong nous dit de faire, c'est aussi simple que ça !"</Text>
+		</Text>	
+		
+	</ModOp>
+</ModOps>

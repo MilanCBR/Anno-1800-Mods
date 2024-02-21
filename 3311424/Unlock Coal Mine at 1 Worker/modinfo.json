@@ -1,0 +1,49 @@
+﻿{
+  "Version": "3.0.0",
+  "ModID": "Hackner_CoalMineEarlier",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "调整",
+    "English": "Adjustments",
+    "French": null,
+    "German": "Anpassung",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": "Nastawienie",
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "ModName": {
+    "Chinese": "Coal Mine Earlier",
+    "English": "Coal Mine Earlier",
+    "French": "Coal Mine Earlier",
+    "German": "Coal Mine Earlier",
+    "Italian": "Coal Mine Earlier",
+    "Japanese": "Coal Mine Earlier",
+    "Korean": "Coal Mine Earlier",
+    "Polish": "Coal Mine Earlier",
+    "Russian": "Coal Mine Earlier",
+    "Spanish": "Coal Mine Earlier",
+    "Taiwanese": "Coal Mine Earlier"
+  },
+  "Description": {
+    "Chinese": "Coal Mine Earlier",
+    "English": "Coal Mine Earlier",
+    "French": "Coal Mine Earlier",
+    "German": "Coal Mine Earlier",
+    "Italian": "Coal Mine Earlier",
+    "Japanese": "Coal Mine Earlier",
+    "Korean": "Coal Mine Earlier",
+    "Polish": "Coal Mine Earlier",
+    "Russian": "Coal Mine Earlier",
+    "Spanish": "Coal Mine Earlier",
+    "Taiwanese": "Coal Mine Earlier"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Hackner",
+  "CreatorContact": "Senfdeckel98"
+}

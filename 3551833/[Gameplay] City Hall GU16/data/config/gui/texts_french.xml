@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1453239050</GUID>
+      			<Text>Hôtel de Ville</Text>
+		</Text>
+
+		<Text>
+     			<GUID>1453239060</GUID>
+      			<Text>Avec ses nombreuses salles et bureaux occupés par des fonctionnaires, ce édifice témoigne de la complexité de la gestion d'une métropole.</Text>
+		</Text>
+					
+	</ModOp>
+</ModOps>

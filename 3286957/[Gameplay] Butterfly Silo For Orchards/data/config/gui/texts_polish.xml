@@ -1,0 +1,39 @@
+<ModOps>
+    <ModOp Type="add" Path="/TextExport/Texts">
+    	  <Text>
+            <GUID>2025012801</GUID>
+            <Text>Triss Merigold, Motyla Pani </Text>
+        </Text>
+        <Text>
+            <GUID>2025012802</GUID>
+            <Text>Specialistka rolna, lubiąca modny ubiór nawet w pracy, przez co jej barwne stroje wabią motyle.</Text>
+        </Text>
+        <Text>
+            <GUID>2025012803</GUID>
+            <Text>Motyle</Text>
+        </Text>
+        <Text>
+            <GUID>2025012804</GUID>
+            <Text>Motyle pomagają szybciej zapylać kwiaty wszystkich drzew owocowych.</Text>
+        </Text>
+        <Text>
+            <GUID>2025012805</GUID>
+            <Text>Klatka na motyle</Text>
+        </Text>
+        <Text>
+            <GUID>2025012806</GUID>
+            <Text>Wypuszcza motyle, które pomagają szybciej zapylać kwiaty wszystkich drzew owocowych.</Text>
+        </Text>
+        <Text>
+            <GUID>2025012807</GUID>
+            <Text>Motyle zapylają kwiaty</Text>
+        </Text>
+        <Text>
+            <GUID>2025012808</GUID>
+            <Text>Motyle przyspieszają zapylanie drzew owocowych.</Text>
+        </Text>
+       
+       
+
+    </ModOp>
+</ModOps>

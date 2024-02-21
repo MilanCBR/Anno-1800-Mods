@@ -1,0 +1,3857 @@
+<ModOps>
+
+	<!-- START Newspaper -->
+	<ModOp GUID="141228" Type="addNextSibling">
+		<Asset>
+			<Template>NewspaperSpecialEditionArticle</Template>
+			<Values>
+				<Standard>
+					<GUID>1957009195</GUID>
+					<Name>HQ Palace built</Name>
+				</Standard>
+				<NewspaperSpecialEditionArticle>
+					<SpecialEditionHeadline>1957009196</SpecialEditionHeadline>
+					<SpecialEditionSubline>1957009197</SpecialEditionSubline>
+					<SpecialEditionImage>1957009198</SpecialEditionImage>
+				</NewspaperSpecialEditionArticle>
+       			</Values>
+		</Asset>
+	</ModOp>
+	<ModOp GUID="142393" Type="addNextSibling">
+		<Asset>
+			<Template>NewspaperImage</Template>
+			<Values>
+				<Standard>
+					<GUID>1957009198</GUID>
+					<Name>HQ Palace built Image</Name>
+				</Standard>
+				<NewspaperImage>
+					<Size>
+						<Small>
+        						<Image>data/modgraphics/newspaper/hq_palace_created.png</Image>
+						</Small>
+						<Medium>
+        						<Image>data/modgraphics/newspaper/hq_palace_created.png</Image>
+						</Medium>
+						<Big>
+        						<Image>data/modgraphics/newspaper/hq_palace_created.png</Image>
+						</Big>
+					</Size>
+					<SideNotificationImage>data/modgraphics/newspaper/hq_palace_created.png</SideNotificationImage>
+				</NewspaperImage>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- End Newspaper -->
+
+	<!-- START Triggers -->
+	<!-- Unlock Headquarter Menu / Palace -->
+  	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009300</GUID>
+          				<Name>MOD Trigger Unlock Headquarter</Name>
+       				</Standard>
+        			<Trigger>
+          				<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition/>
+              						<ConditionPlayerCounter>
+                						<PlayerCounter>PopulationByLevel</PlayerCounter>
+                						<Context>15000004</Context>
+                						<CounterAmount>10000</CounterAmount>	<!-- 10.000 Investors -->
+              						</ConditionPlayerCounter>
+            					</Values>
+				       	</TriggerCondition>
+                         		<SubTriggers>
+                            			<Item>
+                              				<SubTrigger>
+                                				<Template>AutoCreateTrigger</Template>
+                                				<Values>
+                                  					<Trigger>
+                                    						<TriggerCondition>
+                                      							<Template>ConditionIsDLCActive</Template>
+                                      							<Values>
+                                        							<Condition />
+                                        							<ConditionIsDLCActive>
+                                          								<DLCAssetList>
+                                            									<Item>
+                                              										<DLCAsset>410059</DLCAsset>
+                                            									</Item>
+                                          								</DLCAssetList>
+                                        							</ConditionIsDLCActive>
+                                        							<ConditionPropsNegatable />
+                                      							</Values>
+                                    						</TriggerCondition>
+                                  					</Trigger>
+                                				</Values>
+                              				</SubTrigger>
+                            			</Item>
+                          		</SubTriggers>
+         				<TriggerActions>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+               								<ActionUnlockAsset>
+                    								<UnhideAssets>
+                      									<Item>
+                        									<Asset>1957009000</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009001</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009002</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009078</Asset>
+                      									</Item>
+                    								</UnhideAssets>
+                    								<UnlockAssets>
+                      									<Item>
+                        									<Asset>1957009000</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009001</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009002</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009071</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009072</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009073</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009074</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009075</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009076</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009077</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009079</Asset>
+                      									</Item>
+                     								</UnlockAssets>
+									</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+                				<!-- Item>
+                  					<TriggerAction>
+                    						<Template>ActionAddResource</Template>
+                    						<Values>
+                      							<Action />
+                      							<ActionAddResource>
+                        							<Resource>1957009001</Resource>
+                        							<ResourceAmount>1</ResourceAmount>
+                      							</ActionAddResource>
+                    						</Values>
+                  					</TriggerAction>
+                				</Item -->
+           				</TriggerActions>
+        			</Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Unlock Ministry Complex, as soon as Palace is built; Newspaper Article -->
+    		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009301</GUID>
+          				<Name>MOD Trigger HQ Palace built</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	 
+   								<Context>1957009001</Context>
+                						<CounterAmount>1</CounterAmount>                                                
+              						</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+         				<TriggerActions>
+           					<Item>
+							<TriggerAction>
+								<Template>ActionDelayedActions</Template>
+								<Values>
+									<Action/>
+									<ActionDelayedActions>
+										<ExecutionDelay>3000</ExecutionDelay>
+										<DelayedActions>
+											<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+											<Values>
+												<ActionList>
+													<Actions>
+														<Item>
+															<Action>
+																<Template>ActionForceNewspaper</Template>
+																<Values>
+																	<Action/>
+																	<ActionForceNewspaper>
+																		<Articles>
+																			<Item>
+																				<Article>1957009195</Article>
+																			</Item>
+																		</Articles>
+																		<OpenNewspaperUI>1</OpenNewspaperUI>
+																		<OpenNewspaperType>SpecialEdition</OpenNewspaperType>
+																	</ActionForceNewspaper>
+																</Values>
+															</Action>
+														</Item>
+													</Actions>
+												</ActionList>
+											</Values>
+										</DelayedActions>
+									</ActionDelayedActions>
+								</Values>
+							</TriggerAction>
+						</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>
+                    								<UnlockAssets>
+                      									<Item>
+                        									<Asset>1957009078</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009002</Asset>
+                      									</Item>
+                      									<!-- Item>
+                        									<Asset>1957009017</Asset>
+                      									</Item -->
+                    								</UnlockAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+						<!-- The BuildPermit mechanic does not work, because the game does not reset the values when a building is destructed by triggers -->
+                 				<!-- Item>
+                  					<TriggerAction>
+                    						<Template>ActionAddResource</Template>
+                    						<Values>
+                      							<Action />
+                      							<ActionAddResource>
+                        							<Resource>1957009011</Resource>
+                        							<ResourceAmount>1</ResourceAmount>
+                      							</ActionAddResource>
+                    						</Values>
+                  					</TriggerAction>
+                				</Item>
+                				<Item>
+                  					<TriggerAction>
+                    						<Template>ActionAddResource</Template>
+                    						<Values>
+                      							<Action />
+                      							<ActionAddResource>
+                        							<Resource>1957009012</Resource>
+                        							<ResourceAmount>1</ResourceAmount>
+                      							</ActionAddResource>
+                    						</Values>
+                  					</TriggerAction>
+                				</Item>
+                				<Item>
+                  					<TriggerAction>
+                    						<Template>ActionAddResource</Template>
+                    						<Values>
+                      							<Action />
+                      							<ActionAddResource>
+                        							<Resource>1957009013</Resource>
+                        							<ResourceAmount>1</ResourceAmount>
+                      							</ActionAddResource>
+                    						</Values>
+                  					</TriggerAction>
+                				</Item -->
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009352</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009354</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009302</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+				<TriggerSetup>
+					<UsedBySecondParties>0</UsedBySecondParties>
+				</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Delete and lock HQ buildings, when Palace is destructed -->
+    		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009302</GUID>
+          				<Name>MOD Trigger HQ Palace deleted</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+								<Context>1957009001</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>0</CounterAmount>                                                
+                 					</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+         				<TriggerActions>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionLockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionLockAsset>
+                    								<LockAssets>
+                      									<Item>
+                        									<Asset>1957009078</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009017</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009018</Asset>
+                      									</Item>
+                    								</LockAssets>
+                  							</ActionLockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>                    
+                    								<UnhideAssets>
+                      									<Item>
+                        									<Asset>1957009001</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009078</Asset>
+                      									</Item>
+                    								</UnhideAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+							<TriggerAction>
+								<Template>ActionDelayedActions</Template>
+								<Values>
+									<Action/>
+									<ActionDelayedActions>
+										<ExecutionDelay>2000</ExecutionDelay>
+										<DelayedActions>
+											<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+											<Values>
+												<ActionList>
+													<Actions>
+                      												<Item>
+                        												<Action>
+                          													<Template>ActionDeleteObjects</Template>
+                          													<Values>
+                            														<Action />
+                            														<ActionDeleteObjects />
+                            														<ObjectFilter>
+                              															<ObjectGUID>1957009011</ObjectGUID>
+                            														</ObjectFilter>
+                          													</Values>
+                        												</Action>
+                      												</Item>
+                      												<Item>
+                        												<Action>
+                          													<Template>ActionDeleteObjects</Template>
+                          													<Values>
+                            														<Action />
+                            														<ActionDeleteObjects />
+                            														<ObjectFilter>
+                              															<ObjectGUID>1957009012</ObjectGUID>
+                            														</ObjectFilter>
+                          													</Values>
+                        												</Action>
+                      												</Item>
+                      												<Item>
+                        												<Action>
+                          													<Template>ActionDeleteObjects</Template>
+                          													<Values>
+                            														<Action />
+                            														<ActionDeleteObjects />
+                            														<ObjectFilter>
+                              															<ObjectGUID>1957009013</ObjectGUID>
+                            														</ObjectFilter>
+                          													</Values>
+                        												</Action>
+                      												</Item>
+                      												<Item>
+                        												<Action>
+                          													<Template>ActionDeleteObjects</Template>
+                          													<Values>
+                            														<Action />
+                            														<ActionDeleteObjects />
+                            														<ObjectFilter>
+                              															<ObjectGUID>1957009014</ObjectGUID>
+                            														</ObjectFilter>
+                          													</Values>
+                        												</Action>
+                      												</Item>
+                      												<Item>
+                        												<Action>
+                          													<Template>ActionDeleteObjects</Template>
+                          													<Values>
+                            														<Action />
+                            														<ActionDeleteObjects />
+                            														<ObjectFilter>
+                              															<ObjectGUID>1957009016</ObjectGUID>
+                            														</ObjectFilter>
+                          													</Values>
+                        												</Action>
+                      												</Item>
+                      												<Item>
+                        												<Action>
+                          													<Template>ActionDeleteObjects</Template>
+                          													<Values>
+                            														<Action />
+                            														<ActionDeleteObjects />
+                            														<ObjectFilter>
+                              															<ObjectGUID>1957009017</ObjectGUID>
+                            														</ObjectFilter>
+                          													</Values>
+                        												</Action>
+                      												</Item>
+                      												<Item>
+                        												<Action>
+                          													<Template>ActionDeleteObjects</Template>
+                          													<Values>
+                            														<Action />
+                            														<ActionDeleteObjects />
+                            														<ObjectFilter>
+                              															<ObjectGUID>1957009018</ObjectGUID>
+                            														</ObjectFilter>
+                          													</Values>
+                        												</Action>
+                      												</Item>
+                            											<Item>
+                                  											<Action>
+                                    												<Template>ActionDeleteItem</Template>
+                                    												<Values>
+                                      													<Action />
+                                      													<ActionDeleteItem>
+                                        													<ItemGUID>1957009077</ItemGUID>
+                                      													</ActionDeleteItem>
+                                    												</Values>
+                                  											</Action>
+                                										</Item>
+ 													</Actions>
+												</ActionList>
+											</Values>
+										</DelayedActions>
+									</ActionDelayedActions>
+								</Values>
+							</TriggerAction>
+						</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009301</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup>
+          				<AutoRegisterTrigger>0</AutoRegisterTrigger>   
+        			</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Lock Ministry after built once -->
+  		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009303</GUID>
+          				<Name>MOD Trigger Lock Ministry</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+								<Context>1957009011</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>1</CounterAmount>                                                
+                 					</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+         				<TriggerActions>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionLockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionLockAsset>
+                    								<LockAssets>
+                     									<Item>
+                        									<Asset>1957009011</Asset> 
+                      									</Item>
+                    								</LockAssets>
+                  							</ActionLockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>                    
+                    								<UnhideAssets>
+                     									<Item>
+                        									<Asset>1957009011</Asset> 
+                      									</Item>
+                    								</UnhideAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009304</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup>
+          				<AutoRegisterTrigger>0</AutoRegisterTrigger>   
+        			</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Unlock Ministry when destroyed (but only if Palace is already built) -->
+   		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009304</GUID>
+          				<Name>MOD Trigger Unlock Ministry</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+   								<Context>1957009011</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>0</CounterAmount>                                                
+              						</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+                       			<SubTriggers>
+                            			<Item>
+                                			<SubTrigger>
+                                    				<Template>AutoCreateTrigger</Template>
+                                    				<Values>
+                                        				<Trigger>
+                                            					<TriggerCondition>
+                                                					<Template>ConditionPlayerCounter</Template>
+                                               						<Values>
+                                                    						<Condition />
+                                                    						<ConditionPlayerCounter>
+  													<Context>1957009001</Context>
+ 													<ComparisonOp>Equals</ComparisonOp>
+                											<CounterAmount>1</CounterAmount>                                                
+                                                                       				</ConditionPlayerCounter>
+                                                					</Values>
+                                            					</TriggerCondition>
+                                        				</Trigger>
+                                    				</Values>
+                               				 </SubTrigger>
+                            			</Item>
+                        		</SubTriggers>
+         				<TriggerActions>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>
+                    								<UnlockAssets>
+                     									<Item>
+                        									<Asset>1957009011</Asset> 
+                      									</Item>
+                    								</UnlockAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009303</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup/>
+      			</Values>
+    		</Asset>
+
+	<!-- Lock Personal Office after built once -->
+  		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009305</GUID>
+          				<Name>MOD Trigger Lock Personal Office</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+								<Context>1957009012</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>1</CounterAmount>                                                
+                 					</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+         				<TriggerActions>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionLockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionLockAsset>
+                    								<LockAssets>
+                     									<Item>
+                        									<Asset>1957009012</Asset> 
+                      									</Item>
+                    								</LockAssets>
+                  							</ActionLockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>                    
+                    								<UnhideAssets>
+                     									<Item>
+                        									<Asset>1957009012</Asset> 
+                      									</Item>
+                    								</UnhideAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009306</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup>
+          				<AutoRegisterTrigger>0</AutoRegisterTrigger>   
+        			</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Unlock Personal Office when destroyed (but only if Palace is already built) -->
+   		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009306</GUID>
+          				<Name>MOD Trigger Unlock Personal Office</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+   								<Context>1957009012</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>0</CounterAmount>                                                
+              						</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+                       			<SubTriggers>
+                            			<Item>
+                                			<SubTrigger>
+                                    				<Template>AutoCreateTrigger</Template>
+                                    				<Values>
+                                        				<Trigger>
+                                            					<TriggerCondition>
+                                                					<Template>ConditionPlayerCounter</Template>
+                                               						<Values>
+                                                    						<Condition />
+                                                    						<ConditionPlayerCounter>
+  													<Context>1957009001</Context>
+ 													<ComparisonOp>Equals</ComparisonOp>
+                											<CounterAmount>1</CounterAmount>                                                
+                                                                       				</ConditionPlayerCounter>
+                                                					</Values>
+                                            					</TriggerCondition>
+                                        				</Trigger>
+                                    				</Values>
+                               				 </SubTrigger>
+                            			</Item>
+                        		</SubTriggers>
+         				<TriggerActions>
+             					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>
+                    								<UnlockAssets>
+                     									<Item>
+                        									<Asset>1957009012</Asset> 
+                      									</Item>
+                    								</UnlockAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+                            			<Item>
+                                  			<TriggerAction>
+                                    				<Template>ActionDeleteItem</Template>
+                                    				<Values>
+                                      					<Action />
+                                      					<ActionDeleteItem>
+                                        					<ItemGUID>1957009187</ItemGUID>
+                                      					</ActionDeleteItem>
+                                    				</Values>
+                                  			</TriggerAction>
+                                		</Item>
+                				<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009305</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup/>
+      			</Values>
+    		</Asset>
+
+	<!-- Lock Press Office after built once -->
+  		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009307</GUID>
+          				<Name>MOD Trigger Lock Press Office</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+								<Context>1957009013</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>1</CounterAmount>                                                
+                 					</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+         				<TriggerActions>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionLockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionLockAsset>
+                    								<LockAssets>
+                     									<Item>
+                        									<Asset>1957009013</Asset> 
+                      									</Item>
+                    								</LockAssets>
+                  							</ActionLockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>                    
+                    								<UnhideAssets>
+                     									<Item>
+                        									<Asset>1957009013</Asset> 
+                      									</Item>
+                    								</UnhideAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009308</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup>
+          				<AutoRegisterTrigger>0</AutoRegisterTrigger>   
+        			</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Unlock Press Office when destroyed (but only if Palacel is already built) -->
+   		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009308</GUID>
+          				<Name>MOD Trigger Unlock Press Office</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+   								<Context>1957009013</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>0</CounterAmount>                                                
+              						</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+                       			<SubTriggers>
+                            			<Item>
+                                			<SubTrigger>
+                                    				<Template>AutoCreateTrigger</Template>
+                                    				<Values>
+                                        				<Trigger>
+                                            					<TriggerCondition>
+                                                					<Template>ConditionPlayerCounter</Template>
+                                               						<Values>
+                                                    						<Condition />
+                                                    						<ConditionPlayerCounter>
+  													<Context>1957009001</Context>
+ 													<ComparisonOp>Equals</ComparisonOp>
+                											<CounterAmount>1</CounterAmount>                                                
+                                                                       				</ConditionPlayerCounter>
+                                                					</Values>
+                                            					</TriggerCondition>
+                                        				</Trigger>
+                                    				</Values>
+                               				 </SubTrigger>
+                            			</Item>
+                        		</SubTriggers>
+         				<TriggerActions>
+             					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>
+                    								<UnlockAssets>
+                     									<Item>
+                        									<Asset>1957009013</Asset> 
+                      									</Item>
+                    								</UnlockAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+                            			<Item>
+                                  			<TriggerAction>
+                                    				<Template>ActionDeleteItem</Template>
+                                    				<Values>
+                                      					<Action />
+                                      					<ActionDeleteItem>
+                                        					<ItemGUID>1957009188</ItemGUID>
+                                      					</ActionDeleteItem>
+                                    				</Values>
+                                  			</TriggerAction>
+                                		</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009307</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup/>
+      			</Values>
+    		</Asset>
+
+	<!-- Lock Supreme Court after built once, activate justice buff -->
+  		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009309</GUID>
+          				<Name>MOD Trigger Lock Court</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+								<Context>1957009014</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>1</CounterAmount>                                                
+                 					</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+         				<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009055</BuffAsset>	<!-- Supreme Court Buff: Justice -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionLockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionLockAsset>
+                    								<LockAssets>
+                     									<Item>
+                        									<Asset>1957009014</Asset> 
+                      									</Item>
+                    								</LockAssets>
+                  							</ActionLockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>                    
+                    								<UnhideAssets>
+                     									<Item>
+                        									<Asset>1957009014</Asset> 
+                      									</Item>
+                    								</UnhideAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009310</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup>
+          				<AutoRegisterTrigger>0</AutoRegisterTrigger>   
+        			</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Unlock Supreme Court when destroyed (but only if Palace is already built) -->
+   		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009310</GUID>
+          				<Name>MOD Trigger Unlock Court</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+   								<Context>1957009014</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>0</CounterAmount>                                                
+              						</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+                       			<SubTriggers>
+                            			<Item>
+                                			<SubTrigger>
+                                    				<Template>AutoCreateTrigger</Template>
+                                    				<Values>
+                                        				<Trigger>
+                                            					<TriggerCondition>
+                                                					<Template>ConditionPlayerCounter</Template>
+                                               						<Values>
+                                                    						<Condition />
+                                                    						<ConditionPlayerCounter>
+  													<Context>1957009001</Context>
+ 													<ComparisonOp>Equals</ComparisonOp>
+                											<CounterAmount>1</CounterAmount>                                                
+                                                                       				</ConditionPlayerCounter>
+                                                					</Values>
+                                            					</TriggerCondition>
+                                        				</Trigger>
+                                    				</Values>
+                               				 </SubTrigger>
+                            			</Item>
+                        		</SubTriggers>
+         				<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009055</BuffAsset>	<!-- Supreme Court Buff: Justice -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+             					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>
+                    								<UnlockAssets>
+                     									<Item>
+                        									<Asset>1957009014</Asset> 
+                      									</Item>
+                    								</UnlockAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009309</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup/>
+      			</Values>
+    		</Asset>
+	</ModOp>
+
+	<!-- Ministry triggers for global scope -->
+	<!-- for each Ministry a pair of triggers to add / remove a global buff -->
+	<!-- 18 triggers activating the corresponding buff -->
+  	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+     		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009311</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Foreign Affairs</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009031</Context>				<!-- Itemset: Ministry of Foreign Affairs -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009051</BuffAsset>	<!-- Buff: Ministry of Foreign Affairs -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009331</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009312</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Military Affairs</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009032</Context>				<!-- Itemset: Ministry of Military Affairs -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009052</BuffAsset>	<!-- Buff: Ministry of Military Affairs -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009332</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009313</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Interior</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009033</Context>				<!-- Itemset: Ministry of Interior -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009053</BuffAsset>	<!-- Buff: Ministry of Interior -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009333</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009314</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Trade</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009034</Context>				<!-- Itemset: Ministry of Trade -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009054</BuffAsset>	<!-- Buff: Ministry of Trade -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009334</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009316</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Finance</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009036</Context>				<!-- Itemset: Ministry of Finance -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009056</BuffAsset>	<!-- Buff: Ministry of Finance -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009336</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009317</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Labor and Social Affairs</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009037</Context>				<!-- Itemset: Ministry of Labor and Social Affairs -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009057</BuffAsset>	<!-- Buff: Ministry of Labor and Social Affairs -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009337</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009318</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Industry</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009038</Context>				<!-- Itemset: Ministry of Industry -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009058</BuffAsset>	<!-- Buff: Ministry of Industry -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009338</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009319</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Entertainment</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009039</Context>				<!-- Itemset: Ministry of Entertainment -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009059</BuffAsset>	<!-- Buff: Ministry of Entertainment -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009339</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009320</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Energy</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009040</Context>				<!-- Itemset: Ministry of Energy -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009060</BuffAsset>	<!-- Buff: Ministry of Energy -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009340</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009321</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Education and Science</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009041</Context>				<!-- Itemset: Ministry of Education and Science -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009061</BuffAsset>	<!-- Buff: Ministry of Education and Science -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009341</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009322</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Agriculture</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009042</Context>				<!-- Itemset: Ministry of Agriculture -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009062</BuffAsset>	<!-- Buff: Ministry of Agriculture -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009342</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009323</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Culture</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009043</Context>				<!-- Itemset: Ministry of Culture-->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009063</BuffAsset>	<!-- Buff: Ministry of Culture -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009343</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009324</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Health and Nutrition</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009044</Context>				<!-- Itemset: Ministry of Health and Nutrition -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009064</BuffAsset>	<!-- Buff: Ministry of Health and Nutrition -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009344</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009326</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Traffic</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009046</Context>				<!-- Itemset: Ministry of Traffic -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009066</BuffAsset>	<!-- Buff: Ministry of Traffic -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009346</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009327</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Communications</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009047</Context>				<!-- Itemset: Ministry of Communications -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009067</BuffAsset>	<!-- Buff: Ministry of Communications -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009347</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009328</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Housing and Urban Development</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009048</Context>				<!-- Itemset: Ministry of Housing and Urban Development -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009068</BuffAsset>	<!-- Buff: Ministry of Housing and Urban Development -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009348</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009329</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Religion</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009049</Context>				<!-- Itemset: Ministry of Religion -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009069</BuffAsset>	<!-- Buff: Ministry of Religion -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009349</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009330</GUID>
+		  			<Name>Trigger AddBuff: Ministry of Tourism</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009050</Context>				<!-- Itemset: Ministry of Tourism -->
+                        					<CounterAmount>1</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009070</BuffAsset>	<!-- Buff: Ministry of Tourism -->
+                                    						<AddBuff>1</AddBuff>
+                                    						<BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009350</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+
+	<!-- 18 triggers deactivating the corresponding buff -->
+     		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009331</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Foreign Affairs</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009031</Context>				<!-- Itemset: Ministry of Foreign Affairs -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009051</BuffAsset>	<!-- Buff: Ministry of Foreign Affairs -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009311</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009332</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Military Affairs</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009032</Context>				<!-- Itemset: Ministry of Military Affairs -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009052</BuffAsset>	<!-- Buff: Ministry of Military Affairs -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009312</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009333</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Interior</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009033</Context>				<!-- Itemset: Ministry of Interior -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009053</BuffAsset>	<!-- Buff: Ministry of Interior -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009313</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009334</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Trade</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009034</Context>				<!-- Itemset: Ministry of Trade -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009054</BuffAsset>	<!-- Buff: Ministry of Trade -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009314</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009336</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Finance</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009036</Context>				<!-- Itemset: Ministry of Finance -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009056</BuffAsset>	<!-- Buff: Ministry of Finance -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009316</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009337</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Labor and Social Affairs</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009037</Context>				<!-- Itemset: Ministry of Labor and Social Affairs -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009057</BuffAsset>	<!-- Buff: Ministry of Labor and Social Affairs -->
+                                 					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009317</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009338</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Industry</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009038</Context>				<!-- Itemset: Ministry of Industry -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009058</BuffAsset>	<!-- Buff: Ministry of Industry -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009318</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009339</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Entertainment</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009039</Context>				<!-- Itemset: Ministry of Entertainment -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009059</BuffAsset>	<!-- Buff: Entertainment -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009319</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009340</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Energy</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009040</Context>				<!-- Itemset: Ministry of Energy -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009060</BuffAsset>	<!-- Buff: Ministry of Energy -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009320</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009341</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Education and Science</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009041</Context>				<!-- Itemset: Ministry of Education and Science -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009061</BuffAsset>	<!-- Buff: Ministry of Education and Science -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009321</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009342</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Agriculture</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009042</Context>				<!-- Itemset: Ministry of Agriculture -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009062</BuffAsset>	<!-- Buff: Ministry of Agriculture -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009322</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009343</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Culture</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009043</Context>				<!-- Itemset: Ministry of Culture-->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009063</BuffAsset>	<!-- Buff: Ministry of Culture -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009323</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009344</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Health and Nutrition</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009044</Context>				<!-- Itemset: Ministry of Health and Nutrition -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009064</BuffAsset>	<!-- Buff: Ministry of Health and Nutrition -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009324</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009346</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Traffic</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009046</Context>				<!-- Itemset: Ministry of Traffic -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009066</BuffAsset>	<!-- Buff: Ministry of Traffic -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009326</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009347</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Communications</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009047</Context>				<!-- Itemset: Ministry of Communications -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009067</BuffAsset>	<!-- Buff: Ministry of Communications -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009327</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009348</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Housing and Urban Development</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009048</Context>				<!-- Itemset: Ministry of Housing and Urban Development -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009068</BuffAsset>	<!-- Buff: Ministry of Housing and Urban Development -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009328</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009349</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Religion</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009049</Context>				<!-- Itemset: Ministry of Religion -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009069</BuffAsset>	<!-- Buff: Ministry of Religion -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009329</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957009350</GUID>
+		  			<Name>Trigger RemoveBuff: Ministry of Tourism</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+                  				<Template>ConditionPlayerCounter</Template>
+                    				<Values>
+                      					<Condition/>
+                      					<ConditionPlayerCounter>
+                        					<PlayerCounter>ItemSetsActive</PlayerCounter>
+                        					<Context>1957009050</Context>				<!-- Itemset: Ministry of Tourism -->
+ 								<ComparisonOp>Equals</ComparisonOp>
+                        					<CounterAmount>0</CounterAmount>
+                      					</ConditionPlayerCounter>
+                    				</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+            					<Item>
+                              				<TriggerAction>
+                                				<Template>ActionBuff</Template>
+                                				<Values>
+                                  					<Action />
+                                  					<ActionBuff>
+                                    						<BuffAsset>1957009070</BuffAsset>	<!-- Buff: Ministry of Tourism -->
+                                  					</ActionBuff>
+                                				</Values>
+                              				</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009330</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+ 		  			</TriggerActions>
+                      			<ResetTrigger>
+                            			<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            			<Values>
+                              				<EmptyAutoCreateValue />
+                            			</Values>
+                          		</ResetTrigger>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    	</ModOp>
+
+	<!-- Lock Consulate NW after built four -->
+  	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+  		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009351</GUID>
+          				<Name>MOD Trigger Lock Consulate NW</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+								<Context>1957009017</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>4</CounterAmount>                                                
+                 					</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+         				<TriggerActions>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionLockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionLockAsset>
+                    								<LockAssets>
+                     									<Item>
+                        									<Asset>1957009017</Asset> 
+                      									</Item>
+                    								</LockAssets>
+                  							</ActionLockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>                    
+                    								<UnhideAssets>
+                     									<Item>
+                        									<Asset>1957009017</Asset> 
+                      									</Item>
+                    								</UnhideAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009352</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup>
+          				<AutoRegisterTrigger>0</AutoRegisterTrigger>   
+        			</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Unlock Consulate NW when less than 4 (but only if Palace is already built and at least 1.000 Obreras) -->
+   		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009352</GUID>
+          				<Name>MOD Trigger Unlock Consulate NW</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+   								<Context>1957009017</Context>
+								<ComparisonOp>LessThan</ComparisonOp>
+                						<CounterAmount>4</CounterAmount>                                                
+              						</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+                       			<SubTriggers>
+                            			<Item>
+                                			<SubTrigger>
+                                    				<Template>AutoCreateTrigger</Template>
+                                    				<Values>
+                                        				<Trigger>
+                                            					<TriggerCondition>
+                                                					<Template>ConditionPlayerCounter</Template>
+                                               						<Values>
+                                                    						<Condition />
+                                                    						<ConditionPlayerCounter>
+  													<Context>1957009001</Context>
+ 													<ComparisonOp>Equals</ComparisonOp>
+                											<CounterAmount>1</CounterAmount>                                                
+                                                                       				</ConditionPlayerCounter>
+                                                					</Values>
+                                            					</TriggerCondition>
+                                        				</Trigger>
+                                    				</Values>
+                               				 </SubTrigger>
+                            			</Item>
+                            			<Item>
+                                			<SubTrigger>
+                                    				<Template>AutoCreateTrigger</Template>
+                                    				<Values>
+                                        				<Trigger>
+                                            					<TriggerCondition>
+                                                					<Template>ConditionPlayerCounter</Template>
+                                               						<Values>
+                                                    						<Condition />
+                                                    						<ConditionPlayerCounter>
+                											<PlayerCounter>PopulationByLevel</PlayerCounter>
+                											<Context>15000006</Context>
+                											<CounterAmount>1000</CounterAmount>	<!-- 1.000 Obreras -->
+                                                                       				</ConditionPlayerCounter>
+                                                					</Values>
+                                            					</TriggerCondition>
+                                        				</Trigger>
+                                    				</Values>
+                               				 </SubTrigger>
+                            			</Item>
+                        		</SubTriggers>
+         				<TriggerActions>
+             					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>
+                    								<UnlockAssets>
+                     									<Item>
+                        									<Asset>1957009017</Asset> 
+                      									</Item>
+                    								</UnlockAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009351</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup/>
+      			</Values>
+    		</Asset>
+	</ModOp>
+
+	<Group Condition="//Values[Standard/GUID='2100119926']">	<!-- Mod "Enbesa Tourism" (Lion053) -->
+	<!-- Lock Consulate Enbesa after built three -->
+  	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+  		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009353</GUID>
+          				<Name>MOD Trigger Lock Consulate Enbesa</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+								<Context>1957009018</Context>
+								<ComparisonOp>Equals</ComparisonOp>
+                						<CounterAmount>3</CounterAmount>                                                
+                 					</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+         				<TriggerActions>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionLockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionLockAsset>
+                    								<LockAssets>
+                     									<Item>
+                        									<Asset>1957009018</Asset> 
+                      									</Item>
+                    								</LockAssets>
+                  							</ActionLockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>                    
+                    								<UnhideAssets>
+                     									<Item>
+                        									<Asset>1957009018</Asset> 
+                      									</Item>
+                    								</UnhideAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009354</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup>
+          				<AutoRegisterTrigger>0</AutoRegisterTrigger>   
+        			</TriggerSetup>
+      			</Values>
+    		</Asset>
+
+	<!-- Unlock Consulate Enbesa when less than 3 (but only if Palace is already built and at least 1.000 Elders) -->
+   		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009354</GUID>
+          				<Name>MOD Trigger Unlock Consulate Enbesa</Name>
+       				</Standard>
+        			<Trigger>
+ 	        			<TriggerCondition>
+            					<Template>ConditionPlayerCounter</Template>
+            					<Values>
+              						<Condition />
+              						<ConditionPlayerCounter>  	
+   								<Context>1957009018</Context>
+								<ComparisonOp>LessThan</ComparisonOp>
+                						<CounterAmount>3</CounterAmount>                                                
+              						</ConditionPlayerCounter>             
+            					</Values>
+          				</TriggerCondition>
+                       			<SubTriggers>
+                            			<Item>
+                                			<SubTrigger>
+                                    				<Template>AutoCreateTrigger</Template>
+                                    				<Values>
+                                        				<Trigger>
+                                            					<TriggerCondition>
+                                                					<Template>ConditionPlayerCounter</Template>
+                                               						<Values>
+                                                    						<Condition />
+                                                    						<ConditionPlayerCounter>
+  													<Context>1957009001</Context>
+ 													<ComparisonOp>Equals</ComparisonOp>
+                											<CounterAmount>1</CounterAmount>                                                
+                                                                       				</ConditionPlayerCounter>
+                                                					</Values>
+                                            					</TriggerCondition>
+                                        				</Trigger>
+                                    				</Values>
+                               				 </SubTrigger>
+                            			</Item>
+                            			<Item>
+                                			<SubTrigger>
+                                    				<Template>AutoCreateTrigger</Template>
+                                    				<Values>
+                                        				<Trigger>
+                                            					<TriggerCondition>
+                                                					<Template>ConditionPlayerCounter</Template>
+                                               						<Values>
+                                                    						<Condition />
+                                                    						<ConditionPlayerCounter>
+                											<PlayerCounter>PopulationByLevel</PlayerCounter>
+                											<Context>15000006</Context>
+                											<CounterAmount>1000</CounterAmount>	<!-- 1.000 Elders -->
+                                                                       				</ConditionPlayerCounter>
+                                                					</Values>
+                                            					</TriggerCondition>
+                                        				</Trigger>
+                                    				</Values>
+                               				 </SubTrigger>
+                            			</Item>
+                        		</SubTriggers>
+         				<TriggerActions>
+             					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>
+                    								<UnlockAssets>
+                     									<Item>
+                        									<Asset>1957009018</Asset> 
+                      									</Item>
+                    								</UnlockAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionRegisterTrigger</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionRegisterTrigger>
+                    								<TriggerAsset>1957009353</TriggerAsset>
+                  							</ActionRegisterTrigger>
+                						</Values>
+              						</TriggerAction>
+            					</Item>  
+          				</TriggerActions>
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+       				<TriggerSetup/>
+      			</Values>
+    		</Asset>
+	</ModOp>
+	</Group>
+
+	<!-- Creative Mode -->
+	<!-- Note: BuildPermits don't work in Creative Mode -->
+  	<ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+    		<Asset>
+      			<Template>Trigger</Template>
+      			<Values>
+        			<Standard>
+          				<GUID>1957009398</GUID>
+          				<Name>Unlock Headquarter Creative Mode</Name>
+        			</Standard>
+        			<Trigger>
+          				<TriggerCondition>
+            					<Template>ConditionIsCreativeMode</Template>
+              					<Values>
+                					<Condition />
+                					<ConditionIsCreativeMode />
+                					<ConditionPropsNegatable />
+              					</Values>
+          				</TriggerCondition>          
+                         		<SubTriggers>
+                            			<Item>
+                              				<SubTrigger>
+                                				<Template>AutoCreateTrigger</Template>
+                                				<Values>
+                                  					<Trigger>
+                                    						<TriggerCondition>
+                                      							<Template>ConditionIsDLCActive</Template>
+                                      							<Values>
+                                        							<Condition />
+                                        							<ConditionIsDLCActive>
+                                          								<DLCAssetList>
+                                            									<Item>
+                                              										<DLCAsset>410059</DLCAsset>
+                                            									</Item>
+                                          								</DLCAssetList>
+                                        							</ConditionIsDLCActive>
+                                        							<ConditionPropsNegatable />
+                                      							</Values>
+                                    						</TriggerCondition>
+                                  					</Trigger>
+                                				</Values>
+                              				</SubTrigger>
+                            			</Item>
+                          		</SubTriggers>
+          				<TriggerActions>            
+            					<Item>
+              						<TriggerAction>
+                						<Template>ActionUnlockAsset</Template>
+                						<Values>
+                  							<Action />
+                  							<ActionUnlockAsset>                    
+                    								<UnlockAssets>                      
+                      									<Item>
+                        									<Asset>1957009000</Asset>
+                      									</Item>                                                                                                     
+                     									<Item>
+                        									<Asset>1957009001</Asset>
+                      									</Item>                                                                                                     
+                     									<Item>
+                        									<Asset>1957009002</Asset>
+                      									</Item>                                                                                                     
+                    									<Item>
+                        									<Asset>1957009017</Asset>
+                      									</Item>                                                                                                     
+                    									<Item>
+                        									<Asset>1957009018</Asset>
+                      									</Item>                                                                                                     
+                     									<Item>
+                        									<Asset>1957009079</Asset>
+                      									</Item>                                                                                                     
+                       									<Item>
+                        									<Asset>1957009071</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009072</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009073</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009074</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009075</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009076</Asset>
+                      									</Item>
+                      									<Item>
+                        									<Asset>1957009077</Asset>
+                      									</Item>
+                     								</UnlockAssets>
+                    								<UnhideAssets>
+                      									<Item>
+                        									<Asset>1957009078</Asset>
+                      									</Item>
+                    								</UnhideAssets>
+                  							</ActionUnlockAsset>
+                						</Values>
+              						</TriggerAction>
+            					</Item>                      
+          				</TriggerActions>          
+          				<ResetTrigger>
+            					<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            					<Values>
+              						<EmptyAutoCreateValue />
+            					</Values>
+          				</ResetTrigger>
+        			</Trigger>
+        			<TriggerSetup />               
+      			</Values>
+    		</Asset>
+  	</ModOp>
+
+	<!-- Fallback Trigger: unlock the main components in terms of unlock blockades -->
+	<!-- where required this trigger can be reused by counting down the GUID: 1957999399,1957989399,... -->
+  	<!-- ModOp Type="add" Path="//Assets[Asset/Values/Standard/GUID='130248']">
+     		<Asset>
+	  		<Template>Trigger</Template>
+	  		<Values>
+	   			<Standard>
+		  			<GUID>1957999399</GUID>
+		  			<Name>ReRun Trigger Headquarter</Name>
+				</Standard>
+				<Trigger>
+		  			<TriggerCondition>
+            					<Template>ConditionAlwaysTrue</Template>
+            					<Values>
+              						<Condition/>
+            					</Values>
+		  			</TriggerCondition>
+		  			<TriggerActions>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009300</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			</Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009301</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			</Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009302</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			</Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009303</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009304</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009305</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009306</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009307</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009308</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009309</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009310</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009351</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009352</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009353</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009354</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		    				<Item>
+			  				<TriggerAction>
+			    					<Template>ActionRegisterTrigger</Template>
+				  				<Values>
+				      					<Action />
+				      					<ActionRegisterTrigger>
+				        					<TriggerAsset>1957009398</TriggerAsset>
+				      					</ActionRegisterTrigger>
+				  				</Values>
+			  				</TriggerAction>
+			 			 </Item>
+		  			</TriggerActions>
+				</Trigger>
+	  			<TriggerSetup />
+	  		</Values>
+	 	</Asset>
+    	</ModOp -->
+	<!-- END Triggers -->
+
+</ModOps>

@@ -1,0 +1,15 @@
+<ModOps>					
+	<ModOp Type = "add" Path="TextExport/Texts">
+		
+		<Text>
+			<GUID>2000131813</GUID>
+			<Text>Raug</Text>
+		</Text>
+		
+		<Text>
+			<GUID>2000131814</GUID>
+			<Text>Commonwealths greatest weapon exporter</Text>
+		</Text>
+		
+	</ModOp>
+</ModOps>

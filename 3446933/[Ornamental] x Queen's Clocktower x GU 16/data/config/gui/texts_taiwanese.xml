@@ -1,0 +1,29 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>606175010</GUID>
+      			<Text>皇后鐘樓</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>606175020</GUID>
+      			<Text>雖然正式名稱為女王鍾樓，但這座紀念性建築也被親切地稱為“大鐘”，因為當時鐘開始響起時，您所在城市的市民肯定知道什麼時候該喝茶了！</Text>
+		</Text>			
+
+		<Text>
+     			<GUID>606175011</GUID>
+      			<Text>喝茶時間</Text>
+		</Text>		
+
+		<Text>
+     			<GUID>606175012</GUID>
+      			<Text>喝茶時間</Text>
+		</Text>			
+		
+		<Text>
+     			<GUID>606175021</GUID>
+      			<Text>“時間？那是什麼？餵，我們只是按照大鐘告訴我們的去做，就這麼簡單！”</Text>
+		</Text>	
+		
+	</ModOp>
+</ModOps>

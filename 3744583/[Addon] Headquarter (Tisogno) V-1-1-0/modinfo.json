@@ -1,0 +1,35 @@
+{
+  "Version": "1.1.0",
+  "ModID": "Tisogno_Headquarter",
+  "IncompatibleIds": null,
+  "LoadAfterIds":[
+	"lion053_Enbesa_Tourism"  ],    
+  "ModDependencies": null,
+
+  "Category": {
+    "English": "Addon",	
+    "German":  "Addon"
+   },
+
+  "ModName": {
+    "English": "Headquarter (Tisogno)",
+    "German":  "Headquarter (Tisogno)"
+  },
+  
+  "Description": {
+    "English": "file::readme_english.md",
+    "German":  "file::readme_german.md"
+  },
+
+  "KnownIssues": "see readme",
+
+  "DLCDependencies": [
+    {
+      "DLC":"SeatOfPower",
+      "Dependant": "required"
+    }    
+  ],
+
+  "CreatorName": "Tisogno",
+  "Image": null
+}

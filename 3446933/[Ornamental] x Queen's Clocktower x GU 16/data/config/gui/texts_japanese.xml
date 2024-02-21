@@ -1,0 +1,29 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>606175010</GUID>
+      			<Text>女王の時計塔</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>606175020</GUID>
+      			<Text>正式には女王の時計塔と呼ばれていますが、この記念碑的な建造物は愛情を込めて「ビッグベル」としても知られています。時計が鳴り始めると、お茶の時間になると都市の市民は確実に知っているからです。</Text>
+		</Text>			
+
+		<Text>
+     			<GUID>606175011</GUID>
+      			<Text>お茶の時間</Text>
+		</Text>		
+
+		<Text>
+     			<GUID>606175012</GUID>
+      			<Text>お茶の時間</Text>
+		</Text>			
+		
+		<Text>
+     			<GUID>606175021</GUID>
+      			<Text>「時間ですか？それは何ですか？大鐘に言われたことをするだけです。簡単に！」</Text>
+		</Text>	
+		
+	</ModOp>
+</ModOps>

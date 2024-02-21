@@ -1,0 +1,12 @@
+<ModOps>
+	<ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+			<GUID>250055000</GUID>
+			<Text>Wolkenkratzer für Ingenieure</Text>
+		</Text>
+		<Text>
+			<GUID>250055001</GUID>
+			<Text>Wolkenkratzer für Investoren</Text>
+		</Text>		
+	</ModOp>
+</ModOps>

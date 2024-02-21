@@ -1,0 +1,127 @@
+<ModOps>
+	<!---- Set Scope  ---->
+    <!-- Town Hall -->
+    <ModOp Type="add" GUID='100415' Path="/Values/ItemContainer">
+         <SocketScope>Area</SocketScope>
+    </ModOp>
+	<!-- Town Hall New World -->
+    <ModOp Type="add" GUID='101285' Path="/Values/ItemContainer">
+         <SocketScope>Area</SocketScope>
+    </ModOp>
+    <!-- Town Hall Enbesa -->
+    <ModOp Type="add" GUID='117859' Path="/Values/ItemContainer">
+         <SocketScope>Area</SocketScope>
+    </ModOp>
+	 <!-- Trade Union -->
+    <ModOp Type="replace" GUID='1010516' Path="/Values/ItemContainer/SocketScopeRadius">
+        <SocketScopeRadius>30</SocketScopeRadius>
+    </ModOp>
+	<!-- Trade Union New World -->
+	<ModOp Type="replace" GUID='101284' Path="/Values/ItemContainer/SocketScopeRadius">
+        <SocketScopeRadius>30</SocketScopeRadius>
+    </ModOp>
+	<!-- Trade Union Arctic -->
+	<ModOp Type="replace" GUID='112678' Path="/Values/ItemContainer/SocketScopeRadius">
+        <SocketScopeRadius>30</SocketScopeRadius>
+    </ModOp>
+	<!-- Trade Union Enbesa -->
+	<ModOp Type="replace" GUID='117858' Path="/Values/ItemContainer/SocketScopeRadius">
+        <SocketScopeRadius>30</SocketScopeRadius>
+    </ModOp>
+    <!-- Harbor Office -->
+    <ModOp Type="add" GUID='100586' Path="/Values/ItemContainer">
+        <SocketScopeRadius>30</SocketScopeRadius>
+    </ModOp>
+	<!-- Harbor New World -->
+    <ModOp Type="add" GUID='101286' Path="/Values/ItemContainer">
+        <SocketScopeRadius>30</SocketScopeRadius>
+    </ModOp>
+	<!-- Harbor Enbesa -->
+    <ModOp Type="add" GUID='117860' Path="/Values/ItemContainer">
+        <SocketScopeRadius>30</SocketScopeRadius>
+    </ModOp>
+	
+	<!----   ---->
+	<!-- Duno Why -->
+    <ModOp Type = "replace" Path = "//EffectForward[ForwardEffectRange = '15']/ForwardEffectRange">
+        <ForwardEffectRange>30</ForwardEffectRange>
+    </ModOp>
+    <ModOp Type = "replace" Path = "//EffectForward[ForwardEffectRange = '20']/ForwardEffectRange">
+        <ForwardEffectRange>30</ForwardEffectRange>
+    </ModOp>
+	
+	
+	<!---- Set Overlap  ---->
+	<!-- Trade Union -->
+	<ModOp Type="add" GUID='1010516' Path="/Values/ItemContainer">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- Trade Union New World -->
+	<ModOp Type="add" GUID='101284' Path="/Values/ItemContainer">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp> 
+	<!-- Trade Union Arctic -->
+	<ModOp Type="add" GUID='112678' Path="/Values/ItemContainer">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- Trade Union Enbesa -->
+	<ModOp Type="add" GUID='117858' Path="/Values/ItemContainer">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- Harbor Office -->
+    <ModOp Type="add" GUID='100586' Path="/Values/ItemContainer">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- Harbor New World -->
+    <ModOp Type="add" GUID='101286' Path="/Values/ItemContainer">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp> 
+	<!-- Harbor Enbesa -->
+    <ModOp Type="add" GUID='117860' Path="/Values/ItemContainer">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp> 
+	
+	<!-- Post Office -->
+    <ModOp Type="replace" GUID='3741' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- Post New World -->
+    <ModOp Type="replace" GUID='3761' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- Post Box -->
+    <ModOp Type="replace" GUID='538' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- Post New World -->
+    <ModOp Type="replace" GUID='538' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- PostBoxBuildingWithPublicService 1 -->
+    <ModOp Type="replace" GUID='3661' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+	<!-- PostBoxBuildingWithPublicService 1 -->
+    <ModOp Type="replace" GUID='4260' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		<SocketScopeRadiusOverlapCategory>None</SocketScopeRadiusOverlapCategory>
+    </ModOp>
+   	     
+	<!-- Dockland -->
+	<!--
+	<ModOp Type="merge" GUID='601470' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		None
+    </ModOp>
+	-->
+	
+	<!---- Duno Why, GUID not found  ---->
+	<!--
+	<ModOp Type="merge" GUID='103693001' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		None
+    </ModOp> 
+	<ModOp Type="merge" GUID='103693002' Path="/Values/ItemContainer/SocketScopeRadiusOverlapCategory">
+		None
+    </ModOp> 
+	-->
+	
+
+ </ModOps>

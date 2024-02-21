@@ -1,0 +1,41 @@
+{
+  "Version": "1.0.1",
+  "ModID": "lonelyPorter_dice",
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese" "Gameplay",
+  },
+  "ModName": {
+    "Chinese": "NPC Dice Reworked",
+    "English": "NPC Dice Reworked",
+    "French": "NPC Dice Reworked",
+    "German": "NPC Dice Reworked",
+    "Italian": "NPC Dice Reworked",
+    "Korean": "NPC Dice Reworked",
+    "Polish": "NPC Dice Reworked",
+    "Russian": "NPC Dice Reworked",
+    "Spanish": "NPC Dice Reworked",
+    "Taiwanese": "NPC Dice Reworked",
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "All Non Story-Quest Items can be bought at Traders. The origin of Items has been cleaned up. All Trade Union Items are at Elis for example.",
+    "French": null,
+    "German": "Alle Nicht-Story Quest Items können bei Händlern gekauft werden. Jeder Händler ist spezialisiert auf einen gewissen Typ. Eli verkauft z.B. handelskammer-Items",
+    "Italian": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "CreatorName": "lonelyPorter"
+}

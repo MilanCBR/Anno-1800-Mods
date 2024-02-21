@@ -1,0 +1,29 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>606175010</GUID>
+      			<Text>Wieża zegarowa królowej</Text>
+		</Text>
+		
+		<Text>
+     			<GUID>606175020</GUID>
+      			<Text>Ta monumentalna budowla, choć oficjalnie nazywana Wieżą Zegarową Królowej, jest również pieszczotliwie nazywana „Wielkim Bongiem”, ponieważ mieszkańcy waszych miast z pewnością wiedzą, kiedy zegar zaczyna dzwonić, kiedy jest czas na herbatę!</Text>
+		</Text>			
+
+		<Text>
+     			<GUID>606175011</GUID>
+      			<Text>Bong-o-Clock</Text>
+		</Text>		
+
+		<Text>
+     			<GUID>606175012</GUID>
+      			<Text>Bong-o-Clock</Text>
+		</Text>			
+		
+		<Text>
+     			<GUID>606175021</GUID>
+      			<Text>„Czas? Co to jest? Po prostu robimy to, co każe nam Big Bong, proste jak!”</Text>
+		</Text>	
+		
+	</ModOp>
+</ModOps>

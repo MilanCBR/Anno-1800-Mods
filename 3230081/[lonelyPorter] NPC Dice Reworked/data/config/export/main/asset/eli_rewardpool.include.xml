@@ -1,0 +1,796 @@
+<ModOps>
+<!-- Eli Bleakworth (Jailer) - Old World -->
+	<ModOp Type="replace" GUID='190774' Path="/Values/RewardPool">
+		<RewardPool>
+			<ItemsPool>
+			<!-- Trade Union -->
+			<!-- Common (White) -->
+				<item><ItemLink>110998</ItemLink><Weight>0</Weight></item> <!-- Anarchy - Mine Explosives -->
+				<item><ItemLink>190623</ItemLink><Weight>0</Weight></item> <!-- Juwellier -->
+				<item><ItemLink>190628</ItemLink><Weight>0</Weight></item> <!-- Baker -->
+				<item><ItemLink>190639</ItemLink><Weight>0</Weight></item> <!-- Cigars -->
+				<item><ItemLink>190644</ItemLink><Weight>0</Weight></item> <!-- Rum -->
+				<item><ItemLink>190645</ItemLink><Weight>0</Weight></item> <!-- Sekt -->
+				<item><ItemLink>190685</ItemLink><Weight>0</Weight></item> <!-- NW Farm -->
+				<item><ItemLink>190686</ItemLink><Weight>0</Weight></item> <!-- NW Farm -->
+				<item><ItemLink>190699</ItemLink><Weight>0</Weight></item> <!-- Steel -->
+				<item><ItemLink>190700</ItemLink><Weight>0</Weight></item> <!-- Weapon Factories -->
+				<item><ItemLink>190733</ItemLink><Weight>0</Weight></item> <!-- Holzfäller -->
+				<item><ItemLink>190734</ItemLink><Weight>0</Weight></item> <!-- Jäger -->
+				<item><ItemLink>190740</ItemLink><Weight>0</Weight></item> <!-- Charcoal Specialist -->
+				<item><ItemLink>190744</ItemLink><Weight>0</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>190745</ItemLink><Weight>0</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>190753</ItemLink><Weight>0</Weight></item> <!-- OW Farm Grape Specialist -->
+				<item><ItemLink>190755</ItemLink><Weight>0</Weight></item> <!-- Mines Specialist -->
+				<item><ItemLink>190756</ItemLink><Weight>0</Weight></item> <!-- Oil Specialist -->
+				<item><ItemLink>191306</ItemLink><Weight>0</Weight></item> <!-- Glasses Factory Specialist -->
+				<item><ItemLink>191312</ItemLink><Weight>0</Weight></item> <!-- Kitchen Specialist -->
+				<item><ItemLink>191315</ItemLink><Weight>0</Weight></item> <!-- Soap Specialist -->
+				<item><ItemLink>191320</ItemLink><Weight>0</Weight></item> <!-- Watch Specialist -->
+				<item><ItemLink>191325</ItemLink><Weight>0</Weight></item> <!-- Fabric Specialist -->
+				<item><ItemLink>191330</ItemLink><Weight>0</Weight></item> <!-- Chocolate Specialist -->
+				<item><ItemLink>191336</ItemLink><Weight>0</Weight></item> <!-- Fur Dealer Specialist -->
+				<item><ItemLink>191341</ItemLink><Weight>0</Weight></item> <!-- Poncho Specialist -->
+				<item><ItemLink>191342</ItemLink><Weight>0</Weight></item> <!-- Hat Specialist -->
+				<item><ItemLink>191351</ItemLink><Weight>0</Weight></item> <!-- Grammophone+ Specialist -->
+				<item><ItemLink>191367</ItemLink><Weight>0</Weight></item> <!-- Coffee Specialist -->
+				<item><ItemLink>191372</ItemLink><Weight>0</Weight></item> <!-- Grammophone only Specialist -->
+				<item><ItemLink>191373</ItemLink><Weight>0</Weight></item> <!-- Powerplant Specialist -->
+				<item><ItemLink>191379</ItemLink><Weight>0</Weight></item> <!-- Brewery Specialist -->
+				<item><ItemLink>191396</ItemLink><Weight>0</Weight></item> <!-- Tortilla Specialist -->
+				<item><ItemLink>191384</ItemLink><Weight>0</Weight></item> <!-- Slaughter Specialist -->
+				<item><ItemLink>191394</ItemLink><Weight>0</Weight></item> <!-- Cannery Specialist -->
+				<item><ItemLink>191395</ItemLink><Weight>0</Weight></item> <!-- Artisal Kittchen Specialist -->
+				<item><ItemLink>191412</ItemLink><Weight>0</Weight></item> <!-- Cab Assembly Specialist -->
+				<item><ItemLink>191413</ItemLink><Weight>0</Weight></item> <!-- Bicycle Specialist -->
+				<item><ItemLink>191414</ItemLink><Weight>0</Weight></item> <!-- Sewing Machine Specialist -->
+				<item><ItemLink>191425</ItemLink><Weight>0</Weight></item> <!-- Carpentry Specialist -->
+				<item><ItemLink>191426</ItemLink><Weight>0</Weight></item> <!-- Window Specialist -->
+				<item><ItemLink>191459</ItemLink><Weight>0</Weight></item> <!-- Brick Specialist -->
+				<item><ItemLink>191460</ItemLink><Weight>0</Weight></item> <!-- Concrete Specialist -->
+				<item><ItemLink>191580</ItemLink><Weight>0</Weight></item> <!-- Animal Farm Specialist -->
+				<item><ItemLink>191585</ItemLink><Weight>0</Weight></item> <!-- Quarry Specialist 1 -->
+				<item><ItemLink>191586</ItemLink><Weight>0</Weight></item> <!-- Quarry Specialist 2 -->
+				<!-- Consumable -->
+				<item><ItemLink>191919</ItemLink><Weight>0</Weight></item> <!-- Glass Grenade -->
+				<item><ItemLink>191925</ItemLink><Weight>0</Weight></item> <!-- Bag of Money -->
+				<item><ItemLink>192013</ItemLink><Weight>0</Weight></item> <!-- Dynamite -->
+				
+			<!-- Uncommon (Green) -->
+				<item><ItemLink>110936</ItemLink><Weight>0</Weight></item> <!-- Anarchy - Druckerpresse -->
+				<item><ItemLink>110942</ItemLink><Weight>0</Weight></item> <!-- Anarchy - Kammer -->
+				<item><ItemLink>110999</ItemLink><Weight>0</Weight></item> <!-- Anarchy - Mine Explosives -->
+				<item><ItemLink>190624</ItemLink><Weight>0</Weight></item> <!-- Juwellier -->
+				<item><ItemLink>190629</ItemLink><Weight>0</Weight></item> <!-- Baker -->
+				<item><ItemLink>190640</ItemLink><Weight>0</Weight></item> <!-- Cigars -->
+				<item><ItemLink>190646</ItemLink><Weight>0</Weight></item> <!-- Rum -->
+				<item><ItemLink>190647</ItemLink><Weight>0</Weight></item> <!-- Sekt -->
+				<item><ItemLink>190687</ItemLink><Weight>0</Weight></item> <!-- NW Farm -->
+				<item><ItemLink>190688</ItemLink><Weight>0</Weight></item> <!-- NW Farm -->
+				<item><ItemLink>190701</ItemLink><Weight>0</Weight></item> <!-- Steel -->
+				<item><ItemLink>190702</ItemLink><Weight>0</Weight></item> <!-- Weapon Factories -->
+				<item><ItemLink>190735</ItemLink><Weight>0</Weight></item> <!-- Holzfäller -->
+				<item><ItemLink>190736</ItemLink><Weight>0</Weight></item> <!-- Jäger -->
+				<item><ItemLink>190741</ItemLink><Weight>0</Weight></item> <!-- Charcoal Specialist -->
+				<item><ItemLink>190746</ItemLink><Weight>0</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>190747</ItemLink><Weight>0</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>190754</ItemLink><Weight>0</Weight></item> <!-- OW Farm Grape Specialist -->
+				<item><ItemLink>190757</ItemLink><Weight>0</Weight></item> <!-- Mines Specialist -->
+				<item><ItemLink>190758</ItemLink><Weight>0</Weight></item> <!-- Oil Specialist -->
+				<item><ItemLink>191307</ItemLink><Weight>0</Weight></item> <!-- Glasses Factory -->
+				<item><ItemLink>191313</ItemLink><Weight>0</Weight></item> <!-- Kitchen -->
+				<item><ItemLink>191316</ItemLink><Weight>0</Weight></item> <!-- Soap Specialist -->
+				<item><ItemLink>191321</ItemLink><Weight>0</Weight></item> <!-- Watch Specialist -->
+				<item><ItemLink>191326</ItemLink><Weight>0</Weight></item> <!-- Fabric Specialist -->
+				<item><ItemLink>191331</ItemLink><Weight>0</Weight></item> <!-- Chocolate Specialist -->
+				<item><ItemLink>191337</ItemLink><Weight>0</Weight></item> <!-- Fur Dealer Specialist -->
+				<item><ItemLink>191343</ItemLink><Weight>0</Weight></item> <!-- Poncho Specialist -->
+				<item><ItemLink>191344</ItemLink><Weight>0</Weight></item> <!-- Hat Specialist -->
+				<item><ItemLink>191352</ItemLink><Weight>0</Weight></item> <!-- Grammophone+ Specialist -->
+				<item><ItemLink>191368</ItemLink><Weight>0</Weight></item> <!-- Coffee Specialist -->
+				<item><ItemLink>191374</ItemLink><Weight>0</Weight></item> <!-- Grammophone only Specialist -->
+				<item><ItemLink>191375</ItemLink><Weight>0</Weight></item> <!-- Powerplant Specialist -->
+				<item><ItemLink>191380</ItemLink><Weight>0</Weight></item> <!-- Brewery Specialist -->
+				<item><ItemLink>191385</ItemLink><Weight>0</Weight></item> <!-- Tortilla Specialist -->
+				<item><ItemLink>191397</ItemLink><Weight>0</Weight></item> <!-- Slaughter Specialist -->
+				<item><ItemLink>191398</ItemLink><Weight>0</Weight></item> <!-- Cannery Specialist -->
+				<item><ItemLink>191399</ItemLink><Weight>0</Weight></item> <!-- Artisal Kittchen Specialist -->
+				<item><ItemLink>191416</ItemLink><Weight>0</Weight></item> <!-- Cab Assembly Specialist -->
+				<item><ItemLink>191415</ItemLink><Weight>0</Weight></item> <!-- Bicycle Specialist -->
+				<item><ItemLink>191417</ItemLink><Weight>0</Weight></item> <!-- Sewing Machine Specialist -->
+				<item><ItemLink>191427</ItemLink><Weight>0</Weight></item> <!-- Carpentry Specialist -->
+				<item><ItemLink>191428</ItemLink><Weight>0</Weight></item> <!-- Window Specialist -->
+				<item><ItemLink>191461</ItemLink><Weight>0</Weight></item> <!-- Brick Specialist -->
+				<item><ItemLink>191462</ItemLink><Weight>0</Weight></item> <!-- Concrete Specialist -->
+				<item><ItemLink>191581</ItemLink><Weight>0</Weight></item> <!-- Animal Farm Specialist -->
+				<item><ItemLink>191587</ItemLink><Weight>0</Weight></item> <!-- Quarry Specialist 1 -->
+				<item><ItemLink>191588</ItemLink><Weight>0</Weight></item> <!-- Quarry Specialist 2 -->
+				<item><ItemLink>136649</ItemLink><Weight>0</Weight></item> <!-- Entremetier -->
+				<item><ItemLink>8347</ItemLink><Weight>0</Weight></item>   <!-- Dr. Ingo Flores -->
+				<item><ItemLink>1895</ItemLink><Weight>0</Weight></item>   <!-- Military Logistican -->
+				<!-- Machines -->
+				<item><ItemLink>190818</ItemLink><Weight>0</Weight></item> <!-- Gerüst -->
+				<item><ItemLink>190824</ItemLink><Weight>0</Weight></item> <!-- Bell -->
+				<item><ItemLink>190827</ItemLink><Weight>0</Weight></item> <!-- Power Generator -->
+				<item><ItemLink>190830</ItemLink><Weight>0</Weight></item> <!-- Ofen - Kalzinerofen -->
+				<item><ItemLink>190839</ItemLink><Weight>0</Weight></item> <!-- Maschine - Hobelmaschine -->
+				<item><ItemLink>190843</ItemLink><Weight>0</Weight></item> <!-- Mühlstein -->
+				<item><ItemLink>190847</ItemLink><Weight>0</Weight></item> <!-- Thermometer -->
+				<item><ItemLink>190850</ItemLink><Weight>0</Weight></item> <!-- Säge -->
+				<item><ItemLink>190853</ItemLink><Weight>0</Weight></item> <!-- Falle -->
+				<item><ItemLink>190856</ItemLink><Weight>1</Weight></item> <!-- Baumschere -->
+				<item><ItemLink>190859</ItemLink><Weight>0</Weight></item> <!-- Pflug -->
+				<item><ItemLink>190862</ItemLink><Weight>0</Weight></item> <!-- Dünger -->
+				<item><ItemLink>190866</ItemLink><Weight>0</Weight></item> <!-- Animal Medicaments -->
+				<item><ItemLink>190869</ItemLink><Weight>1</Weight></item> <!-- Futterplatz -->
+				<item><ItemLink>190873</ItemLink><Weight>0</Weight></item> <!-- Gülle -->
+				<item><ItemLink>190876</ItemLink><Weight>0</Weight></item> <!-- Mine Elevator -->
+				<item><ItemLink>190879</ItemLink><Weight>0</Weight></item> <!-- Drill -->
+				<item><ItemLink>190883</ItemLink><Weight>0</Weight></item> <!-- Webmaschine -->
+				<item><ItemLink>190887</ItemLink><Weight>0</Weight></item> <!-- Montageband -->
+				<item><ItemLink>190891</ItemLink><Weight>0</Weight></item> <!-- Ofen (Lebensmittel) -->
+				<item><ItemLink>190894</ItemLink><Weight>0</Weight></item> <!-- Destille -->
+				<item><ItemLink>190898</ItemLink><Weight>0</Weight></item> <!-- Brille -->
+				<item><ItemLink>190905</ItemLink><Weight>0</Weight></item> <!-- Glasbläser-Tool -->
+				<item><ItemLink>190908</ItemLink><Weight>0</Weight></item> <!-- Kreissäge -->
+				<item><ItemLink>190911</ItemLink><Weight>0</Weight></item> <!-- Gussform -->
+				<item><ItemLink>190915</ItemLink><Weight>0</Weight></item> <!-- Seeds - Wheet -->
+				<item><ItemLink>190919</ItemLink><Weight>0</Weight></item> <!-- Seeds - Hop -->
+				<item><ItemLink>190922</ItemLink><Weight>0</Weight></item> <!-- Seeds - Potato -->
+				<item><ItemLink>190925</ItemLink><Weight>0</Weight></item> <!-- Seeds - Grapes -->
+				<item><ItemLink>190928</ItemLink><Weight>0</Weight></item> <!-- Seeds - Paprika -->
+				<item><ItemLink>190931</ItemLink><Weight>0</Weight></item> <!-- Seeds - Sugar -->
+				<item><ItemLink>190934</ItemLink><Weight>0</Weight></item> <!-- Seeds - Tobacco -->
+				<item><ItemLink>190937</ItemLink><Weight>0</Weight></item> <!-- Seeds - Cotton -->
+				<item><ItemLink>190940</ItemLink><Weight>0</Weight></item> <!-- Seeds - Kakao -->
+				<item><ItemLink>190943</ItemLink><Weight>0</Weight></item> <!-- Seeds - Kautschuk -->
+				<item><ItemLink>190946</ItemLink><Weight>0</Weight></item> <!-- Seeds - Coffee -->
+				<item><ItemLink>190949</ItemLink><Weight>0</Weight></item> <!-- Seeds - Corn -->
+				<item><ItemLink>191897</ItemLink><Weight>0</Weight></item> <!-- Seed Plantain -->
+				<!-- Consumable -->
+				<item><ItemLink>191920</ItemLink><Weight>0</Weight></item> <!-- Glass Grenade -->
+				<item><ItemLink>191926</ItemLink><Weight>0</Weight></item> <!-- Bag of Money -->
+				<item><ItemLink>192016</ItemLink><Weight>0</Weight></item> <!-- Dynamite -->
+				<!-- Books -->
+				<item><ItemLink>191675</ItemLink><Weight>0</Weight></item> <!-- Certificate -->
+				<item><ItemLink>191681</ItemLink><Weight>0</Weight></item> <!-- Fire Prevention -->
+				<item><ItemLink>191684</ItemLink><Weight>0</Weight></item> <!-- Heavy Industry + -->
+				<item><ItemLink>191687</ItemLink><Weight>0</Weight></item> <!-- Heavy Industry - -->
+				<!-- Quest Rewards (Researchable) -->
+				<item><ItemLink>192358</ItemLink><Weight>1</Weight></item> <!-- Beryl's Fosterling -->
+				
+			<!-- Rare (Blue) -->
+				<item><ItemLink>110937</ItemLink><Weight>10</Weight></item> <!-- Anarchy - Druckerpresse -->
+				<item><ItemLink>110943</ItemLink><Weight>10</Weight></item> <!-- Anarchy - Kammer -->
+				<item><ItemLink>190630</ItemLink><Weight>10</Weight></item> <!-- Baker Specialist -->
+				<item><ItemLink>190625</ItemLink><Weight>10</Weight></item> <!-- Jewellers Specialist -->
+				<item><ItemLink>190641</ItemLink><Weight>10</Weight></item> <!-- Cigars Specialist -->
+				<item><ItemLink>190648</ItemLink><Weight>10</Weight></item> <!-- Rum Specialist -->
+				<item><ItemLink>190689</ItemLink><Weight>10</Weight></item> <!-- NW Farm Specialist -->
+				<item><ItemLink>190690</ItemLink><Weight>10</Weight></item> <!-- NW Farm Specialist -->
+				<item><ItemLink>190703</ItemLink><Weight>10</Weight></item> <!-- Weapon Factories Specialist -->
+				<item><ItemLink>190737</ItemLink><Weight>10</Weight></item> <!-- Jäger -->
+				<item><ItemLink>190742</ItemLink><Weight>10</Weight></item> <!-- Charcoal Specialist -->
+				<item><ItemLink>190748</ItemLink><Weight>10</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>190749</ItemLink><Weight>10</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>190759</ItemLink><Weight>10</Weight></item> <!-- Mines Specialist -->
+				<item><ItemLink>191308</ItemLink><Weight>10</Weight></item> <!-- Glasses Factory -->
+				<item><ItemLink>191317</ItemLink><Weight>10</Weight></item> <!-- Soap Specialist -->
+				<item><ItemLink>191322</ItemLink><Weight>10</Weight></item> <!-- Watch Specialist -->
+				<item><ItemLink>191327</ItemLink><Weight>10</Weight></item> <!-- Fabric Specialist -->
+				<item><ItemLink>191332</ItemLink><Weight>10</Weight></item> <!-- Chocolate Specialist -->
+				<item><ItemLink>191348</ItemLink><Weight>10</Weight></item> <!-- Fur Dealer Specialist -->
+				<item><ItemLink>191349</ItemLink><Weight>10</Weight></item> <!-- Hat Specialist -->
+				<item><ItemLink>191345</ItemLink><Weight>10</Weight></item> <!-- Poncho Specialist -->
+				<item><ItemLink>191353</ItemLink><Weight>10</Weight></item> <!-- Grammophone+ Specialist -->
+				<item><ItemLink>191356</ItemLink><Weight>10</Weight></item> <!-- Plantain Kitchen Specialist -->
+				<item><ItemLink>191369</ItemLink><Weight>10</Weight></item> <!-- Coffee Specialist -->
+				<item><ItemLink>191376</ItemLink><Weight>10</Weight></item> <!-- Powerplant Specialist -->
+				<item><ItemLink>191381</ItemLink><Weight>10</Weight></item> <!-- Brewery Specialist -->
+				<item><ItemLink>191386</ItemLink><Weight>10</Weight></item> <!-- Tortilla Specialist -->
+				<item><ItemLink>191403</ItemLink><Weight>10</Weight></item> <!-- Slaughter Specialist -->
+				<item><ItemLink>191404</ItemLink><Weight>10</Weight></item> <!-- Cannery Specialist -->
+				<item><ItemLink>191400</ItemLink><Weight>10</Weight></item> <!-- Artisal Kittchen Specialist -->
+				<item><ItemLink>191418</ItemLink><Weight>10</Weight></item> <!-- Cab Assembly Specialist -->
+				<item><ItemLink>191419</ItemLink><Weight>10</Weight></item> <!-- Bicycle / Sewing Machine Specialist -->
+				<item><ItemLink>191429</ItemLink><Weight>10</Weight></item> <!-- Carpentry / Window Specialist -->
+				<item><ItemLink>191463</ItemLink><Weight>10</Weight></item> <!-- Brick / Concrete Specialist -->
+				<item><ItemLink>191582</ItemLink><Weight>10</Weight></item> <!-- Animal Farm Specialist -->
+				<item><ItemLink>191589</ItemLink><Weight>10</Weight></item> <!-- Quarry Specialist -->
+				<item><ItemLink>136648</ItemLink><Weight>10</Weight></item> <!-- Sous-Chef -->
+				<item><ItemLink>136886</ItemLink><Weight>10</Weight></item> <!-- Window-Dresser -->
+				<item><ItemLink>136887</ItemLink><Weight>10</Weight></item> <!-- Store Greeter -->
+				<item><ItemLink>958</ItemLink><Weight>10</Weight></item>    <!-- Combustion Chemist -->
+				<item><ItemLink>1897</ItemLink><Weight>10</Weight></item>   <!-- Synthetic Chemist -->
+				<item><ItemLink>1948</ItemLink><Weight>10</Weight></item>   <!-- Mad Mary -->
+				<item><ItemLink>1956</ItemLink><Weight>10</Weight></item>   <!-- Temperate Pedologist -->
+				<item><ItemLink>1964</ItemLink><Weight>10</Weight></item>   <!-- Animal Nutritionist -->
+				<item><ItemLink>1966</ItemLink><Weight>10</Weight></item>   <!-- Enbesan Animal Nutritionist -->
+				<item><ItemLink>1961</ItemLink><Weight>10</Weight></item>   <!-- Tropical Pedologist -->
+				<item><ItemLink>2223</ItemLink><Weight>10</Weight></item>   <!-- Helium Expert -->
+				<item><ItemLink>2224</ItemLink><Weight>10</Weight></item>   <!-- Minerologist -->
+				<item><ItemLink>8351</ItemLink><Weight>10</Weight></item>   <!-- Maria Maravilla -->
+				<item><ItemLink>8348</ItemLink><Weight>10</Weight></item>   <!-- Valentina Alvarez -->
+				<item><ItemLink>8908</ItemLink><Weight>10</Weight></item>   <!-- Enbesan Envoy -->
+				<!-- Machines -->
+				<item><ItemLink>190819</ItemLink><Weight>10</Weight></item> <!-- Gerüst -->
+				<item><ItemLink>190825</ItemLink><Weight>10</Weight></item> <!-- Bell -->
+				<item><ItemLink>190828</ItemLink><Weight>10</Weight></item> <!-- Power Generator -->
+				<item><ItemLink>190831</ItemLink><Weight>10</Weight></item> <!-- Ofen - Flammenofen -->
+				<item><ItemLink>190840</ItemLink><Weight>10</Weight></item> <!-- Maschine - Fräsmaschine -->
+				<item><ItemLink>190844</ItemLink><Weight>10</Weight></item> <!-- Mühlstein -->
+				<item><ItemLink>190848</ItemLink><Weight>10</Weight></item> <!-- Thermometer -->
+				<item><ItemLink>190851</ItemLink><Weight>10</Weight></item> <!-- Säge -->
+				<item><ItemLink>190854</ItemLink><Weight>10</Weight></item> <!-- Falle -->
+				<item><ItemLink>190857</ItemLink><Weight>10</Weight></item> <!-- Baumschere -->
+				<item><ItemLink>190860</ItemLink><Weight>10</Weight></item> <!-- Pflug -->
+				<item><ItemLink>190863</ItemLink><Weight>10</Weight></item> <!-- Dünger -->
+				<item><ItemLink>190867</ItemLink><Weight>10</Weight></item> <!-- Animal Medicaments -->
+				<item><ItemLink>190870</ItemLink><Weight>10</Weight></item> <!-- Futterplatz -->
+				<item><ItemLink>190874</ItemLink><Weight>10</Weight></item> <!-- Gülle -->
+				<item><ItemLink>190877</ItemLink><Weight>10</Weight></item> <!-- Mine Elevator -->
+				<item><ItemLink>190880</ItemLink><Weight>10</Weight></item> <!-- Drill -->
+				<item><ItemLink>190884</ItemLink><Weight>10</Weight></item> <!-- Webmaschine -->
+				<item><ItemLink>190888</ItemLink><Weight>10</Weight></item> <!-- Montageband -->
+				<item><ItemLink>190892</ItemLink><Weight>10</Weight></item> <!-- Ofen (Lebensmittel) -->
+				<item><ItemLink>190895</ItemLink><Weight>10</Weight></item> <!-- Destille -->
+				<item><ItemLink>190899</ItemLink><Weight>10</Weight></item> <!-- Brille -->
+				<item><ItemLink>190906</ItemLink><Weight>10</Weight></item> <!-- Glasbläser-Tool -->
+				<item><ItemLink>190909</ItemLink><Weight>10</Weight></item> <!-- Kreissäge -->
+				<item><ItemLink>190912</ItemLink><Weight>10</Weight></item> <!-- Gussform -->
+				<item><ItemLink>190916</ItemLink><Weight>10</Weight></item> <!-- Seeds - Wheet -->
+				<item><ItemLink>190920</ItemLink><Weight>10</Weight></item> <!-- Seeds - Hop -->
+				<item><ItemLink>190923</ItemLink><Weight>10</Weight></item> <!-- Seeds - Potato -->
+				<item><ItemLink>190926</ItemLink><Weight>10</Weight></item> <!-- Seeds - Grapes -->
+				<item><ItemLink>190929</ItemLink><Weight>10</Weight></item> <!-- Seeds - Paprika -->
+				<item><ItemLink>190932</ItemLink><Weight>10</Weight></item> <!-- Seeds - Sugar -->
+				<item><ItemLink>190935</ItemLink><Weight>10</Weight></item> <!-- Seeds - Tobacco -->
+				<item><ItemLink>190938</ItemLink><Weight>10</Weight></item> <!-- Seeds - Cotton -->
+				<item><ItemLink>190941</ItemLink><Weight>10</Weight></item> <!-- Seeds - Kakao -->
+				<item><ItemLink>190944</ItemLink><Weight>10</Weight></item> <!-- Seeds - Kautschuk -->
+				<item><ItemLink>190947</ItemLink><Weight>10</Weight></item> <!-- Seeds - Coffee -->
+				<item><ItemLink>190950</ItemLink><Weight>10</Weight></item> <!-- Seeds - Corn -->
+				<item><ItemLink>191898</ItemLink><Weight>10</Weight></item> <!-- Seed Plantain -->
+				<!-- Folders -->
+				<item><ItemLink>136821</ItemLink><Weight>10</Weight></item> <!-- Get Rich Quick Vol I: Pestilential Profit -->
+				<item><ItemLink>136823</ItemLink><Weight>10</Weight></item> <!-- Get Rich Quick Vol II: What Shape is a Banana Anyway? -->
+				<item><ItemLink>136835</ItemLink><Weight>10</Weight></item> <!-- Get Rich Quick Vol V: The Geppetto Gambit -->
+				<item><ItemLink>136838</ItemLink><Weight>10</Weight></item> <!-- Get Rich Quick Vol VI: Night Moves -->
+				<item><ItemLink>136831</ItemLink><Weight>10</Weight></item> <!-- Get Rich Quick Vol IX: Paid To Perform -->
+				<item><ItemLink>136741</ItemLink><Weight>10</Weight></item> <!-- Optimized Pruning -->
+				<item><ItemLink>136746</ItemLink><Weight>10</Weight></item> <!-- Re-Rendering -->
+				<!-- Consumable -->
+				<item><ItemLink>191921</ItemLink><Weight>0</Weight></item> <!-- Glass Grenade -->
+				<item><ItemLink>191927</ItemLink><Weight>0</Weight></item> <!-- Bag of Money -->
+				<!-- Books -->
+				<item><ItemLink>191676</ItemLink><Weight>0</Weight></item> <!-- Certificate -->
+				<item><ItemLink>191682</ItemLink><Weight>0</Weight></item> <!-- Fire Prevention -->
+				<item><ItemLink>191685</ItemLink><Weight>0</Weight></item> <!-- Heavy Industry + -->
+				<item><ItemLink>191688</ItemLink><Weight>0</Weight></item> <!-- Heavy Industry - -->
+				<!-- Leaflets -->
+				<item><ItemLink>136202</ItemLink><Weight>0</Weight></item> <!-- Vandalised Vanity Screen Advertisement -->
+				
+			<!-- Epic (purple) -->
+				<item><ItemLink>110938</ItemLink><Weight>100</Weight></item> <!-- Druckerpresse -->
+				<item><ItemLink>110944</ItemLink><Weight>100</Weight></item> <!-- Kammer -->
+				<item><ItemLink>111179</ItemLink><Weight>100</Weight></item> <!-- Bekonin -->
+				<item><ItemLink>190626</ItemLink><Weight>100</Weight></item> <!-- Jeweller Specialist -->
+				<item><ItemLink>190631</ItemLink><Weight>100</Weight></item> <!-- Bakery Specialist -->
+				<item><ItemLink>190642</ItemLink><Weight>100</Weight></item> <!-- Cigars (Torcedor) -->
+				<item><ItemLink>190649</ItemLink><Weight>100</Weight></item> <!-- Rum Specialist -->
+				<item><ItemLink>190691</ItemLink><Weight>100</Weight></item> <!-- NW Farm Specialist -->
+				<item><ItemLink>190692</ItemLink><Weight>100</Weight></item> <!-- NW Farm Specialist -->
+				<item><ItemLink>190704</ItemLink><Weight>100</Weight></item> <!-- Weapon Factories Specialist -->
+				<item><ItemLink>190738</ItemLink><Weight>100</Weight></item> <!-- Holzfäller -->
+				<item><ItemLink>190743</ItemLink><Weight>100</Weight></item> <!-- Jäger -->
+				<item><ItemLink>190750</ItemLink><Weight>100</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>190751</ItemLink><Weight>100</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>193187</ItemLink><Weight>100</Weight></item> <!-- OW Farm Specialist -->
+				<item><ItemLink>190760</ItemLink><Weight>100</Weight></item> <!-- Mines Specialist -->
+				<item><ItemLink>191309</ItemLink><Weight>100</Weight></item> <!-- Glasses Factory Specialist -->
+				<item><ItemLink>191318</ItemLink><Weight>100</Weight></item> <!-- Soap Specialist -->
+				<item><ItemLink>191323</ItemLink><Weight>100</Weight></item> <!-- Watch Specialist -->
+				<item><ItemLink>191328</ItemLink><Weight>100</Weight></item> <!-- Fabric Specialist -->
+				<item><ItemLink>191333</ItemLink><Weight>100</Weight></item> <!-- Chocolate Specialist -->
+				<item><ItemLink>191346</ItemLink><Weight>100</Weight></item> <!-- Clothing Specialist -->
+				<item><ItemLink>191354</ItemLink><Weight>100</Weight></item> <!-- Grammophone only Specialist -->
+				<item><ItemLink>191370</ItemLink><Weight>100</Weight></item> <!-- Coffee Specialist -->
+				<item><ItemLink>191377</ItemLink><Weight>100</Weight></item> <!-- Powerplant Specialist -->
+				<item><ItemLink>191382</ItemLink><Weight>100</Weight></item> <!-- Brewery Specialist (Bill) -->
+				<item><ItemLink>192443</ItemLink><Weight>100</Weight></item> <!-- Brewery Specialist (Sir Lewis Brindley) -->
+				<item><ItemLink>191387</ItemLink><Weight>100</Weight></item> <!-- Tortilla Specialist -->
+				<item><ItemLink>191401</ItemLink><Weight>100</Weight></item> <!-- Slaughter Specialist -->
+				<item><ItemLink>191406</ItemLink><Weight>100</Weight></item> <!-- Cannery Specialist -->
+				<item><ItemLink>191405</ItemLink><Weight>100</Weight></item> <!-- Artisal Kittchen Specialist -->
+				<item><ItemLink>191420</ItemLink><Weight>100</Weight></item> <!-- Cab Assembly Specialist -->
+				<item><ItemLink>191424</ItemLink><Weight>100</Weight></item> <!-- Bicycle / Sewing Machine Specialist -->
+				<item><ItemLink>191430</ItemLink><Weight>100</Weight></item> <!-- Carpentry / Window Specialist -->
+				<item><ItemLink>191464</ItemLink><Weight>100</Weight></item> <!-- Brick / Concrete Specialist -->
+				<item><ItemLink>191583</ItemLink><Weight>100</Weight></item> <!-- Animal Farm Specialist -->
+				<item><ItemLink>191590</ItemLink><Weight>100</Weight></item> <!-- Quarry Specialist -->
+				<item><ItemLink>192450</ItemLink><Weight>100</Weight></item> <!-- Feras -->
+				<item><ItemLink>136647</ItemLink><Weight>100</Weight></item> <!-- Marie-Louise Carême Chef de Cuisine -->
+				<item><ItemLink>4277</ItemLink><Weight>100</Weight></item>   <!-- Airship Logistican -->
+				<item><ItemLink>8355</ItemLink><Weight>100</Weight></item>   <!-- Salvador, the Stalwart -->
+				<!-- Machines -->
+				<item><ItemLink>190820</ItemLink><Weight>100</Weight></item> <!-- Gerüst -->
+				<item><ItemLink>190826</ItemLink><Weight>100</Weight></item> <!-- Bell (Electric) -->
+				<item><ItemLink>192305</ItemLink><Weight>100</Weight></item> <!-- Bell -->
+				<item><ItemLink>190829</ItemLink><Weight>100</Weight></item> <!-- Power Generator -->
+				<item><ItemLink>190832</ItemLink><Weight>100</Weight></item> <!-- Ofen - Bechamelbirne -->
+				<item><ItemLink>190841</ItemLink><Weight>100</Weight></item> <!-- Maschine - Cutting Edge -->
+				<item><ItemLink>190845</ItemLink><Weight>100</Weight></item> <!-- Mühlstein -->
+				<item><ItemLink>190849</ItemLink><Weight>100</Weight></item> <!-- Thermometer -->
+				<item><ItemLink>190852</ItemLink><Weight>100</Weight></item> <!-- Säge -->
+				<item><ItemLink>190855</ItemLink><Weight>100</Weight></item> <!-- Falle -->
+				<item><ItemLink>190858</ItemLink><Weight>100</Weight></item> <!-- Baumschere -->
+				<item><ItemLink>190861</ItemLink><Weight>100</Weight></item> <!-- Pflug -->
+				<item><ItemLink>190864</ItemLink><Weight>100</Weight></item> <!-- Dünger -->
+				<item><ItemLink>190868</ItemLink><Weight>100</Weight></item> <!-- Animal Medicaments -->
+				<item><ItemLink>190871</ItemLink><Weight>100</Weight></item> <!-- Futterplatz -->
+				<item><ItemLink>190875</ItemLink><Weight>100</Weight></item> <!-- Gülle -->
+				<item><ItemLink>190878</ItemLink><Weight>100</Weight></item> <!-- Mine Elevator -->
+				<item><ItemLink>190881</ItemLink><Weight>100</Weight></item> <!-- Drill -->
+				<item><ItemLink>190885</ItemLink><Weight>100</Weight></item> <!-- Webmaschine -->
+				<item><ItemLink>190889</ItemLink><Weight>100</Weight></item> <!-- Montageband -->
+				<item><ItemLink>190893</ItemLink><Weight>100</Weight></item> <!-- Ofen (Lebensmittel) -->
+				<item><ItemLink>190896</ItemLink><Weight>100</Weight></item> <!-- Destille -->
+				<item><ItemLink>190900</ItemLink><Weight>100</Weight></item> <!-- Brille -->
+				<item><ItemLink>190907</ItemLink><Weight>100</Weight></item> <!-- Glasbläser-Tool -->
+				<item><ItemLink>190910</ItemLink><Weight>100</Weight></item> <!-- Kreissäge -->
+				<item><ItemLink>190913</ItemLink><Weight>100</Weight></item> <!-- Gussform -->
+				<item><ItemLink>190917</ItemLink><Weight>100</Weight></item> <!-- Seeds - Wheet -->
+				<item><ItemLink>190921</ItemLink><Weight>100</Weight></item> <!-- Seeds - Hop -->
+				<item><ItemLink>190924</ItemLink><Weight>100</Weight></item> <!-- Seeds - Potato -->
+				<item><ItemLink>190927</ItemLink><Weight>100</Weight></item> <!-- Seeds - Grapes -->
+				<item><ItemLink>190930</ItemLink><Weight>100</Weight></item> <!-- Seeds - Paprika -->
+				<item><ItemLink>190933</ItemLink><Weight>100</Weight></item> <!-- Seeds - Sugar -->
+				<item><ItemLink>190936</ItemLink><Weight>100</Weight></item> <!-- Seeds - Tobacco -->
+				<item><ItemLink>190939</ItemLink><Weight>100</Weight></item> <!-- Seeds - Cotton -->
+				<item><ItemLink>190942</ItemLink><Weight>100</Weight></item> <!-- Seeds - Kakao -->
+				<item><ItemLink>190945</ItemLink><Weight>100</Weight></item> <!-- Seeds - Kautschuk -->
+				<item><ItemLink>190948</ItemLink><Weight>100</Weight></item> <!-- Seeds - Coffee -->
+				<item><ItemLink>190951</ItemLink><Weight>100</Weight></item> <!-- Seeds - Corn -->
+				<item><ItemLink>191899</ItemLink><Weight>100</Weight></item> <!-- Seed Plantain -->
+				<!-- Folders -->
+				<item><ItemLink>136825</ItemLink><Weight>100</Weight></item> <!-- Double Redundancy -->
+				<item><ItemLink>136819</ItemLink><Weight>100</Weight></item> <!-- Get Rich Quick Vol III: Pretty Polyculture -->
+				<item><ItemLink>136827</ItemLink><Weight>100</Weight></item> <!-- Get Rich Quick Vol IV: The Wasteland -->
+				<item><ItemLink>137631</ItemLink><Weight>100</Weight></item> <!-- Get Rich Quick Vol VII: Automation Nation -->
+				<item><ItemLink>136739</ItemLink><Weight>100</Weight></item> <!-- Interspecies Grafting -->
+				<!-- Books -->
+				<item><ItemLink>191677</ItemLink><Weight>100</Weight></item> <!-- Labour Law -->
+				<item><ItemLink>191683</ItemLink><Weight>100</Weight></item> <!-- Fire Prevention -->
+				<item><ItemLink>191686</ItemLink><Weight>100</Weight></item> <!-- Heavy Industry + (Smokestack Act) -->
+				<item><ItemLink>191689</ItemLink><Weight>100</Weight></item> <!-- Heavy Industry - -->
+				<!-- Leaflets -->
+				<item><ItemLink>132844</ItemLink><Weight>100</Weight></item> <!-- Drunken Dave's Distillery Dive Leaflet -->
+				<item><ItemLink>132847</ItemLink><Weight>100</Weight></item> <!-- Canterbarry's Countryside Cruise Leaflet -->
+				<item><ItemLink>136203</ItemLink><Weight>100</Weight></item> <!-- Original Vanity Screen Advertisement -->
+				<item><ItemLink>132840</ItemLink><Weight>10</Weight></item> <!-- Walter Waterlogged's Wine Wanderings Leaflet -->
+				<!-- Quest Rewards (Researchable) -->
+				<item><ItemLink>192039</ItemLink><Weight>100</Weight></item> <!-- Franke -->
+				<item><ItemLink>192299</ItemLink><Weight>100</Weight></item> <!-- Miraculous Steel Plough -->
+				<item><ItemLink>192319</ItemLink><Weight>100</Weight></item> <!-- Optimised Automatic Loom -->
+				<item><ItemLink>192362</ItemLink><Weight>100</Weight></item> <!-- A Remedy -->
+				
+			<!-- Legendary -->
+				<item><ItemLink>190237</ItemLink><Weight>500</Weight></item> <!-- Angela "Meg" -->
+				<item><ItemLink>190627</ItemLink><Weight>500</Weight></item> <!-- François Strindberg -->
+				<item><ItemLink>190632</ItemLink><Weight>500</Weight></item> <!-- Marie-Antoine -->
+				<item><ItemLink>190643</ItemLink><Weight>500</Weight></item> <!-- Victor Perfecto (Cigar Daddy) -->
+				<item><ItemLink>190650</ItemLink><Weight>500</Weight></item> <!-- Mme. Elise "The Nose" Bouquet (Rum Specialist) -->
+				<item><ItemLink>190693</ItemLink><Weight>500</Weight></item> <!-- Ali Al-Zahir (NW Farms) -->
+				<item><ItemLink>190739</ItemLink><Weight>500</Weight></item> <!-- Ursula Green (Holzfäller) -->
+				<item><ItemLink>190752</ItemLink><Weight>500</Weight></item> <!-- Cosmo Castelli (OW Farm) -->
+				<item><ItemLink>190761</ItemLink><Weight>500</Weight></item> <!-- Jörg van Malching (Mines) -->
+				<item><ItemLink>191310</ItemLink><Weight>500</Weight></item> <!-- Gerhard Fuchs (Glasses Factory) -->
+				<item><ItemLink>191319</ItemLink><Weight>500</Weight></item> <!-- Hervé Savonne (Soap) -->
+				<item><ItemLink>191324</ItemLink><Weight>500</Weight></item> <!-- Hans Klein (Watch Specialist) -->
+				<item><ItemLink>191329</ItemLink><Weight>500</Weight></item> <!-- Lady Jane (Fabric Specialist) -->
+				<item><ItemLink>191334</ItemLink><Weight>500</Weight></item> <!-- Gennaro Garibaldi (Chocolate Specialist) -->
+				<item><ItemLink>191347</ItemLink><Weight>500</Weight></item> <!-- Cgristobal Taffeta (Clothing Specialist) -->
+				<item><ItemLink>191355</ItemLink><Weight>500</Weight></item> <!-- Prof. Ram Devi (Grammophone+ Specialist) -->
+				<item><ItemLink>191371</ItemLink><Weight>500</Weight></item> <!-- Marco de Mocha (Coffee Specialist) -->
+				<item><ItemLink>191383</ItemLink><Weight>500</Weight></item> <!-- Brother Hilarius (Brewery Specialist) -->
+				<item><ItemLink>191388</ItemLink><Weight>500</Weight></item> <!-- Maxime Graves (Slaughter Specialist) -->
+				<item><ItemLink>191402</ItemLink><Weight>500</Weight></item> <!-- Tlayolotl (Tortilla Specialist) -->
+				<item><ItemLink>191407</ItemLink><Weight>500</Weight></item> <!-- Mrs. Mayson (Cannery Specialist) -->
+				<item><ItemLink>191408</ItemLink><Weight>500</Weight></item> <!-- Marcel Forcas (Artisal Kittchen Specialist) -->
+				<item><ItemLink>191422</ItemLink><Weight>500</Weight></item> <!-- Bruno Ironbright (Cab / Bicycle / Sewing Machine Specialist) -->
+				<item><ItemLink>191431</ItemLink><Weight>500</Weight></item> <!-- Seraphim Papadikas (Carpentry / Window Specialist) -->
+				<item><ItemLink>191465</ItemLink><Weight>500</Weight></item> <!-- François (Brick / Concrete Specialist) -->
+				<item><ItemLink>191584</ItemLink><Weight>500</Weight></item> <!-- Mark van der Mark (Animal Farm Specialist) -->
+				<item><ItemLink>191591</ItemLink><Weight>500</Weight></item> <!-- Steven MacLeod (Quarry Specialist) -->
+				<item><ItemLink>190705</ItemLink><Weight>500</Weight></item> <!-- Henri Zanchi (Weapon Specialist) -->
+				<item><ItemLink>136885</ItemLink><Weight>500</Weight></item> <!-- Belinda San Pedro Head of Arcade Acquisitions -->
+				<!-- Folders -->
+				<item><ItemLink>136833</ItemLink><Weight>500</Weight></item> <!-- Get Rich Quick Vol VIII: Backlogs On The Fire -->
+				<item><ItemLink>136712</ItemLink><Weight>500</Weight></item> <!-- Hand-Pollination Method -->
+				<!-- legendary seeds (Needs Spice it Up - Legendary Seeds) -->
+				<item><ItemLink>190063</ItemLink><Weight>500</Weight></item> <!-- Potato Super Seeds -->
+				<item><ItemLink>190064</ItemLink><Weight>500</Weight></item> <!-- Grain Super Seeds -->
+				<item><ItemLink>190065</ItemLink><Weight>500</Weight></item> <!-- Hops Super Seeds -->
+				<item><ItemLink>190067</ItemLink><Weight>500</Weight></item> <!-- Caoutchouc Super Seeds -->
+				<item><ItemLink>190068</ItemLink><Weight>500</Weight></item> <!-- Cocoa Super Seeds -->
+				<item><ItemLink>190069</ItemLink><Weight>500</Weight></item> <!-- Cotton Super Seeds -->
+				<item><ItemLink>190070</ItemLink><Weight>500</Weight></item> <!-- Tobacco Super Seeds -->
+				<item><ItemLink>190150</ItemLink><Weight>500</Weight></item> <!-- Coffee Super Seeds -->
+				<item><ItemLink>190151</ItemLink><Weight>500</Weight></item> <!-- Banana Super Seeds -->
+				<item><ItemLink>190152</ItemLink><Weight>500</Weight></item> <!-- Corn Super Seeds -->
+				<item><ItemLink>190373</ItemLink><Weight>500</Weight></item> <!-- Paprika Super Seeds -->
+				<item><ItemLink>190374</ItemLink><Weight>500</Weight></item> <!-- Grape Super Seeds -->
+			
+			<!-- Quest Rewards (Not Researchable) -->	
+				<item><ItemLink>113799</ItemLink><Weight>0</Weight></item> <!-- Susannah Brightwoman -->
+				<item><ItemLink>137288</ItemLink><Weight>0</Weight></item> <!-- Bronze Performance Medal -->
+				<item><ItemLink>137286</ItemLink><Weight>0</Weight></item> <!-- Silver Performance Medal -->
+				<item><ItemLink>137281</ItemLink><Weight>0</Weight></item> <!-- Gold Performance Medal -->
+				<item><ItemLink>104537</ItemLink><Weight>0</Weight></item> <!-- Luggage Size Regulations -->
+				<item><ItemLink>8156</ItemLink><Weight>0</Weight></item>   <!-- Gake Fur Frame Loom (Quest-Item) -->
+				<item><ItemLink>8155</ItemLink><Weight>0</Weight></item>   <!-- Blending Tank (Quest-Item) -->
+				<item><ItemLink>8154</ItemLink><Weight>0</Weight></item>   <!-- Can Seamer (Quest-Item) -->
+				
+			<!-- Scenario Exclusive Items -->
+				<item><ItemLink>24151</ItemLink><Weight>0</Weight></item> <!-- Advanced Agricultural Textbook -->
+				<item><ItemLink>24107</ItemLink><Weight>0</Weight></item> <!-- Advanced Fertiliser -->
+				<item><ItemLink>24023</ItemLink><Weight>0</Weight></item> <!-- Advanced Industrial Toxin Filter -->
+				<item><ItemLink>24163</ItemLink><Weight>0</Weight></item> <!-- Advanced Pyrphorian Calciner -->
+				<item><ItemLink>24014</ItemLink><Weight>0</Weight></item> <!-- Advanced Soil Sampler -->
+				<item><ItemLink>24044</ItemLink><Weight>0</Weight></item> <!-- Advanced Trash Filter -->
+				<item><ItemLink>24065</ItemLink><Weight>0</Weight></item> <!-- Algologist -->
+				<item><ItemLink>24061</ItemLink><Weight>0</Weight></item> <!-- Angler -->
+				<item><ItemLink>24068</ItemLink><Weight>0</Weight></item> <!-- Arboriculturist -->
+				<item><ItemLink>24114</ItemLink><Weight>0</Weight></item> <!-- Basic Agricultural Textbook -->
+				<item><ItemLink>24100</ItemLink><Weight>0</Weight></item> <!-- Basic Fertiliser -->
+				<item><ItemLink>24077</ItemLink><Weight>0</Weight></item> <!-- Botanist -->
+				<item><ItemLink>24018</ItemLink><Weight>0</Weight></item> <!-- Capacious Waste Treatment Tank -->
+				<item><ItemLink>24152</ItemLink><Weight>0</Weight></item> <!-- Expert Agricultural Textbook -->
+				<item><ItemLink>24155</ItemLink><Weight>0</Weight></item> <!-- Factory Overcrowding Regulations -->
+				<item><ItemLink>24153</ItemLink><Weight>0</Weight></item> <!-- Factory Regulations -->
+				<item><ItemLink>24109</ItemLink><Weight>0</Weight></item> <!-- Fodder Supplements -->
+				<item><ItemLink>24078</ItemLink><Weight>0</Weight></item> <!-- Industrial Chemist -->
+				<item><ItemLink>24019</ItemLink><Weight>0</Weight></item> <!-- Industrial Toxin Filter -->
+				<item><ItemLink>24079</ItemLink><Weight>0</Weight></item> <!-- Landscape Planner -->
+				<item><ItemLink>24064</ItemLink><Weight>0</Weight></item> <!-- Marine Biologist -->
+				<item><ItemLink>24087</ItemLink><Weight>0</Weight></item> <!-- Mathematician -->
+				<item><ItemLink>24081</ItemLink><Weight>0</Weight></item> <!-- Microbiologist -->
+				<item><ItemLink>24162</ItemLink><Weight>0</Weight></item> <!-- Pyrphorian Calciner -->
+				<item><ItemLink>24164</ItemLink><Weight>0</Weight></item> <!-- Pyrphorian Machine Instructions -->
+				<item><ItemLink>24108</ItemLink><Weight>0</Weight></item> <!-- Refined Fertiliser -->
+				<item><ItemLink>24113</ItemLink><Weight>0</Weight></item> <!-- Refined Fodder Supplements -->
+				<item><ItemLink>24033</ItemLink><Weight>0</Weight></item> <!-- Refined Industrial Toxin Filter -->
+				<item><ItemLink>24036</ItemLink><Weight>0</Weight></item> <!-- Refined Water Distiller -->
+				<item><ItemLink>24012</ItemLink><Weight>0</Weight></item> <!-- Soil Sampler -->
+				<item><ItemLink>24043</ItemLink><Weight>0</Weight></item> <!-- Trash Filter -->
+				<item><ItemLink>24016</ItemLink><Weight>0</Weight></item> <!-- Waste Treatment Tank -->
+				<item><ItemLink>24034</ItemLink><Weight>0</Weight></item> <!-- Water Distiller -->
+				<item><ItemLink>24154</ItemLink><Weight>0</Weight></item> <!-- Working Hours Adjustments -->
+				
+			<!-- Town Hall --> 
+			<!-- Common (White) -->
+				<item><ItemLink>111161</ItemLink><Weight>1</Weight></item> <!-- Intoxicator -->
+				<item><ItemLink>111175</ItemLink><Weight>0</Weight></item> <!-- Anarchist -->
+				<item><ItemLink>190651</ItemLink><Weight>0</Weight></item> <!-- Firefighter -->
+				<item><ItemLink>190669</ItemLink><Weight>0</Weight></item> <!-- Pub Keeper -->
+				<item><ItemLink>190675</ItemLink><Weight>0</Weight></item> <!-- Lecturer -->
+				<item><ItemLink>190711</ItemLink><Weight>0</Weight></item> <!-- Church Specialist -->
+				<item><ItemLink>190720</ItemLink><Weight>0</Weight></item> <!-- Doctor -->
+				<item><ItemLink>190726</ItemLink><Weight>0</Weight></item> <!-- Variety Specialist -->
+				<item><ItemLink>191006</ItemLink><Weight>0</Weight></item> <!-- Police Specialist -->
+				<item><ItemLink>191466</ItemLink><Weight>0</Weight></item> <!-- Market Specialist -->
+				<item><ItemLink>191564</ItemLink><Weight>0</Weight></item> <!-- School Specialist -->
+				<item><ItemLink>191569</ItemLink><Weight>0</Weight></item> <!-- Members Club Specialist -->
+				<item><ItemLink>191575</ItemLink><Weight>0</Weight></item> <!-- Bank Specialist -->
+				<!-- Machines -->
+				<item><ItemLink>191907</ItemLink><Weight>0</Weight></item> <!-- Drugs -->
+				<item><ItemLink>191913</ItemLink><Weight>0</Weight></item> <!-- Fire Extinguisher -->
+				<item><ItemLink>191922</ItemLink><Weight>0</Weight></item> <!-- Alcohol Crate -->
+				<item><ItemLink>191969</ItemLink><Weight>0</Weight></item> <!-- Fireworks -->
+				<item><ItemLink>102179</ItemLink><Weight>0</Weight></item> <!-- Half Frozen Rats -->
+			
+			<!-- Uncommon (Green) -->
+				<item><ItemLink>110948</ItemLink><Weight>0</Weight></item> <!-- Anarchy Hall -->
+				<item><ItemLink>110986</ItemLink><Weight>0</Weight></item> <!-- Anti Bourgeois -->
+				<item><ItemLink>111002</ItemLink><Weight>0</Weight></item>
+				<item><ItemLink>111012</ItemLink><Weight>0</Weight></item>
+				<item><ItemLink>111018</ItemLink><Weight>0</Weight></item> <!-- Anarchy Poster -->
+				<item><ItemLink>111026</ItemLink><Weight>0</Weight></item> <!-- Captains of Industry -->
+				<item><ItemLink>111032</ItemLink><Weight>0</Weight></item> <!-- Essay -->
+				<item><ItemLink>111038</ItemLink><Weight>0</Weight></item>
+				<!-- Specialists -->
+				<item><ItemLink>111162</ItemLink><Weight>0</Weight></item> <!-- Burgeois -->
+				<item><ItemLink>111176</ItemLink><Weight>0</Weight></item> <!-- Anarchist -->
+				<item><ItemLink>190652</ItemLink><Weight>0</Weight></item> <!-- Firefighter -->
+				<item><ItemLink>190671</ItemLink><Weight>0</Weight></item> <!-- Pub Keeper -->
+				<item><ItemLink>190676</ItemLink><Weight>0</Weight></item> <!-- Lecturer -->
+				<item><ItemLink>190712</ItemLink><Weight>0</Weight></item> <!-- Church Specialist -->
+				<item><ItemLink>190725</ItemLink><Weight>0</Weight></item> <!-- Doctor -->
+				<item><ItemLink>190727</ItemLink><Weight>0</Weight></item> <!-- Variety Specialist -->
+				<item><ItemLink>191007</ItemLink><Weight>0</Weight></item> <!-- Police Specialist -->
+				<item><ItemLink>191467</ItemLink><Weight>0</Weight></item> <!-- Market Specialist -->
+				<item><ItemLink>191565</ItemLink><Weight>0</Weight></item> <!-- School Specialist -->
+				<item><ItemLink>191570</ItemLink><Weight>0</Weight></item> <!-- Members Club Specialist -->
+				<item><ItemLink>191576</ItemLink><Weight>0</Weight></item> <!-- Bank Specialist -->
+				<item><ItemLink>136699</ItemLink><Weight>1</Weight></item> <!-- Concierge -->
+            <item><ItemLink>11657</ItemLink><Weight>0</Weight></item>  <!-- Aldea, the Forest Warden (Scenario: Echoes of Eden) -->
+            <item><ItemLink>11670</ItemLink><Weight>0</Weight></item>  <!-- Lucia, Keeper of the Calendar (Scenario: Echoes of Eden) -->
+            <item><ItemLink>11672</ItemLink><Weight>0</Weight></item>  <!-- Elinor, the Red Reaper (Scenario: Echoes of Eden) -->
+				<!-- Books -->
+				<item><ItemLink>191690</ItemLink><Weight>0</Weight></item> <!-- Public Service Maintenance + -->
+				<item><ItemLink>191693</ItemLink><Weight>0</Weight></item> <!-- Public Service Maintenance - -->
+				<item><ItemLink>191714</ItemLink><Weight>0</Weight></item> <!-- Pub, Variety, Cinema Maintenance + -->
+				<item><ItemLink>191717</ItemLink><Weight>0</Weight></item> <!-- Pub, Variety, Cinema Maintenance - -->
+				<item><ItemLink>191720</ItemLink><Weight>0</Weight></item> <!-- Uni, Members Club Maintenance + -->
+				<item><ItemLink>191723</ItemLink><Weight>0</Weight></item> <!-- Uni, Members Club Maintenance - -->
+				<item><ItemLink>191732</ItemLink><Weight>0</Weight></item> <!-- Marketplace, Bank Maintenance + -->
+				<item><ItemLink>191735</ItemLink><Weight>0</Weight></item> <!-- Marketplace, Bank Maintenance - -->
+				<item><ItemLink>191726</ItemLink><Weight>0</Weight></item> <!-- School Charter -->
+				<item><ItemLink>191729</ItemLink><Weight>0</Weight></item> <!-- School Charter -->
+				<item><ItemLink>191738</ItemLink><Weight>0</Weight></item> <!-- Church Law -->
+				<item><ItemLink>191741</ItemLink><Weight>0</Weight></item> <!-- Church, Chapel Maintenance - -->
+				<item><ItemLink>191744</ItemLink><Weight>0</Weight></item> <!-- Income- Illness- -->
+				<item><ItemLink>191747</ItemLink><Weight>0</Weight></item> <!-- Income+ Illness+ -->
+				<item><ItemLink>191750</ItemLink><Weight>0</Weight></item> <!-- Income- Fire- -->
+				<item><ItemLink>191753</ItemLink><Weight>0</Weight></item> <!-- Income+ Fire+ -->
+				<item><ItemLink>191756</ItemLink><Weight>0</Weight></item> <!-- Happiness+ Riot+ -->
+				<item><ItemLink>191759</ItemLink><Weight>0</Weight></item> <!-- Happiness- Riot- -->
+				<item><ItemLink>191762</ItemLink><Weight>0</Weight></item> <!-- Working Age -->
+				<item><ItemLink>191765</ItemLink><Weight>0</Weight></item> <!-- Schooling Act -->
+				<item><ItemLink>191768</ItemLink><Weight>0</Weight></item> <!-- Free Speech Act -->
+				<item><ItemLink>191771</ItemLink><Weight>0</Weight></item> <!-- Book Ban Act -->
+				<item><ItemLink>191777</ItemLink><Weight>0</Weight></item> <!-- Prohibition -->
+				<item><ItemLink>191780</ItemLink><Weight>0</Weight></item> <!-- Decreased Alcohol Tax -->
+				<item><ItemLink>191783</ItemLink><Weight>0</Weight></item> <!-- Increased Alcohol Tax -->
+				<item><ItemLink>191788</ItemLink><Weight>0</Weight></item> <!-- Church and State Clause -->
+				<item><ItemLink>191791</ItemLink><Weight>0</Weight></item> <!-- Excommunication Act -->
+				<item><ItemLink>191794</ItemLink><Weight>0</Weight></item> <!-- Tax Amendment -->
+				<item><ItemLink>191797</ItemLink><Weight>0</Weight></item> <!-- Tax Reduction -->
+				<item><ItemLink>191800</ItemLink><Weight>0</Weight></item> <!-- Decree -->
+				<item><ItemLink>191803</ItemLink><Weight>0</Weight></item> <!-- Work hour Increase -->
+				<item><ItemLink>191809</ItemLink><Weight>0</Weight></item> <!-- Riot Immunity -->
+				<item><ItemLink>191815</ItemLink><Weight>0</Weight></item> <!-- Contraception -->
+				<item><ItemLink>191821</ItemLink><Weight>0</Weight></item> <!-- Study for Men -->
+				<item><ItemLink>192482</ItemLink><Weight>0</Weight></item> <!-- Womens Rights -->
+				<!-- Machines & Consumables -->
+				<item><ItemLink>191908</ItemLink><Weight>0</Weight></item> <!-- Drugs -->
+				<item><ItemLink>191914</ItemLink><Weight>0</Weight></item> <!-- Fire Extinguisher -->
+				<item><ItemLink>191923</ItemLink><Weight>0</Weight></item> <!-- Alcohol Crate -->
+				<item><ItemLink>191970</ItemLink><Weight>0</Weight></item> <!-- Fireworks -->
+				<item><ItemLink>192028</ItemLink><Weight>0</Weight></item> <!-- Armagnac Bottles -->
+				<item><ItemLink>192029</ItemLink><Weight>0</Weight></item> <!-- Demijohn of Milk -->
+				<item><ItemLink>192030</ItemLink><Weight>0</Weight></item> <!-- Generous Cheese Board -->
+				<item><ItemLink>192031</ItemLink><Weight>0</Weight></item> <!-- Cauldron of Fish Stew -->
+				<item><ItemLink>192032</ItemLink><Weight>0</Weight></item> <!-- Sunday Roast -->
+				<item><ItemLink>192033</ItemLink><Weight>0</Weight></item> <!-- Bicycle Repair Kit -->
+				<item><ItemLink>192034</ItemLink><Weight>0</Weight></item> <!-- Sweing Threads -->
+				<item><ItemLink>192035</ItemLink><Weight>0</Weight></item> <!-- Tinned Fish -->
+				<item><ItemLink>11655</ItemLink><Weight>0</Weight></item>  <!-- Distiller (Scenario: Echoes of Eden) -->
+				<item><ItemLink>11656</ItemLink><Weight>0</Weight></item>  <!-- Communal Garden (Scenario: Echoes of Eden) -->
+				<item><ItemLink>11653</ItemLink><Weight>0</Weight></item>  <!-- Soil Sampler (Scenario: Echoes of Eden) -->
+				<!-- Exhebitions -->
+				<item><ItemLink>191696</ItemLink><Weight>0</Weight></item> <!-- Billboard -->
+				<item><ItemLink>191705</ItemLink><Weight>0</Weight></item> <!-- Green Flyer -->
+				<item><ItemLink>191708</ItemLink><Weight>0</Weight></item> <!-- Green Flyer -->
+				<item><ItemLink>191702</ItemLink><Weight>0</Weight></item> <!-- Pamphlet -->
+				
+			<!-- Rare (Blue) -->
+				<item><ItemLink>110949</ItemLink><Weight>10</Weight></item> <!-- Anarchy Hall -->
+				<item><ItemLink>110994</ItemLink><Weight>10</Weight></item> <!-- Anti Bourgeois -->
+				<item><ItemLink>111003</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>111013</ItemLink><Weight>10</Weight></item>
+				<item><ItemLink>111019</ItemLink><Weight>10</Weight></item> <!-- Anarchy Poster -->
+				<item><ItemLink>111027</ItemLink><Weight>10</Weight></item> <!-- Captains of Industry -->
+				<item><ItemLink>111033</ItemLink><Weight>10</Weight></item> <!-- Essay -->
+				<item><ItemLink>111039</ItemLink><Weight>10</Weight></item>
+				<!-- Specialists -->
+				<item><ItemLink>111177</ItemLink><Weight>10</Weight></item> <!-- Anarchist -->
+				<item><ItemLink>190653</ItemLink><Weight>10</Weight></item> <!-- Firefighter -->
+				<item><ItemLink>190672</ItemLink><Weight>10</Weight></item> <!-- Pub Keeper -->
+				<item><ItemLink>190677</ItemLink><Weight>10</Weight></item> <!-- Lecturer -->
+				<item><ItemLink>190716</ItemLink><Weight>10</Weight></item> <!-- Church Specialist -->
+				<item><ItemLink>190722</ItemLink><Weight>10</Weight></item> <!-- Doctor -->
+				<item><ItemLink>190728</ItemLink><Weight>10</Weight></item> <!-- Variety Specialist -->
+				<item><ItemLink>191008</ItemLink><Weight>10</Weight></item> <!-- Police Specialist -->
+				<item><ItemLink>191468</ItemLink><Weight>10</Weight></item> <!-- Market Specialist -->
+				<item><ItemLink>191566</ItemLink><Weight>10</Weight></item> <!-- School Specialist -->
+				<item><ItemLink>191571</ItemLink><Weight>10</Weight></item> <!-- Members Club Specialist -->
+				<item><ItemLink>191577</ItemLink><Weight>10</Weight></item> <!-- Bank Specialist -->
+				<item><ItemLink>137799</ItemLink><Weight>10</Weight></item> <!-- Blue Skies Janitor -->
+				<item><ItemLink>137798</ItemLink><Weight>10</Weight></item> <!-- Blue Skies Maid -->
+				<item><ItemLink>13634</ItemLink><Weight>0</Weight></item>  <!-- Treasure Hunter (Scenario: Memoirs of Markets) -->
+				<!-- Books -->
+				<item><ItemLink>191691</ItemLink><Weight>0</Weight></item> <!-- Public Service Maintenance + -->
+				<item><ItemLink>191694</ItemLink><Weight>0</Weight></item> <!-- Public Service Maintenance - -->
+				<item><ItemLink>191715</ItemLink><Weight>0</Weight></item> <!-- Pub, Variety, Cinema Maintenance + -->
+				<item><ItemLink>191718</ItemLink><Weight>0</Weight></item> <!-- Pub, Variety, Cinema Maintenance - -->
+				<item><ItemLink>191721</ItemLink><Weight>0</Weight></item> <!-- Uni, Members Club Maintenance + -->
+				<item><ItemLink>191724</ItemLink><Weight>0</Weight></item> <!-- Uni, Members Club Maintenance - -->
+				<item><ItemLink>191733</ItemLink><Weight>0</Weight></item> <!-- Marketplace, Bank Maintenance + -->
+				<item><ItemLink>191736</ItemLink><Weight>0</Weight></item> <!-- Marketplace, Bank Maintenance - -->
+				<item><ItemLink>191727</ItemLink><Weight>0</Weight></item> <!-- School Charter -->
+				<item><ItemLink>191730</ItemLink><Weight>0</Weight></item> <!-- School Charter -->
+				<item><ItemLink>191739</ItemLink><Weight>0</Weight></item> <!-- Church Law -->
+				<item><ItemLink>191742</ItemLink><Weight>0</Weight></item> <!-- Church, Chapel Maintenance - -->
+				<item><ItemLink>191745</ItemLink><Weight>0</Weight></item> <!-- Income- Illness- -->
+				<item><ItemLink>191748</ItemLink><Weight>0</Weight></item> <!-- Income+ Illness+ -->
+				<item><ItemLink>191751</ItemLink><Weight>0</Weight></item> <!-- Income- Fire- -->
+				<item><ItemLink>191754</ItemLink><Weight>0</Weight></item> <!-- Income+ Fire+ -->
+ 				<item><ItemLink>191757</ItemLink><Weight>0</Weight></item> <!-- Happiness+ Riot+ -->
+				<item><ItemLink>191760</ItemLink><Weight>0</Weight></item> <!-- Happiness- Riot- -->
+				<item><ItemLink>191763</ItemLink><Weight>0</Weight></item> <!-- Working Age -->
+				<item><ItemLink>191766</ItemLink><Weight>0</Weight></item> <!-- Schooling Act -->
+				<item><ItemLink>191769</ItemLink><Weight>0</Weight></item> <!-- Free Speech Act -->
+				<item><ItemLink>191772</ItemLink><Weight>0</Weight></item> <!-- Book Ban Act -->
+				<item><ItemLink>191778</ItemLink><Weight>0</Weight></item> <!-- Prohibition -->
+				<item><ItemLink>191781</ItemLink><Weight>0</Weight></item> <!-- Decreased Alcohol Tax -->
+				<item><ItemLink>191784</ItemLink><Weight>0</Weight></item> <!-- Increased Alcohol Tax -->
+				<item><ItemLink>191789</ItemLink><Weight>0</Weight></item> <!-- Church and State Clause -->
+				<item><ItemLink>191792</ItemLink><Weight>0</Weight></item> <!-- Excommunication Act -->
+				<item><ItemLink>191795</ItemLink><Weight>0</Weight></item> <!-- Tax Amendment -->
+				<item><ItemLink>191798</ItemLink><Weight>0</Weight></item> <!-- Tax Reduction -->
+				<item><ItemLink>191801</ItemLink><Weight>0</Weight></item> <!-- Decree -->
+				<item><ItemLink>191804</ItemLink><Weight>0</Weight></item> <!-- Work hour Increase -->
+				<item><ItemLink>191810</ItemLink><Weight>0</Weight></item> <!-- Riot Immunity -->
+				<item><ItemLink>191816</ItemLink><Weight>0</Weight></item> <!-- Contraception -->
+				<item><ItemLink>191822</ItemLink><Weight>0</Weight></item> <!-- Nature of Women -->
+				<item><ItemLink>192483</ItemLink><Weight>0</Weight></item> <!-- Womens Rights -->
+				<!-- Machines -->
+				<item><ItemLink>191909</ItemLink><Weight>0</Weight></item> <!-- Drugs -->
+				<item><ItemLink>191915</ItemLink><Weight>0</Weight></item> <!-- Fire Extinguisher -->
+				<item><ItemLink>191924</ItemLink><Weight>0</Weight></item> <!-- Alcohol Crate -->
+				<item><ItemLink>191971</ItemLink><Weight>0</Weight></item> <!-- Fireworks -->
+				<!-- Exhebitions -->
+				<item><ItemLink>191697</ItemLink><Weight>10</Weight></item> <!-- Billboard -->
+				<item><ItemLink>191706</ItemLink><Weight>10</Weight></item> <!-- Flyer -->
+				<item><ItemLink>191709</ItemLink><Weight>10</Weight></item> <!-- Poster -->
+				<item><ItemLink>191703</ItemLink><Weight>10</Weight></item> <!-- Pamphlet -->
+				<item><ItemLink>111044</ItemLink><Weight>10</Weight></item> <!-- Exhibition -->
+				<item><ItemLink>111045</ItemLink><Weight>10</Weight></item> <!-- Exhibition -->
+				<!-- Quest Rewards (Not Researchable) -->
+				<item><ItemLink>133322</ItemLink><Weight>0</Weight></item> <!-- A Note From the Queen (Quest-Item) -->
+				
+			<!-- Epic (purple) -->
+				<item><ItemLink>110950</ItemLink><Weight>100</Weight></item> <!-- Anarchy Hall -->
+				<item><ItemLink>110995</ItemLink><Weight>100</Weight></item> <!-- Anti Bourgeois -->
+				<item><ItemLink>111004</ItemLink><Weight>100</Weight></item>
+				<item><ItemLink>111014</ItemLink><Weight>100</Weight></item>
+				<item><ItemLink>111020</ItemLink><Weight>100</Weight></item> <!-- Anarchy Poster -->
+				<item><ItemLink>111028</ItemLink><Weight>100</Weight></item> <!-- Captains of Industry -->
+				<item><ItemLink>111034</ItemLink><Weight>100</Weight></item> <!-- Essay -->
+				<item><ItemLink>111040</ItemLink><Weight>100</Weight></item>
+				<item><ItemLink>111047</ItemLink><Weight>100</Weight></item> <!-- Literature -->
+				<item><ItemLink>111163</ItemLink><Weight>100</Weight></item>
+				<item><ItemLink>111167</ItemLink><Weight>100</Weight></item> <!-- Garrick -->
+				<item><ItemLink>111178</ItemLink><Weight>100</Weight></item> <!-- Krapotkin (Anarchist) -->
+				<!-- Specialists -->
+				<item><ItemLink>190656</ItemLink><Weight>100</Weight></item> <!-- Firefighter -->
+				<item><ItemLink>190673</ItemLink><Weight>100</Weight></item> <!-- Pub Keeper -->
+				<item><ItemLink>190678</ItemLink><Weight>100</Weight></item> <!-- Lecturer -->
+				<item><ItemLink>190717</ItemLink><Weight>100</Weight></item> <!-- Church Specialist -->
+				<item><ItemLink>190723</ItemLink><Weight>100</Weight></item> <!-- Doctor -->
+				<item><ItemLink>190731</ItemLink><Weight>100</Weight></item> <!-- Variety Specialist -->
+				<item><ItemLink>191009</ItemLink><Weight>100</Weight></item> <!-- Police Specialist -->
+				<item><ItemLink>191469</ItemLink><Weight>100</Weight></item> <!-- Market Specialist -->
+				<item><ItemLink>191567</ItemLink><Weight>100</Weight></item> <!-- School Specialist -->
+				<item><ItemLink>191572</ItemLink><Weight>100</Weight></item> <!-- Members Club Specialist -->
+				<item><ItemLink>191578</ItemLink><Weight>100</Weight></item> <!-- Bank Specialist --> 
+				<item><ItemLink>192438</ItemLink><Weight>100</Weight></item> <!-- Maxime Renard -->
+				<item><ItemLink>192468</ItemLink><Weight>100</Weight></item> <!-- Elliot Blitz -->
+				<item><ItemLink>192440</ItemLink><Weight>100</Weight></item> <!-- Arek Lisowski -->
+				<item><ItemLink>137797</ItemLink><Weight>100</Weight></item> <!-- Blue Skies Delivery Service -->
+				<item><ItemLink>136697</ItemLink><Weight>100</Weight></item> <!-- Madame Blanc Maître d'hôtel -->
+				<item><ItemLink>4270</ItemLink><Weight>100</Weight></item>   <!-- New World Science Reporter -->
+				<!-- Books -->
+				<item><ItemLink>191692</ItemLink><Weight>0</Weight></item>   <!-- Public Service Maintenance + -->
+				<item><ItemLink>191695</ItemLink><Weight>0</Weight></item>   <!-- Public Service Maintenance - -->
+				<item><ItemLink>191716</ItemLink><Weight>0</Weight></item>   <!-- Pub, Variety, Cinema Maintenance + -->
+				<item><ItemLink>191719</ItemLink><Weight>0</Weight></item>   <!-- Pub, Variety, Cinema Maintenance - -->
+				<item><ItemLink>191722</ItemLink><Weight>0</Weight></item>   <!-- Uni, Members Club Maintenance + -->
+				<item><ItemLink>191725</ItemLink><Weight>0</Weight></item>   <!-- Uni, Members Club Maintenance - -->
+				<item><ItemLink>191734</ItemLink><Weight>0</Weight></item>   <!-- Marketplace, Bank Maintenance + -->
+				<item><ItemLink>191737</ItemLink><Weight>0</Weight></item>   <!-- Marketplace, Bank Maintenance - -->
+				<item><ItemLink>191728</ItemLink><Weight>0</Weight></item>   <!-- School Charter -->
+				<item><ItemLink>191731</ItemLink><Weight>0</Weight></item>   <!-- School Charter -->
+				<item><ItemLink>191740</ItemLink><Weight>0</Weight></item>   <!-- Church Law -->
+				<item><ItemLink>191743</ItemLink><Weight>0</Weight></item>   <!-- Church, Chapel Maintenance - -->
+				<item><ItemLink>191746</ItemLink><Weight>0</Weight></item>   <!-- Income- Illness- -->
+				<item><ItemLink>191749</ItemLink><Weight>0</Weight></item>   <!-- Income+ Illness+ -->
+				<item><ItemLink>191752</ItemLink><Weight>0</Weight></item>   <!-- Income- Fire- -->
+				<item><ItemLink>191755</ItemLink><Weight>0</Weight></item>   <!-- Income+ Fire+ -->
+				<item><ItemLink>191758</ItemLink><Weight>0</Weight></item>   <!-- Happiness+ Riot+ -->
+				<item><ItemLink>191761</ItemLink><Weight>0</Weight></item>   <!-- Happiness- Riot- -->
+				<item><ItemLink>191764</ItemLink><Weight>0</Weight></item>   <!-- Working Age -->
+				<item><ItemLink>191767</ItemLink><Weight>0</Weight></item>   <!-- Schooling Act -->
+				<item><ItemLink>191770</ItemLink><Weight>0</Weight></item>   <!-- Free Speech Act -->
+				<item><ItemLink>191773</ItemLink><Weight>0</Weight></item>   <!-- Book Ban Act -->
+				<item><ItemLink>191779</ItemLink><Weight>0</Weight></item>   <!-- Prohibition -->
+				<item><ItemLink>191782</ItemLink><Weight>0</Weight></item>   <!-- Decreased Alcohol Tax -->
+				<item><ItemLink>191785</ItemLink><Weight>0</Weight></item>   <!-- Increased Alcohol Tax -->
+				<item><ItemLink>191790</ItemLink><Weight>0</Weight></item>   <!-- Church and State Clause -->
+				<item><ItemLink>191793</ItemLink><Weight>0</Weight></item>   <!-- Excommunication Act -->
+				<item><ItemLink>191796</ItemLink><Weight>0</Weight></item>   <!-- Tax Amendment -->
+				<item><ItemLink>191799</ItemLink><Weight>0</Weight></item>   <!-- Tax Reduction -->
+				<item><ItemLink>191802</ItemLink><Weight>0</Weight></item>   <!-- Decree -->
+				<item><ItemLink>191805</ItemLink><Weight>0</Weight></item>   <!-- Work hour Increase -->
+				<item><ItemLink>191811</ItemLink><Weight>0</Weight></item>   <!-- Riot Immunity -->
+				<item><ItemLink>191817</ItemLink><Weight>0</Weight></item>   <!-- Contraception -->
+				<item><ItemLink>191823</ItemLink><Weight>0</Weight></item>   <!-- Patient Spouse -->
+				<item><ItemLink>192484</ItemLink><Weight>0</Weight></item>   <!-- Womens Rights -->
+				<!-- Quest Rewards (Researchable) -->
+				<item><ItemLink>192357</ItemLink><Weight>0</Weight></item>   <!-- Wibble Tarot Set -->
+				<item><ItemLink>192363</ItemLink><Weight>0</Weight></item>   <!-- Vincentes Informant -->
+				<item><ItemLink>192441</ItemLink><Weight>100</Weight></item> <!-- Dennis Brammen -->
+				<!-- Exhebitions -->
+				<item><ItemLink>191698</ItemLink><Weight>100</Weight></item> <!-- Billboard -->
+				<item><ItemLink>191710</ItemLink><Weight>100</Weight></item> <!-- Billboard -->
+				<item><ItemLink>191707</ItemLink><Weight>100</Weight></item> <!-- Poster -->
+				<item><ItemLink>191704</ItemLink><Weight>100</Weight></item> <!-- Valley of Death -->
+				<item><ItemLink>111046</ItemLink><Weight>100</Weight></item> <!-- Exhibition -->
+				<!-- Quest Rewards (Not Researchable) -->
+				<item><ItemLink>133321</ItemLink><Weight>0</Weight></item>   <!-- A Dithyrambic Note From the Queen -->
+				<item><ItemLink>104518</ItemLink><Weight>0</Weight></item>   <!-- Poetry Subscription -->
+			
+			<!-- Legendary -->
+				<item><ItemLink>111169</ItemLink><Weight>500</Weight></item> <!-- Eduardo Bernal -->
+				<item><ItemLink>111180</ItemLink><Weight>500</Weight></item> <!-- Pietro Jonah Proud -->
+				<item><ItemLink>190193</ItemLink><Weight>500</Weight></item> <!-- Saint D'Artois -->
+				<item><ItemLink>190269</ItemLink><Weight>500</Weight></item> <!-- Sgt. Nicolas Gabriel -->
+				<item><ItemLink>190410</ItemLink><Weight>500</Weight></item> <!-- Dr. Maurice Slim -->
+				<item><ItemLink>190658</ItemLink><Weight>500</Weight></item> <!-- Chief George Doughty (Firefighter) -->
+				<item><ItemLink>190674</ItemLink><Weight>500</Weight></item> <!-- Franck von Lewenstein (Pub Keeper) -->
+				<item><ItemLink>190679</ItemLink><Weight>500</Weight></item> <!-- Prof. Iwa Ebashi (Lecturer) -->
+				<item><ItemLink>190719</ItemLink><Weight>500</Weight></item> <!-- Pope Lucius I (Church Specialist) -->
+				<item><ItemLink>190724</ItemLink><Weight>500</Weight></item> <!-- Louis P. Hecate (Doctor) -->
+				<item><ItemLink>190732</ItemLink><Weight>500</Weight></item> <!-- Sarah Bartok (Variety Specialist) -->
+				<item><ItemLink>191010</ItemLink><Weight>500</Weight></item> <!-- Sir Charles Rafferty (Police Specialist) -->
+				<item><ItemLink>191470</ItemLink><Weight>500</Weight></item> <!-- Aristelia Bataille -->
+				<item><ItemLink>191568</ItemLink><Weight>500</Weight></item> <!-- Anne Kenyetta (School Specialist) -->
+				<item><ItemLink>191573</ItemLink><Weight>500</Weight></item> <!-- Members Club Specialist -->
+				<item><ItemLink>191579</ItemLink><Weight>500</Weight></item> <!-- Bank Specialist -->
+				<item><ItemLink>136668</ItemLink><Weight>500</Weight></item> <!-- Mr. Bertram Hotel Manager -->
+				<item><ItemLink>8417</ItemLink><Weight>500</Weight></item>   <!-- Constable Chaos -->
+				<item><ItemLink>113800</ItemLink><Weight>0</Weight></item>   <!-- Fernando (Quest-Item) -->
+				<!-- Exhebitions -->
+				<item><ItemLink>111024</ItemLink><Weight>0</Weight></item>   <!-- Proclamation of Knighthood (Quest-Item) -->
+				<item><ItemLink>111048</ItemLink><Weight>500</Weight></item> <!-- The International Liberal Forum of Art and Craft -->
+			
+			<!-- Scenario Exclusive Items -->
+				<item><ItemLink>24054</ItemLink><Weight>0</Weight></item>    <!-- Communal Garden -->
+				<item><ItemLink>24160</ItemLink><Weight>0</Weight></item>    <!-- Dietary Advice -->
+				<item><ItemLink>24048</ItemLink><Weight>0</Weight></item>    <!-- Large Communal Garden -->
+				<item><ItemLink>24159</ItemLink><Weight>0</Weight></item>    <!-- Public Campaign: Eat those Proteins! -->
+				<item><ItemLink>24086</ItemLink><Weight>0</Weight></item>    <!-- Recycling Expert -->
+				<item><ItemLink>24082</ItemLink><Weight>0</Weight></item>    <!-- Recycling Specialist -->
+			</ItemsPool>
+			<IgnoreUnlocks>1</IgnoreUnlocks>
+		</RewardPool>
+	</ModOp>
+	
+	<!-- Mergers -->
+	<ModOp Type="merge" GUID='46' Path="/Values/Trader/Progression/EarlyGame">
+		<OfferingItems>190774</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='46' Path="/Values/Trader/Progression/EarlyMidGame">
+		<OfferingItems>190774</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='46' Path="/Values/Trader/Progression/MidGame">
+		<OfferingItems>190774</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='46' Path="/Values/Trader/Progression/LateMidGame">
+		<OfferingItems>190774</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='46' Path="/Values/Trader/Progression/LateGame">
+		<OfferingItems>190774</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='46' Path="/Values/Trader/Progression/EndGame">
+		<OfferingItems>190774</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+
+</ModOps>

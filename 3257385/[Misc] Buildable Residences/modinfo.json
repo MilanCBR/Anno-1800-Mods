@@ -1,0 +1,48 @@
+{
+  "Version": "1.1a",
+  "ModID": "buildable_residences",
+  "ModioResourceId": 3257385,
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+  
+  "Category": {
+    "English": "Misc",
+    "Chinese": "Misc",
+    "French": "Misc",
+    "German": "Misc",
+    "Italian": "Misc",
+    "Japanese": "Misc",
+    "Korean": "Misc",
+    "Polish": "Misc",
+    "Russian": "Misc",
+    "Spanish": "Misc",
+    "Taiwanese": "Misc"
+  },
+  "ModName": {
+    "English": "Buildable Residences",
+    "Chinese": "Buildable Residences",
+    "French": "Buildable Residences",
+    "German": "Buildable Residences",
+    "Italian": "Buildable Residences",
+    "Japanese": "Buildable Residences",
+    "Korean": "Buildable Residences",
+    "Polish": "Buildable Residences",
+    "Russian": "Buildable Residences",
+    "Spanish": "Buildable Residences",
+    "Taiwanese": "Buildable Residences"
+  },
+  "CreatorName": "Sindariel",
+  "Description": {
+    "English": "Houses and skyscrapers from all tiers can be directly built from the construction menu. Additionally, houses and skyscrapers can now be copied with the pipette tool",
+    "Chinese": null,
+    "French": null,
+    "German": null,
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  }
+}

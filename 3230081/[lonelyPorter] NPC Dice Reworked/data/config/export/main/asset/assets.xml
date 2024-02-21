@@ -1,0 +1,21 @@
+<ModOps>
+	<Include File="archie_rewardpool.include.xml" />
+	
+	<Include File="eli_rewardpool.include.xml" />
+	
+	<Include File="kahina_rewardpool.include.xml" />
+	
+	<Include File="anne_rewardpool.include.xml" />
+	
+	<Include File="isabel_rewardpool.include.xml" />
+	
+	<Include File="jean_rewardpool.include.xml" />
+	
+	<Include File="nate_rewardpool.include.xml" />
+	
+	<Include File="qumaq_rewardpool.include.xml" />
+	
+	<Include File="ketema_rewardpool.include.xml" />
+	
+	<!-- Mergers -->
+</ModOps>

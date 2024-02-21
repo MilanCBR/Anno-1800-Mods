@@ -1,0 +1,461 @@
+<ModOps>
+
+	<!-- START Sets -->
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009031</GUID>
+    					<Name>Set Foreign Affairs</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_foreignaffairs.png</IconFilename>
+    					<InfoDescription>1957009231</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009051</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009051</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009032</GUID>
+    					<Name>Set Military</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_military.png</IconFilename>
+    					<InfoDescription>1957009232</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009052</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009052</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009033</GUID>
+    					<Name>Set Interior</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_interior.png</IconFilename>
+    					<InfoDescription>1957009233</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009053</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009053</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009034</GUID>
+    					<Name>Set Trade</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_trade.png</IconFilename>
+    					<InfoDescription>1957009234</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009054</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009054</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009036</GUID>
+    					<Name>Set Finance</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_finance.png</IconFilename>
+    					<InfoDescription>1957009236</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009056</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009056</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009037</GUID>
+    					<Name>Set Social Affairs</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_socialaffairs.png</IconFilename>
+    					<InfoDescription>1957009237</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009057</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009057</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009038</GUID>
+    					<Name>Set Industry</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_industry.png</IconFilename>
+    					<InfoDescription>1957009238</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009058</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009058</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009039</GUID>
+    					<Name>Set Entertainment</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_entertainment.png</IconFilename>
+    					<InfoDescription>1957009239</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009059</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009059</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009040</GUID>
+    					<Name>Set Energy</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_energy.png</IconFilename>
+    					<InfoDescription>1957009240</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009060</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009060</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009041</GUID>
+    					<Name>Set Education and Science</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_science.png</IconFilename>
+    					<InfoDescription>1957009241</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009061</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009061</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009042</GUID>
+    					<Name>Set Agriculture</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_agriculture.png</IconFilename>
+    					<InfoDescription>1957009242</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009062</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009062</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009043</GUID>
+    					<Name>Set Culture</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_culture.png</IconFilename>
+    					<InfoDescription>1957009243</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009063</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009063</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009044</GUID>
+    					<Name>Set Nutrition</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_nutrition.png</IconFilename>
+    					<InfoDescription>1957009244</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009064</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009064</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009045</GUID>
+    					<Name>Set Secret Service</Name>
+    					<IconFilename>data/modgraphics/icons/icon_secret_service.png</IconFilename>
+    					<InfoDescription>1957009245</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009065</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009065</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009046</GUID>
+    					<Name>Set Traffic</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_traffic.png</IconFilename>
+    					<InfoDescription>1957009246</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009066</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009066</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009047</GUID>
+    					<Name>Set Post</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_post.png</IconFilename>
+    					<InfoDescription>1957009247</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009067</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009067</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009048</GUID>
+    					<Name>Set Construction</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_construction.png</IconFilename>
+    					<InfoDescription>1957009248</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009068</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009068</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+   					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009049</GUID>
+    					<Name>Set Religion</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_religion.png</IconFilename>
+    					<InfoDescription>1957009249</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009069</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009069</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  	<ModOp GUID='191130' Type="addNextSibling">
+    		<Asset>
+      			<Template>ItemSet</Template>
+			<Values>
+  				<Standard>
+    					<GUID>1957009050</GUID>
+    					<Name>Set Tourism</Name>
+    					<IconFilename>data/modgraphics/icons/icon_office_tourism.png</IconFilename>
+    					<InfoDescription>1957009250</InfoDescription>
+  				</Standard>
+  				<ItemSocketSet>
+    					<SetBuff>1957009070</SetBuff>
+					<RegionSetBuff>
+				  		<Moderate>
+				    			<SetBuff>1957009070</SetBuff>
+				  		</Moderate>
+					</RegionSetBuff>
+    					<BuffScope>Session</BuffScope>
+  				</ItemSocketSet>
+  				<Locked/>
+			</Values>
+		</Asset>
+	</ModOp>
+	<!-- END Sets -->
+
+</ModOps>

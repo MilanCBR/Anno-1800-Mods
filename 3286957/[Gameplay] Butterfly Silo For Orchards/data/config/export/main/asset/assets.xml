@@ -1,0 +1,712 @@
+<ModOps>
+	
+	  <!-- 定义蝴蝶夫人·特莉丝卡片-->
+    <ModOp Type="addNextSibling" GUID="192450">
+    	
+    	     <Asset>
+                      <Template>GuildhouseItem</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>2025012801</GUID>
+                          <Name>Lady Butterfly</Name>
+                          <IconFilename>data/ui/icons/mariana-the-master-stylist.png</IconFilename><!-- 定义蝴蝶夫人·特莉丝icon-->
+                          <InfoDescription>2025012802</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Lady Butterfly</Text>
+                              <Status>Exported</Status>
+                            </English>
+                          </LocaText>
+                          <LineID>29139</LineID>
+                        </Text>
+                        <Item>
+                          <MaxStackSize>1</MaxStackSize>
+                          <Rarity>Epic</Rarity>
+                          <ItemType>Specialist</ItemType>
+                          <TradePrice>289400</TradePrice>
+                          <TradePriceOnlineCurrency>50</TradePriceOnlineCurrency>
+                        </Item>
+                        <FactoryUpgrade>
+                          <ProductivityUpgrade>
+                            <Value>50</Value>
+                            <Percental>1</Percental>
+                          </ProductivityUpgrade>
+                          <AdditionalOutput>
+                            <Item>
+                              <Product>2025012803</Product><!-- 3轮1个蝴蝶-->
+                              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                          </AdditionalOutput>
+                        </FactoryUpgrade>
+                        <ItemEffect>
+                          <EffectTargets>
+                          	<Item>
+                              <GUID>114447</GUID><!-- 木槿花农场-->
+                            </Item>
+                            <Item>
+                              <GUID>114451</GUID><!-- 木蓝花农场-->
+                            </Item>
+                            <Item>
+                              <GUID>5814</GUID><!-- 兰花农场-->
+                            </Item>
+                            <Item>
+                              <GUID>114453</GUID><!-- 影响养蜂场-->
+                            </Item>
+                            
+                          </EffectTargets>
+                        </ItemEffect>
+                        <ItemAction />
+                        <ExpeditionAttribute>
+                          <BaseMorale>0</BaseMorale>
+                          <ExpeditionAttributes>
+                            <Item>
+                              <Attribute>PerkMale</Attribute>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item>
+                              <Attribute>Diplomacy</Attribute>
+                              <Amount>20</Amount>
+                            </Item>
+                            <Item>
+                              <Attribute>PerkHypnotist</Attribute>
+                              <Amount>1</Amount>
+                            </Item>
+                            <Item />
+                            <Item />
+                          </ExpeditionAttributes>
+                          <ItemDifficulties>Average;Hard</ItemDifficulties>
+                          <FluffText>21354</FluffText>
+                        </ExpeditionAttribute>
+                        <CultureUpgrade />
+                        <BuildingUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <ResidenceUpgrade />
+                        <PopulationUpgrade />
+                        <IndustrializableUpgrade />
+                        <Locked />
+                        <Buff />
+                        <CraftableItem />
+                        <HeaterUpgrade />
+                        <PowerplantUpgrade />
+                        <IrrigationUpgrade />
+                        <EcoSystemProviderUpgrade />
+                      </Values>
+          </Asset>
+
+    </ModOp>
+    
+    <!-- 将蝴蝶夫人添加进各种关联和售卖列表 -->
+    <ModOp Type="add" GUID="129991,129507,8394" Path="/Values/AssetPool/AssetList">
+    	
+    	<Item>
+             <Asset>2025012801</Asset>
+      </Item>
+    	
+    </ModOp>
+    
+     <!-- 将蝴蝶夫人添加进各种关联和售卖列表 -->
+    <ModOp Type="add" GUID="130517,127840,127459,130313,8393" Path="/Values/RewardPool/ItemsPool">
+    	
+    	<Item>
+           <ItemLink>2025012801</ItemLink>
+      </Item>
+    	
+    </ModOp>
+    
+    
+    
+    <!-- 定义蝴蝶产品-->
+    <ModOp Type="addNextSibling" GUID="114359">
+    	
+    	      <Asset>
+                                  <Template>Product</Template>
+                                  <Values>
+                                    <Standard>
+                                      <GUID>2025012803</GUID>
+                                      <Name>Butterfly</Name>
+                                      <IconFilename>data/ui/icons/butterflies-0.png</IconFilename><!-- 蝴蝶icon-->
+                                      <InfoDescription>2025012804</InfoDescription>
+                                    </Standard>
+                                    <Text>
+                                      <LocaText>
+                                        <English>
+                                          <Text>Butterfly</Text>
+                                          <Status>Exported</Status>
+                                        </English>
+                                      </LocaText>
+                                      <LineID>44031</LineID>
+                                    </Text>
+                                    <Locked />
+                                    <Product>
+                                      <StorageLevel>Building</StorageLevel>
+                                      <ProductCategory>11704</ProductCategory>
+                                      <BasePrice>31</BasePrice>
+                                      <CivLevel>1</CivLevel>
+                                      <AssociatedRegion>Africa</AssociatedRegion>
+                                      <ProductionRegions>
+                                        <Item>
+                                          <RegionType>Africa</RegionType>
+                                          <RequiredDLCs>
+                                            <Item>
+                                              <RequiredDLC>410071</RequiredDLC>
+                                            </Item>
+                                          </RequiredDLCs>
+                                        </Item>
+                                      </ProductionRegions>
+                                    </Product>
+                                    <ExpeditionAttribute>
+                                      <BaseMorale>10</BaseMorale>
+                                    </ExpeditionAttribute>
+                                  </Values>
+            </Asset>
+    	    
+
+    </ModOp>
+    
+    <!-- 蝴蝶可港湾交易-->
+    <ModOp GUID="100451" Type="addNextSibling">
+	    <Asset>
+	      <Template>FactoryBuilding7</Template>
+	      <Values>
+	        <Standard>
+	          <GUID>2023071402</GUID>
+	          <Name>Fake Building2</Name>
+	          <IconFilename>data/ui/icons/butterflies-0.png</IconFilename>
+	        </Standard>
+	        <Building>
+	          <BuildModeRandomRotation>180</BuildModeRandomRotation>
+	          <AssociatedRegions>Moderate</AssociatedRegions>
+	        </Building>
+	        <Blocking />
+	        <Cost>
+	          <Costs>
+	            <Item>
+	              <Ingredient>1010017</Ingredient>
+	              <Amount>100</Amount>
+	            </Item>
+	          </Costs>
+	        </Cost>
+	        <Object>
+	          <Variations>
+	            <Item>
+	              <Filename>data/graphics/industrial_ornaments_TurTur/Tanks/z_gras_bright/tank_1x1_01_gras_bright.cfg</Filename>
+	            </Item>
+	          </Variations>
+	        </Object>
+	        <FactoryBase>
+	          <FactoryInputs>
+	            <Item>
+	              <Product>114370</Product>
+	              <Amount>1</Amount>
+	              <StorageAmount>8</StorageAmount>
+	            </Item>
+	          </FactoryInputs>
+	          <FactoryOutputs>
+	            <Item>
+	              <Product>2025012803</Product>
+	              <Amount>1</Amount>
+	              <StorageAmount>5</StorageAmount>
+	            </Item>
+	          </FactoryOutputs>
+	          <CycleTime>60</CycleTime>
+	          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+	          <ClampedMaxTransporterLogisticCost>50</ClampedMaxTransporterLogisticCost>
+	          <IsMainFactory>1</IsMainFactory>
+	        </FactoryBase>
+	        <Maintenance>
+	          <Maintenances>
+	            <Item>
+	              <Product>1010017</Product>
+	              <Amount>200</Amount>
+	              <InactiveAmount>100</InactiveAmount>
+	            </Item>
+	          </Maintenances>
+	        </Maintenance>
+	      </Values>
+	    </Asset>
+    </ModOp>
+    
+    
+    <!-- 将蝴蝶加入库房存储列表 -->
+  <ModOp Type="add" GUID="120055" Path="/Values/ProductStorageList/ProductList">
+  	
+        <Item>
+            <Product>2025012803</Product><!-- 含蝴蝶渣 -->
+        </Item>
+   
+  </ModOp>
+  
+  <!-- 将蝴蝶加入牧羊人及其解锁生产物品列表 -->
+  <ModOp Type="add" GUID="502069,502071" Path="/Values/ProductList/List">
+  	
+        <Item>
+            <Product>2025012803</Product><!-- 含蝴蝶渣 -->
+        </Item>
+        
+  </ModOp>
+  
+
+  <!-- 将蝴蝶加入劳工及其解锁生产物品列表 -->
+  <ModOp Type="add" GUID="502008,502022" Path="/Values/ProductList/List">
+  	
+        <Item>
+            <Product>2025012803</Product><!-- 蝴蝶 -->
+        </Item>
+        
+  </ModOp>
+  
+
+  <!-- 将蝴蝶加入农业物资库房分列表 -->
+  <ModOp Type="add" GUID="502076,502038,502037" Path="/Values/ProductList/List">
+  	
+        <Item>
+            <Product>2025012803</Product><!-- 蝴蝶 -->
+        </Item>
+        
+  </ModOp>
+  
+  
+    <!-- 定义蝴蝶笼模组-->
+    <ModOp Type="addNextSibling" GUID="25240">
+    	
+    	   <Asset>
+                      <Template>BuffFactoryModule</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>2025012805</GUID>
+                          <Name>Butterfly Module Moderate</Name>
+                          <IconFilename>data/ui/icons/silo.png</IconFilename><!-- 定义蝴蝶笼icon-->
+                          <InfoDescription>2025012806</InfoDescription>
+                        </Standard>
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Fertiliser Silo</Text>
+                              <Status>Exported</Status>
+                            </English>
+                          </LocaText>
+                          <LineID>55230</LineID>
+                        </Text>
+                        <Building>
+                          <BuildingType>BuildingModule</BuildingType>
+                          <BuildingCategoryName>269960</BuildingCategoryName><!-- 农业改良-->
+                          <SkipUnlockMessage>1</SkipUnlockMessage>
+                          <AssociatedRegions>Moderate;Colony01</AssociatedRegions><!-- 新旧世界均生效-->
+                          <SecondPartyRelevant>0</SecondPartyRelevant>
+                          <AllowChangeVariation>1</AllowChangeVariation><!-- 允许更换皮肤-->
+                          <BuildModeStartVariation>0</BuildModeStartVariation><!-- 默认显示第一个皮肤-->
+                        </Building>
+                        <Blocking />
+                        <Mesh />
+                        <BuffFactory>
+                          <ProductionBuffs>
+                            <Item>
+                              <ProductivityBuff>2025012807</ProductivityBuff><!-- 蝴蝶传粉buff-->
+                            </Item>
+                          </ProductionBuffs>
+                        </BuffFactory>
+                        <FactoryBase>
+                          <FactoryInputs>
+                            <Item>
+                              <Product>2025012803</Product><!-- 原料：蝴蝶-->
+                              <Amount>1</Amount>
+                              <StorageAmount>5</StorageAmount>
+                            </Item>
+                          </FactoryInputs>
+                          <CycleTime>300</CycleTime>
+                          <ClampMaxTransporterLogisticCost>1</ClampMaxTransporterLogisticCost>
+                          <ClampedMaxTransporterLogisticCost>60</ClampedMaxTransporterLogisticCost>
+                        </FactoryBase>
+                        <FeedbackController />
+                        <Pausable />
+                        <Selection>
+                          <StaticHelpEntryPoint>SeedsOfChangeFertilizer</StaticHelpEntryPoint>
+                          <OnSelection>
+                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                            <Values>
+                              <ActionList />
+                            </Values>
+                          </OnSelection>
+                        </Selection>
+                        <Attackable>
+                          <AttackableType>IslandBuilding</AttackableType>
+                          <HasRuinState>1</HasRuinState>
+                        </Attackable>
+                        <Maintenance />
+                        <AmbientMoodProvider />
+                        <LogisticNode />
+                        <Constructable />
+                        <Locked>
+                          <DLCDependency>24961</DLCDependency>
+                        </Locked>
+                        <IncidentInfectable />
+                        <Object>
+                          <Variations>
+                            <Item>
+                              <Filename>data/graphics/industrial_ornaments_TurTur/Tanks/z_gras_bright/tank_1x1_01_gras_bright.cfg</Filename><!-- 单筒高亮草地-->
+                            </Item>
+                            <Item>
+                              <Filename>data/graphics/industrial_ornaments_TurTur/Tanks/z_gras_bright/tank_1x1_03_gras_bright.cfg</Filename><!-- 双筒高亮草地-->
+                            </Item>
+                          </Variations>
+                        </Object>
+                        <SoundEmitter>
+                          <ActiveSounds>
+                            <Item>
+                              <Sound>270121</Sound>
+                            </Item>
+                          </ActiveSounds>
+                          <DestroySounds>
+                            <Item>
+                              <Sound>9818756</Sound>
+                            </Item>
+                          </DestroySounds>
+                        </SoundEmitter>
+                        <Cost>
+                          <Costs>
+                            <Item>
+                              <VectorElement>
+                                <InheritedIndex>0</InheritedIndex>
+                                <InheritanceMapV2>
+                                  <Entry>
+                                    <TemplateName>BuffFactory</TemplateName>
+                                    <Index>0</Index>
+                                  </Entry>
+                                  <Entry>
+                                    <TemplateName>BuffFactoryModule</TemplateName>
+                                    <Index>0</Index>
+                                  </Entry>
+                                </InheritanceMapV2>
+                              </VectorElement>
+                              <Amount>1000</Amount>
+                            </Item>
+                            <Item>
+                              <VectorElement>
+                                <InheritedIndex>1</InheritedIndex>
+                                <InheritanceMapV2>
+                                  <Entry>
+                                    <TemplateName>BuffFactory</TemplateName>
+                                    <Index>1</Index>
+                                  </Entry>
+                                  <Entry>
+                                    <TemplateName>BuffFactoryModule</TemplateName>
+                                    <Index>1</Index>
+                                  </Entry>
+                                </InheritanceMapV2>
+                              </VectorElement>
+                              <Amount>20</Amount>
+                            </Item>
+                            <Item>
+                              <VectorElement>
+                                <InheritedIndex>2</InheritedIndex>
+                                <InheritanceMapV2>
+                                  <Entry>
+                                    <TemplateName>BuffFactory</TemplateName>
+                                    <Index>2</Index>
+                                  </Entry>
+                                  <Entry>
+                                    <TemplateName>BuffFactoryModule</TemplateName>
+                                    <Index>2</Index>
+                                  </Entry>
+                                </InheritanceMapV2>
+                              </VectorElement>
+                              <Amount>10</Amount>
+                            </Item>
+                            <Item>
+                              <VectorElement>
+                                <InheritedIndex>3</InheritedIndex>
+                                <InheritanceMapV2>
+                                  <Entry>
+                                    <TemplateName>BuffFactory</TemplateName>
+                                    <Index>3</Index>
+                                  </Entry>
+                                  <Entry>
+                                    <TemplateName>BuffFactoryModule</TemplateName>
+                                    <Index>3</Index>
+                                  </Entry>
+                                </InheritanceMapV2>
+                              </VectorElement>
+                            </Item>
+                            <Item>
+                              <VectorElement>
+                                <InheritedIndex>4</InheritedIndex>
+                                <InheritanceMapV2>
+                                  <Entry>
+                                    <TemplateName>BuffFactory</TemplateName>
+                                    <Index>4</Index>
+                                  </Entry>
+                                  <Entry>
+                                    <TemplateName>BuffFactoryModule</TemplateName>
+                                    <Index>4</Index>
+                                  </Entry>
+                                </InheritanceMapV2>
+                              </VectorElement>
+                            </Item>
+                            <Item>
+                              <VectorElement>
+                                <InheritedIndex>5</InheritedIndex>
+                                <InheritanceMapV2>
+                                  <Entry>
+                                    <TemplateName>BuffFactory</TemplateName>
+                                    <Index>5</Index>
+                                  </Entry>
+                                  <Entry>
+                                    <TemplateName>BuffFactoryModule</TemplateName>
+                                    <Index>5</Index>
+                                  </Entry>
+                                </InheritanceMapV2>
+                              </VectorElement>
+                            </Item>
+                          </Costs>
+                        </Cost>
+                        <BuildingModule>
+                          <ModuleType>FertilizerModule</ModuleType>
+                        </BuildingModule>
+                        <Infolayer />
+                        <UpgradeList />
+                      </Values>
+         </Asset>
+    	
+    	
+	
+	  </ModOp>
+	  
+	<!-- 将蝴蝶笼加入各种关联列表 -->
+  <ModOp Type="add" GUID="25054" Path="/Values/AssetPool/AssetList">
+  	
+        <Item>
+            <Asset>2025012805</Asset>
+        </Item>
+        
+  </ModOp>
+	  
+	  
+	  <!-- 定义蝴蝶传粉buff-->
+    <ModOp Type="addNextSibling" GUID="25713">
+    	
+    	<Asset>
+                      <Template>GuildhouseBuff</Template>
+                      <Values>
+                        <Standard>
+                          <GUID>2025012807</GUID>
+                          <Name>Butterfly_Buff</Name>
+                          <IconFilename>data/ui/icons/butterflies-0.png</IconFilename><!-- 蝴蝶传粉buff的icon-->
+                          <InfoDescription>2025012808</InfoDescription>
+                        </Standard>
+                        <ItemEffect />
+                        <Text>
+                          <LocaText>
+                            <English>
+                              <Text>Butterfly_Buff</Text>
+                              <Status>Exported</Status>
+                            </English>
+                          </LocaText>
+                          <LineID>55229</LineID>
+                        </Text>
+                        <FactoryUpgrade>
+                          <ProductivityUpgrade>
+                            <Value>100</Value>
+                            <Percental>1</Percental>
+                          </ProductivityUpgrade>
+                          <AdditionalOutput>
+                            <Item>
+                              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+                              <AdditionalOutputCycle>3</AdditionalOutputCycle>
+                              <Amount>1</Amount>
+                            </Item>
+                          </AdditionalOutput>
+                        </FactoryUpgrade>
+                        <BuildingUpgrade />
+                        <Buff />
+                        <CultureUpgrade />
+                        <ModuleOwnerUpgrade />
+                        <IncidentInfectableUpgrade />
+                        <PowerplantUpgrade />
+                        <IndustrializableUpgrade />
+                        <ItemContainerUpgrade />
+                        <IncidentInfluencerUpgrade />
+                        <IrrigationUpgrade />
+                        <EcoSystemProviderUpgrade />
+                        <ResourceUpgrade />
+                      </Values>
+                    </Asset>
+
+	  </ModOp>
+	  
+
+	  <!-- 为所有果园添加蝴蝶笼模组 -->
+    <ModOp Type="merge" GUID="133031,133496,133030,135085,133004,135088,134614" Path="/Values">
+    	
+    	<ModuleOwner>
+		 
+        <FertilizerModuleData>
+            <Module>2025012805</Module>
+        </FertilizerModuleData>
+        
+        <ModuleBuildRadius>0</ModuleBuildRadius>
+        
+      </ModuleOwner>
+    	
+        
+        
+    </ModOp>
+    
+    
+    
+    <!-- 蝴蝶解锁器 -->
+	  <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2025012809</GUID>
+                    <Name>Butter Trigger</Name>
+                </Standard>
+                <Trigger>
+                	
+                	  <!-- 沙盒初期解锁 -->
+                    <TriggerCondition>
+					                 <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                              <Values>
+                                <Condition />
+                                <ConditionAlwaysTrue />
+                               </Values>
+					          </TriggerCondition>
+					           
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                        	
+                                        	  <!-- 蝴蝶夫人  -->
+                                            <Item>
+                                                <Asset>2025012801</Asset>
+                                            </Item>
+                                            <!-- 蝴蝶  -->
+                                            <Item>
+                                                <Asset>2025012803</Asset>
+                                            </Item>
+
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                        	
+                                        	  <!-- 蝴蝶夫人  -->
+                                            <Item>
+                                                <Asset>2025012801</Asset>
+                                            </Item>
+                                            <!-- 蝴蝶  -->
+                                            <Item>
+                                                <Asset>2025012803</Asset>
+                                            </Item>
+                                            
+                                        </UnlockAssets>
+                                        
+                                    </ActionUnlockAsset>
+                                    
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+    
+    
+    <!-- 蝴蝶笼解锁器 -->
+	  <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>2025012810</GUID>
+                    <Name>ButterCave Trigger</Name>
+                </Standard>
+                <Trigger>
+                						          
+					          <!-- 300工人解锁 -->
+					          <TriggerCondition>
+                            <Template>ConditionPlayerCounter</Template>
+                            <Values>
+                              <Condition />
+                              <ConditionPlayerCounter>
+                                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                                <Context>15000001</Context>
+                                <CounterAmount>300</CounterAmount>
+                              </ConditionPlayerCounter>
+                            </Values>
+                    </TriggerCondition>
+					           
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                        	
+                                        	  <!-- 蝴蝶笼  -->
+                                            <Item>
+                                                <Asset>2025012805</Asset>
+                                            </Item>
+                                            <!-- 蝴蝶笼buff  -->
+                                            <Item>
+                                                <Asset>2025012807</Asset>
+                                            </Item>
+
+                                        </UnhideAssets>
+                                        <UnlockAssets>
+                                        	
+                                        	  <!-- 蝴蝶笼  -->
+                                            <Item>
+                                                <Asset>2025012805</Asset>
+                                            </Item>
+                                            <!-- 蝴蝶笼buff  -->
+                                            <Item>
+                                                <Asset>2025012807</Asset>
+                                            </Item>
+                                            
+                                        </UnlockAssets>
+                                        
+                                    </ActionUnlockAsset>
+                                    
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+
+</ModOps>

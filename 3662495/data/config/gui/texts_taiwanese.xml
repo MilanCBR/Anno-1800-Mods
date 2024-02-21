@@ -1,0 +1,157 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+  <!-- Legendary Grain Fertility Item : GUID 316861 -->
+    <Text>
+      <GUID>316861</GUID>
+      <Text>Superior Grain Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>3168610</GUID>
+      <Text>Radiant and exceptionally rare, these seeds thrive in the harshest environments, yielding remarkable golden cereals and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Hop Fertility Item : GUID 316862 -->
+    <Text>
+      <GUID>316862</GUID>
+      <Text>Superior Hop Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>3168620</GUID>
+      <Text>Radiant and exceptionally rare, these seeds thrive in the harshest environments, yielding remarkable emerald flowers and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Potato Fertility Item : GUID 316863 -->
+    <Text>
+      <GUID>316863</GUID>
+      <Text>Superior Potato Sprouts</Text>
+    </Text>
+    <Text>
+      <GUID>3168630</GUID>
+      <Text>Radiant and exceptionally rare, these sprouts thrive in the harshest environments, yielding remarkable golden tubers and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Grape Fertility Item : GUID 316864 -->
+    <Text>
+      <GUID>316864</GUID>
+      <Text>Superior Grape Vine</Text>
+    </Text>
+    <Text>
+      <GUID>3168640</GUID>
+      <Text>Radiant and exceptionally rare, these vines thrive in the harshest environments, yielding remarkable sapphire fruits and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Red Pepper Fertility Item : GUID 316865 -->
+    <Text>
+      <GUID>316865</GUID>
+      <Text>Superior Red Pepper Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>3168650</GUID>
+      <Text>Radiant and exceptionally rare, these seeds thrive in the harshest environments, yielding remarkable ruby fruits and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Sugar Cane Fertility Item : GUID 316866 -->
+    <Text>
+      <GUID>316866</GUID>
+      <Text>Superior Cane Saplings</Text>
+    </Text>
+    <Text>
+      <GUID>3168660</GUID>
+      <Text>Radiant and exceptionally rare, these saplings thrive in the harshest environments, yielding remarkably sweet canes and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Tobacco Fertility Item : GUID 316867 -->
+    <Text>
+      <GUID>316867</GUID>
+      <Text>Superior Tobacco Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>3168670</GUID>
+      <Text>Radiant and exceptionally rare, these seeds thrive in the harshest environments, yielding shiny tobacco leaves and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Cotton Fertility Item : GUID 316868 -->
+    <Text>
+      <GUID>316868</GUID>
+      <Text>Superior Cotton Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>3168680</GUID>
+      <Text>Radiant and exceptionally rare, these seeds thrive in the harshest environments, yielding snow-white flowers and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Cocoa Fertility Item : GUID 316869 -->
+    <Text>
+      <GUID>316869</GUID>
+      <Text>Superior Cocoa Beans</Text>
+    </Text>
+    <Text>
+      <GUID>3168690</GUID>
+      <Text>Radiant and exceptionally rare, these beans thrive in the harshest environments, yielding emerald cocoa fruits and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Caoutchouc Fertility Item : GUID 316870 -->
+    <Text>
+      <GUID>316870</GUID>
+      <Text>Superior Caoutchouc Saplings</Text>
+    </Text>
+    <Text>
+      <GUID>3168700</GUID>
+      <Text>Radiant and exceptionally rare, these saplings thrive in the harshest environments, yielding elastic and resistant latex and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Coffee Fertility Item : GUID 316871 -->
+    <Text>
+      <GUID>316871</GUID>
+      <Text>Superior Coffee Beans</Text>
+    </Text>
+    <Text>
+      <GUID>3168710</GUID>
+      <Text>Radiant and exceptionally rare, these beans thrive in the harshest environments, yielding ruby red fruits and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Corn Fertility Item : GUID 316872 -->
+    <Text>
+      <GUID>316872</GUID>
+      <Text>Superior Corn Seeds</Text>
+    </Text>
+    <Text>
+      <GUID>3168720</GUID>
+      <Text>Radiant and exceptionally rare, these seeds thrive in the harshest environments, yielding golden cereals and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Plantain Fertility Item : GUID 316873 -->
+    <Text>
+      <GUID>316873</GUID>
+      <Text>Superior Plantain Saplings</Text>
+    </Text>
+    <Text>
+      <GUID>3168730</GUID>
+      <Text>Radiant and exceptionally rare, these saplings thrive in the harshest environments, yielding golden fruits and in vast quantities!</Text>
+    </Text>
+    <!-- Legendary Pearl Fertility Item : GUID 316874 -->
+    <Text>
+      <GUID>316874</GUID>
+      <Text>Superior Oyster Spawn</Text>
+    </Text>    
+    <Text>
+      <GUID>3168740</GUID>
+      <Text>Radiant and exceptionally rare, these spawns thrive in the harshest environments, yielding sublime pearls of all hues and in abundant quantities!</Text>
+    </Text>
+    <!-- Legendary Spices Fertility Item : GUID 316875 -->
+    <Text>
+      <GUID>316875</GUID>
+      <Text>Superior Spices Seeds</Text>
+    </Text>    
+    <Text>
+      <GUID>3168750</GUID>
+      <Text>Radiant and exceptionally rare, these seeds thrive in the harshest environments, yielding sublime spices of all colors and in abundant quantities!</Text>
+    </Text>
+    <!-- Legendary Herbs Fertility Item : GUID 316876 -->
+    <Text>
+      <GUID>316876</GUID>
+      <Text>Superior Herbs Seedlings</Text>
+    </Text>    
+    <Text>
+      <GUID>3168760</GUID>
+      <Text>Radiant and exceptionally rare, these seedlings thrive in the harshest environments, yielding sublime herbs of wonderful tastes and in abundant quantities!</Text>
+    </Text>
+    <!-- Legendary Orchid Fertility Item : GUID 316877 -->
+    <Text>
+      <GUID>316877</GUID>
+      <Text>Superior Orchid Seeds</Text>
+    </Text>    
+    <Text>
+      <GUID>3168770</GUID>
+      <Text>Radiant and exceptionally rare, these seeds thrive in the harshest environments, yielding sublime herbs of wonderful tastes and in abundant quantities!</Text>
+    </Text>
+  </ModOp>
+</ModOps>

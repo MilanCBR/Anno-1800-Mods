@@ -1,0 +1,14 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1453239050</GUID>
+      			<Text>City Hall</Text>
+		</Text>
+
+		<Text>
+     			<GUID>1453239060</GUID>
+      			<Text>With its many halls and offices bustling with civil servants, this edifice serves as testament to the complexity of running a metropolis.</Text>
+		</Text>
+					
+	</ModOp>
+</ModOps>

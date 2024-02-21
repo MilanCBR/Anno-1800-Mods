@@ -1,0 +1,14 @@
+﻿<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+		<Text>
+     			<GUID>1453239050</GUID>
+      			<Text>시청</Text>
+		</Text>
+
+		<Text>
+     			<GUID>1453239060</GUID>
+      			<Text>다양한 홀과 공무원으로 가득 찬 이 건물은 대도시 운영의 복잡성을 증명하는 역할을 합니다.</Text>
+		</Text>
+					
+	</ModOp>
+</ModOps>

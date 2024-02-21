@@ -1,0 +1,196 @@
+<ModOps>
+<!-- Old Nate - Cape Trelawney -->
+	<ModOp Type="replace" GUID='193452' Path="/Values/RewardPool">
+		<RewardPool>
+			<ItemsPool>
+				<!-- Nate Trade Union -->
+				<item><ItemLink>112365</ItemLink><Weight>10</Weight></item> <!-- Hebehühne V1 -->
+				<item><ItemLink>112366</ItemLink><Weight>10</Weight></item> <!-- Hebehühne V2 -->
+				<item><ItemLink>112367</ItemLink><Weight>10</Weight></item> <!-- Hebehühne V3 -->
+				<item><ItemLink>112371</ItemLink><Weight>10</Weight></item> <!-- PersoNateur Rare -->
+				<item><ItemLink>112372</ItemLink><Weight>10</Weight></item> <!-- PersoNateur Epic -->
+				<item><ItemLink>112373</ItemLink><Weight>10</Weight></item> <!-- PersoNateur Legendary -->
+				<item><ItemLink>112374</ItemLink><Weight>10</Weight></item> <!-- Generator Rare -->
+				<item><ItemLink>112375</ItemLink><Weight>10</Weight></item> <!-- Generator Epic -->
+				<item><ItemLink>112376</ItemLink><Weight>10</Weight></item> <!-- Generator Legendary -->
+				<item><ItemLink>112882</ItemLink><Weight>10</Weight></item> <!-- Ore Extractor Uncommon -->
+				<item><ItemLink>112883</ItemLink><Weight>10</Weight></item> <!-- Ore Extractor Rare -->
+				<item><ItemLink>112884</ItemLink><Weight>10</Weight></item> <!-- Ore Extractor Epic -->
+				<item><ItemLink>112885</ItemLink><Weight>10</Weight></item> <!-- Oil Uncommon -->
+				<item><ItemLink>112886</ItemLink><Weight>10</Weight></item> <!-- Oil Rare -->
+				<item><ItemLink>112887</ItemLink><Weight>10</Weight></item> <!-- Oil Epic -->
+				<item><ItemLink>116189</ItemLink><Weight>10</Weight></item> <!-- Ballon MagNate -->
+				<item><ItemLink>116177</ItemLink><Weight>10</Weight></item> <!-- Smoke Detector (Craftable) -->
+				<item><ItemLink>116176</ItemLink><Weight>10</Weight></item> <!-- Water Cooler (Craftable) -->
+				<item><ItemLink>116187</ItemLink><Weight>10</Weight></item> <!-- Cigar Roller (Craftable) -->
+				<item><ItemLink>116190</ItemLink><Weight>10</Weight></item> <!-- Golden Harvester (Craftable) -->
+				<item><ItemLink>116185</ItemLink><Weight>10</Weight></item> <!-- Cola Mola Wola Machine (Craftable) -->
+				<!-- Habourmaster's Office -->
+				<item><ItemLink>112380</ItemLink><Weight>10</Weight></item> <!-- excavator shovel Rare -->
+				<item><ItemLink>112381</ItemLink><Weight>10</Weight></item> <!-- excavator shovel Epic -->
+				<item><ItemLink>112382</ItemLink><Weight>10</Weight></item> <!-- excavator shovel Legendary -->
+				<item><ItemLink>112383</ItemLink><Weight>10</Weight></item> <!-- Generator -->
+				<item><ItemLink>112384</ItemLink><Weight>10</Weight></item> <!-- Generator -->
+				<item><ItemLink>112385</ItemLink><Weight>10</Weight></item> <!-- Generator -->
+				<item><ItemLink>112386</ItemLink><Weight>10</Weight></item> <!-- Minigun -->
+				<item><ItemLink>112387</ItemLink><Weight>10</Weight></item> <!-- Minigun -->
+				<item><ItemLink>112388</ItemLink><Weight>10</Weight></item> <!-- Minigun -->
+				<item><ItemLink>112879</ItemLink><Weight>10</Weight></item> <!-- Panner -->
+				<item><ItemLink>112880</ItemLink><Weight>10</Weight></item> <!-- Panner -->
+				<item><ItemLink>112881</ItemLink><Weight>10</Weight></item> <!-- Panner -->
+				<!-- Town Hall -->
+				<item><ItemLink>112392</ItemLink><Weight>10</Weight></item> <!-- Firework -->
+				<item><ItemLink>112393</ItemLink><Weight>10</Weight></item> <!-- Firework -->
+				<item><ItemLink>112394</ItemLink><Weight>10</Weight></item> <!-- Firework -->
+				<item><ItemLink>112389</ItemLink><Weight>10</Weight></item> <!-- Vending Box -->
+				<item><ItemLink>112390</ItemLink><Weight>10</Weight></item> <!-- Kiosk of Flighty Fortunes -->
+				<item><ItemLink>112391</ItemLink><Weight>10</Weight></item> <!-- Tombola -->
+				<item><ItemLink>116186</ItemLink><Weight>10</Weight></item> <!-- Helium Pump -->
+				<item><ItemLink>116178</ItemLink><Weight>10</Weight></item> <!-- Refridgenator -->
+				<item><ItemLink>116179</ItemLink><Weight>10</Weight></item> <!-- Jukebox -->
+				<item><ItemLink>116180</ItemLink><Weight>10</Weight></item> <!-- Ice Maker -->
+				<item><ItemLink>116181</ItemLink><Weight>10</Weight></item> <!-- Billiard Table -->
+				<item><ItemLink>116182</ItemLink><Weight>10</Weight></item> <!-- Craft Beer Takeaway -->
+				<item><ItemLink>116183</ItemLink><Weight>10</Weight></item> <!-- Souveniers Kiosk -->
+				<item><ItemLink>116184</ItemLink><Weight>10</Weight></item> <!-- Espresson8er -->
+				<item><ItemLink>116188</ItemLink><Weight>10</Weight></item> <!-- Ice Cream Maker -->
+				<!-- Ships -->
+				<item><ItemLink>112377</ItemLink><Weight>10</Weight></item> <!-- Jet Propeller -->
+				<item><ItemLink>112378</ItemLink><Weight>10</Weight></item> <!-- Jet Propeller -->
+				<item><ItemLink>112379</ItemLink><Weight>10</Weight></item> <!-- Jet Propeller -->
+				<item><ItemLink>112574</ItemLink><Weight>10</Weight></item> <!-- Mine -->
+				<item><ItemLink>112576</ItemLink><Weight>10</Weight></item> <!-- Mine -->
+				<item><ItemLink>112578</ItemLink><Weight>10</Weight></item> <!-- Mine -->
+				<!-- Military Ships -->
+				<item><ItemLink>112368</ItemLink><Weight>10</Weight></item> <!-- Canon Rare -->
+				<item><ItemLink>112369</ItemLink><Weight>10</Weight></item> <!-- Canon Epic -->
+				<item><ItemLink>112370</ItemLink><Weight>10</Weight></item> <!-- Canon Legendary -->
+				<!-- Airships -->
+				<Item><ItemLink>117303</ItemLink><Weight>10</Weight></Item> <!-- Epic Pully (Craftable) -->
+				<Item><ItemLink>116174</ItemLink><Weight>0</Weight></Item>  <!-- Legendary Pully (Quest-Item) -->
+				<Item><ItemLink>116173</ItemLink><Weight>10</Weight></Item> <!-- Fjordbuster -->
+				<Item><ItemLink>116175</ItemLink><Weight>10</Weight></Item> <!-- Royal Airship Stamp Mimic -->
+				<Item><ItemLink>117302</ItemLink><Weight>10</Weight></Item> <!-- Sports Gondola -->
+				<Item><ItemLink>4132</ItemLink><Weight>10</Weight></Item>   <!-- Antriebsmechanikerin -->
+				<Item><ItemLink>4133</ItemLink><Weight>10</Weight></Item>   <!-- Frachtverlader -->
+				<Item><ItemLink>4134</ItemLink><Weight>10</Weight></Item>   <!-- Amelia Coleman -->
+				<Item><ItemLink>4135</ItemLink><Weight>10</Weight></Item>   <!-- Willa Cochran -->
+				<Item><ItemLink>2226</ItemLink><Weight>10</Weight></Item>   <!-- Elie Airship Gunner -->
+				<Item><ItemLink>2232</ItemLink><Weight>10</Weight></Item>   <!-- Airship Munitions Loader -->
+				<Item><ItemLink>4117</ItemLink><Weight>10</Weight></Item>   <!-- Airship Technician -->
+				<!-- Salvager -->
+				<Item><ItemLink>112550</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112556</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113361</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113354</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112554</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112548</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112562</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112555</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112567</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112560</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112551</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113359</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112558</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113363</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112566</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112561</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113364</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113356</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112563</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112565</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112549</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112553</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113360</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112568</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113358</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113355</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113353</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113357</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112564</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112552</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113362</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112559</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112569</ItemLink><Weight>10</Weight></Item>
+				<!-- Treasure Hunt Maps -->
+				<Item><ItemLink>113678</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113679</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113194</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113192</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113190</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113197</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112937</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115482</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115476</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113188</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112934</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113198</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112936</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113189</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115478</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112939</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113202</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113201</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113200</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113199</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115475</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113193</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115479</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115481</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113191</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112938</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112933</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113204</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115483</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113205</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113203</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115480</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112940</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112941</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113196</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>113195</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>112935</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>115477</ItemLink><Weight>10</Weight></Item>
+				<!-- Enbesa Treasure Maps (10 Items) -->
+				<Item><ItemLink>129239</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129237</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129236</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129249</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129243</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129222</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129248</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129240</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129238</ItemLink><Weight>10</Weight></Item>
+				<Item><ItemLink>129251</ItemLink><Weight>10</Weight></Item>
+			</ItemsPool>
+			<IgnoreUnlocks>1</IgnoreUnlocks>
+		</RewardPool>
+	</ModOp>
+	
+	<!-- Mergers -->
+	<ModOp Type="merge" GUID='77' Path="/Values/Trader/Progression/EarlyGame">
+		<OfferingItems>193452</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='77' Path="/Values/Trader/Progression/EarlyMidGame">
+		<OfferingItems>193452</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='77' Path="/Values/Trader/Progression/MidGame">
+		<OfferingItems>193452</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='77' Path="/Values/Trader/Progression/LateMidGame">
+		<OfferingItems>193452</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='77' Path="/Values/Trader/Progression/LateGame">
+		<OfferingItems>193452</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+	<ModOp Type="merge" GUID='77' Path="/Values/Trader/Progression/EndGame">
+		<OfferingItems>193452</OfferingItems>
+		<MaxItemsToOffer>512</MaxItemsToOffer>
+	</ModOp>
+
+</ModOps>
